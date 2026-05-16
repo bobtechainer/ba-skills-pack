@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template C: Digital Lending — User Story (CCC)</title>
+<style>
+  :root { --primary: #0891b2; --primary-light: #ecfeff; --border: #d1d5db; --bg: #ffffff; --text: #1f2937; --muted: #6b7280; --accent: #059669; --warning: #d97706; --section-bg: #f9fafb; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; max-width: 960px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 1.75rem; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 12px; margin-bottom: 8px; }
+  .subtitle { color: var(--muted); font-size: 0.95rem; margin-bottom: 24px; }
+  h2 { font-size: 1.25rem; color: var(--text); margin: 32px 0 12px; padding: 8px 12px; background: var(--primary-light); border-left: 4px solid var(--primary); border-radius: 4px; }
+  h3 { font-size: 1.05rem; color: var(--primary); margin: 20px 0 8px; }
+  h4 { font-size: 0.95rem; color: var(--muted); margin: 16px 0 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 0.88rem; }
+  th { background: var(--primary); color: white; padding: 10px 12px; text-align: left; font-weight: 600; }
+  td { padding: 10px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: var(--section-bg); }
+  .placeholder { color: var(--warning); font-style: italic; font-weight: 500; }
+  .rule-box { background: #fffbeb; border: 1px solid #fbbf24; border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .rule-box strong { color: #92400e; }
+  .ccc-badge { display: inline-block; padding: 4px 12px; border-radius: 16px; font-weight: 700; font-size: 0.85rem; margin: 4px 0; }
+  .ccc-card { background: #fef3c7; color: #92400e; border: 2px solid #f59e0b; }
+  .ccc-confirm { background: #d1fae5; color: #065f46; border: 2px solid #10b981; }
+  .ccc-convo { background: #dbeafe; color: #1e40af; border: 2px solid #3b82f6; }
+  .section-card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; background: var(--section-bg); }
+  .field-desc { background: #f0fdf4; border-left: 3px solid var(--accent); padding: 12px; margin: 8px 0; font-size: 0.85rem; }
+  .process-step { display: flex; align-items: flex-start; gap: 12px; margin: 8px 0; padding: 12px; background: var(--section-bg); border-radius: 8px; border-left: 3px solid var(--primary); }
+  .step-num { background: var(--primary); color: white; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; text-align: center; }
+</style>
+</head>
+<body>
+
+<h1>Template C: Digital Lending — User Story (CCC)</h1>
+<p class="subtitle">Dùng cho: Digital lending, vay tiêu dùng, flow mobile app, format Card-Confirmation-Conversation</p>
+
+<div class="rule-box">
+  <strong>⚠️ RULES BẮT BUỘC:</strong>
+  <ol style="margin-top: 8px; padding-left: 20px; font-size: 0.9rem;">
+    <li>Mỗi field <strong>PHẢI có đầy đủ</strong>: Tác nhân + Logic + Validate + Thông báo lỗi</li>
+    <li>Liệt kê <strong>TẤT CẢ API</strong> endpoint + params + response</li>
+    <li>Popup <strong>PHẢI có 4 phần</strong>: Icon + Tiêu đề + Nội dung + Buttons</li>
+    <li>Mockup → <strong>PHẢI chèn</strong> vào cột Mockup tương ứng</li>
+    <li>Bảng phiên bản: chỉ <strong>THÊM</strong> dòng — KHÔNG XÓA</li>
+  </ol>
+</div>
+
+<!-- CCC Structure -->
+<h2>Cấu trúc CCC — Lặp lại cho mỗi User Story</h2>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0;">
+  <div class="ccc-badge ccc-card">🃏 CARD — Mục đích yêu cầu</div>
+  <div class="ccc-badge ccc-confirm">✅ CONFIRMATION — Tiêu chí nghiệm thu</div>
+  <div class="ccc-badge ccc-convo">💬 CONVERSATION — Mô tả chi tiết</div>
+</div>
+
+<!-- VERSION -->
+<h2>Lịch sử cập nhật tài liệu</h2>
+<table>
+  <tr><th>Version</th><th>Ngày</th><th>Mô tả thay đổi</th><th>Người sửa</th></tr>
+  <tr>
+    <td class="placeholder">«v1»</td>
+    <td class="placeholder">«DD/MM/YYYY»</td>
+    <td class="placeholder">«Mô tả thay đổi»</td>
+    <td class="placeholder">«Tên BA»</td>
+  </tr>
+</table>
+
+<!-- CARD -->
+<h2>🃏 1. MỤC ĐÍCH YÊU CẦU (Card)</h2>
+<div class="section-card">
+  <p style="font-size: 1rem; font-weight: 600; color: var(--primary); margin-bottom: 12px;" class="placeholder">«Là [role], tôi muốn [action] [sản phẩm]»</p>
+  <table>
+    <tr><th style="width: 35%">Mục</th><th>Nội dung</th></tr>
+    <tr><td>Mức độ rủi ro</td><td class="placeholder">«Rủi ro cao / Rủi ro thấp»</td></tr>
+    <tr><td>Yêu cầu triển khai</td><td class="placeholder">«YCPT phức tạp / Thông thường»</td></tr>
+    <tr><td>Phân loại yêu cầu</td><td class="placeholder">«Phân loại YCPT»</td></tr>
+  </table>
+</div>
+
+<!-- CONFIRMATION -->
+<h2>✅ 2. TIÊU CHÍ NGHIỆM THU (Confirmation)</h2>
+<table>
+  <tr><th>STT</th><th>Scenario</th><th>Given</th><th>When</th><th>Then</th><th>Mockup</th></tr>
+  <tr>
+    <td class="placeholder">«N»</td>
+    <td class="placeholder">«Tên kịch bản»</td>
+    <td class="placeholder">«Trạng thái ban đầu»</td>
+    <td class="placeholder">«Hành động trigger»</td>
+    <td class="placeholder">«Kết quả expected»</td>
+    <td class="placeholder">«Link mockup»</td>
+  </tr>
+</table>
+
+<!-- CONVERSATION -->
+<h2>💬 3. MÔ TẢ YÊU CẦU CHI TIẾT (Conversation)</h2>
+
+<h3>3.1 Mô tả sản phẩm</h3>
+<table>
+  <tr><th style="width:30%">Mục</th><th>Nội dung</th></tr>
+  <tr><td>Sản phẩm</td><td class="placeholder">«Tên sản phẩm»</td></tr>
+  <tr><td>Điều kiện KH</td><td class="placeholder">«Tuổi, thời gian công tác, CIC»</td></tr>
+  <tr><td>Hạn mức khoản vay</td><td class="placeholder">«Min / Max, công thức»</td></tr>
+  <tr><td>Đặc tính khoản vay</td><td class="placeholder">«Mã SP, category, mã limit»</td></tr>
+  <tr><td>Kỳ trả nợ</td><td class="placeholder">«1/3/6/12 tháng, logic tính kỳ»</td></tr>
+</table>
+
+<h3>3.2 Quy trình thực hiện</h3>
+<div class="process-step">
+  <div class="step-num">1</div>
+  <div><strong>KH</strong> — <span class="placeholder">«Hành động trên app»</span></div>
+</div>
+<div class="process-step">
+  <div class="step-num">2</div>
+  <div><strong>Mobile App</strong> — <span class="placeholder">Gọi API «endpoint» → check điều kiện → hiển thị kết quả</span></div>
+</div>
+<div class="process-step">
+  <div class="step-num">3</div>
+  <div><strong>Server</strong> — <span class="placeholder">Check logic business → validate → trả kết quả</span></div>
+</div>
+
+<h3>3.3 Bảng check điều kiện / thông báo lỗi</h3>
+<table>
+  <tr><th>Lỗi</th><th>Câu thông báo</th></tr>
+  <tr><td class="placeholder">«Email sai format»</td><td class="placeholder">«"Vui lòng nhập đúng định dạng email"»</td></tr>
+  <tr><td class="placeholder">«CIC không đạt»</td><td class="placeholder">«"Quý khách không đủ điều kiện vay"»</td></tr>
+</table>
+
+<h3>3.4 Mô tả chi tiết màn hình — Bước «N»</h3>
+<table>
+  <tr><th>Tên trường</th><th>Định dạng</th><th>M/O</th><th>Editable</th><th>Mô tả</th></tr>
+  <tr>
+    <td class="placeholder">«Tên field»</td>
+    <td class="placeholder">«TextBox / Label / ComboBox»</td>
+    <td class="placeholder">«M / O»</td>
+    <td class="placeholder">«Editable / Read-only»</td>
+    <td class="placeholder">«Mô tả chi tiết»</td>
+  </tr>
+</table>
+
+<div class="field-desc">
+  <strong>📝 Hướng dẫn viết Mô tả field:</strong><br><br>
+  <strong>Label:</strong> Giá trị từ API <code>«endpoint»</code><br>
+  <strong>TextBox:</strong> Placeholder + Min/Max + Format + Maxlength<br>
+  <strong>ComboBox:</strong> API danh sách + Default + Filter + Khi đổi → reset field<br>
+  <strong>Button:</strong> Click → action + Validate trước
+</div>
+
+<h3>3.5 Validate và xử lý đặc biệt</h3>
+<table>
+  <tr><th>Trường</th><th>Validate rule</th><th>Thông báo lỗi</th><th>Xử lý</th></tr>
+  <tr>
+    <td class="placeholder">«Tên field»</td>
+    <td class="placeholder">«format, min/max, required»</td>
+    <td class="placeholder">«"Câu thông báo"»</td>
+    <td class="placeholder">«block / warning»</td>
+  </tr>
+</table>
+
+<footer>
+  Template C — Digital Lending CCC | BA Skills Pack | Preview dùng để chọn template
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template A: iBank2 — Đặc tả màn hình (Screen Spec)</title>
+    <style>
+      :root {
+        --primary: #1a56db;
+        --primary-light: #e8f0fe;
+        --border: #d1d5db;
+        --bg: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --accent: #059669;
+        --warning: #d97706;
+        --section-bg: #f9fafb;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          "Segoe UI",
+          system-ui,
+          -apple-system,
+          sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.6;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      h1 {
+        font-size: 1.75rem;
+        color: var(--primary);
+        border-bottom: 3px solid var(--primary);
+        padding-bottom: 12px;
+        margin-bottom: 8px;
+      }
+      .subtitle {
+        color: var(--muted);
+        font-size: 0.95rem;
+        margin-bottom: 24px;
+      }
+      h2 {
+        font-size: 1.25rem;
+        color: var(--text);
+        margin: 32px 0 12px;
+        padding: 8px 12px;
+        background: var(--primary-light);
+        border-left: 4px solid var(--primary);
+        border-radius: 4px;
+      }
+      h3 {
+        font-size: 1.05rem;
+        color: var(--primary);
+        margin: 20px 0 8px;
+      }
+      h4 {
+        font-size: 0.95rem;
+        color: var(--muted);
+        margin: 16px 0 6px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 12px 0 20px;
+        font-size: 0.88rem;
+      }
+      th {
+        background: var(--primary);
+        color: white;
+        padding: 10px 12px;
+        text-align: left;
+        font-weight: 600;
+      }
+      td {
+        padding: 10px 12px;
+        border: 1px solid var(--border);
+        vertical-align: top;
+      }
+      tr:nth-child(even) td {
+        background: var(--section-bg);
+      }
+      .placeholder {
+        color: var(--warning);
+        font-style: italic;
+        font-weight: 500;
+      }
+      .tag {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin: 2px;
+      }
+      .tag-required {
+        background: #fee2e2;
+        color: #991b1b;
+      }
+      .tag-rule {
+        background: #fef3c7;
+        color: #92400e;
+      }
+      .tag-new {
+        background: #d1fae5;
+        color: #065f46;
+      }
+      .rule-box {
+        background: #fffbeb;
+        border: 1px solid #fbbf24;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 16px 0;
+      }
+      .rule-box strong {
+        color: #92400e;
+      }
+      .section-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 16px;
+        margin: 12px 0;
+        background: var(--section-bg);
+      }
+      .mockup-area {
+        border: 2px dashed var(--border);
+        border-radius: 8px;
+        padding: 32px;
+        text-align: center;
+        color: var(--muted);
+        background: #f3f4f6;
+        margin: 12px 0;
+      }
+      .field-desc {
+        background: #f0fdf4;
+        border-left: 3px solid var(--accent);
+        padding: 12px;
+        margin: 8px 0;
+        font-size: 0.85rem;
+      }
+      .field-desc code {
+        background: #e5e7eb;
+        padding: 1px 4px;
+        border-radius: 3px;
+        font-size: 0.82rem;
+      }
+      .pagination-box {
+        background: #eff6ff;
+        border: 1px solid #93c5fd;
+        border-radius: 8px;
+        padding: 12px;
+        margin: 12px 0;
+      }
+      footer {
+        margin-top: 40px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Template A: iBank2 — Đặc tả màn hình</h1>
+    <p class="subtitle">
+      Dùng cho: Web banking, iBanking, dự án có MH nhiều field, bảng dữ liệu,
+      dropdown, validate phức tạp
+    </p>
+
+    <div class="rule-box">
+      <strong>⚠️ RULES BẮT BUỘC:</strong>
+      <ol style="margin-top: 8px; padding-left: 20px; font-size: 0.9rem">
+        <li>
+          Mỗi field <strong>PHẢI có 2 phần</strong>: Tác nhân + Logic xử lý
+        </li>
+        <li>
+          Liệt kê <strong>TẤT CẢ API</strong> — thiếu → placeholder + [MANUAL]
+        </li>
+        <li>
+          Bảng field <strong>PHẢI có UI chrome</strong>: Nav Bar, Breadcrumb,
+          Progress Bar, Loading
+        </li>
+        <li>
+          Popup <strong>PHẢI có 4 phần</strong>: Icon + Tiêu đề + Nội dung +
+          Buttons
+        </li>
+        <li>Lưới dữ liệu <strong>PHẢI ghi phân trang</strong></li>
+        <li>
+          Mockup → <strong>PHẢI chèn ngay dưới</strong> "a. Mockup Màn hình"
+        </li>
+      </ol>
+    </div>
+
+    <!-- VERSION TABLE -->
+    <h2>Phiên bản tài liệu</h2>
+    <table>
+      <tr>
+        <th>Version</th>
+        <th>Lý do</th>
+        <th>Date</th>
+        <th>Người sửa</th>
+        <th>Mô tả</th>
+      </tr>
+      <tr>
+        <td class="placeholder">«v1»</td>
+        <td class="placeholder">«Thêm mới»</td>
+        <td class="placeholder">«DD/MM/YYYY»</td>
+        <td class="placeholder">«Tên BA»</td>
+        <td class="placeholder">«Mô tả thay đổi»</td>
+      </tr>
+    </table>
+    <div class="rule-box">
+      <strong>📌 Rule:</strong> Chỉ THÊM dòng mới — KHÔNG XÓA dòng cũ. File
+      suffix <code>_vN</code> PHẢI trùng version cuối.
+    </div>
+
+    <!-- USE CASE -->
+    <h2>1. Đặc tả Use Case</h2>
+    <table>
+      <tr>
+        <th style="width: 30%">Mục</th>
+        <th>Nội dung</th>
+      </tr>
+      <tr>
+        <td>Mã</td>
+        <td class="placeholder">«UC-LOAN-03»</td>
+      </tr>
+      <tr>
+        <td>Tên</td>
+        <td class="placeholder">«Tên use case ngắn gọn»</td>
+      </tr>
+      <tr>
+        <td>Mô tả</td>
+        <td class="placeholder">«Là [role] tôi muốn [action] để [mục đích]»</td>
+      </tr>
+      <tr>
+        <td>Tác nhân chủ động</td>
+        <td class="placeholder">«NSD khách hàng / Admin»</td>
+      </tr>
+      <tr>
+        <td>Tác nhân thụ động</td>
+        <td class="placeholder">«Client WEB, Open API, Server»</td>
+      </tr>
+      <tr>
+        <td>Mức độ ưu tiên</td>
+        <td class="placeholder">«High / Medium / Low»</td>
+      </tr>
+      <tr>
+        <td>Điều kiện kích hoạt</td>
+        <td class="placeholder">«NSD vừa làm gì, đang ở MH nào»</td>
+      </tr>
+      <tr>
+        <td>Điều kiện trước</td>
+        <td class="placeholder">«Đăng nhập, phân quyền, step trước»</td>
+      </tr>
+      <tr>
+        <td>Kết quả mong muốn</td>
+        <td class="placeholder">«Hiển thị MH, NSD nhìn thấy gì»</td>
+      </tr>
+      <tr>
+        <td>Luồng chính</td>
+        <td class="placeholder">«1. → 2. → 3. → ...»</td>
+      </tr>
+      <tr>
+        <td>Luồng thay thế</td>
+        <td class="placeholder">«N/A hoặc mô tả»</td>
+      </tr>
+      <tr>
+        <td>Luồng ngoại lệ</td>
+        <td class="placeholder">«Mất kết nối, Server lỗi, Timeout»</td>
+      </tr>
+      <tr>
+        <td>Quy tắc nghiệp vụ</td>
+        <td class="placeholder">«Business rules đặc thù»</td>
+      </tr>
+      <tr>
+        <td>Yêu cầu phi chức năng</td>
+        <td class="placeholder">«Performance, logging, IP tracking»</td>
+      </tr>
+    </table>
+
+    <!-- API TABLE -->
+    <h2>2. Sơ đồ luồng xử lý</h2>
+    <h3>2.1 Yêu cầu kết nối API</h3>
+    <div class="rule-box">
+      <strong>📌 Rule:</strong> Liệt kê TẤT CẢ API từ URD. Không tóm tắt. Thiếu
+      endpoint → <code>«xem PTTK»</code> + Word comment [MANUAL].
+    </div>
+    <table>
+      <tr>
+        <th>Tên kết nối</th>
+        <th>Trạng thái</th>
+        <th>Backend</th>
+        <th>Phương thức</th>
+        <th>Luồng gọi</th>
+        <th>Mô tả</th>
+        <th>Link PTTK</th>
+      </tr>
+      <tr>
+        <td class="placeholder">«API name»</td>
+        <td class="placeholder">«Có sẵn / Tạo mới»</td>
+        <td class="placeholder">«BDR / Core»</td>
+        <td class="placeholder">«API / DBlink»</td>
+        <td class="placeholder">«FE → Open API → BE»</td>
+        <td class="placeholder">«Mô tả»</td>
+        <td class="placeholder">«Link»</td>
+      </tr>
+    </table>
+
+    <!-- SCREEN SPEC -->
+    <h2>3. Mô tả và logic xử lý màn hình</h2>
+    <h3>3.1 Mô tả màn hình WEB</h3>
+
+    <div class="section-card">
+      <h4>a. Mockup Màn hình</h4>
+      <div class="mockup-area">
+        📷 Chèn ảnh mockup tại đây — <strong>BẮT BUỘC</strong> nếu người dùng
+        cung cấp
+      </div>
+    </div>
+
+    <h4>
+      b. Mô tả màn hình
+      <span class="tag tag-required">BẮT BUỘC UI Chrome trước</span>
+    </h4>
+    <table>
+      <tr>
+        <th>STT</th>
+        <th>Hạng mục</th>
+        <th>Kiểu hiển thị</th>
+        <th>Kiểu thao tác</th>
+        <th>Bắt buộc</th>
+        <th>Độ dài</th>
+        <th>Mô tả</th>
+      </tr>
+      <tr style="background: #e8f5e9">
+        <td>1</td>
+        <td><strong>Navigation Bar</strong></td>
+        <td>Navigation Bar</td>
+        <td>Click</td>
+        <td>--</td>
+        <td>--</td>
+        <td>Theo thiết kế chung hệ thống</td>
+      </tr>
+      <tr style="background: #e8f5e9">
+        <td>2</td>
+        <td><strong>Breadcrumb</strong></td>
+        <td>Breadcrumb</td>
+        <td>Click</td>
+        <td>Y</td>
+        <td>--</td>
+        <td>Trang chủ / [Menu cha] / [Tên MH]</td>
+      </tr>
+      <tr style="background: #e8f5e9">
+        <td>3</td>
+        <td><strong>Tiêu đề MH</strong></td>
+        <td>Label + Icon</td>
+        <td>Click</td>
+        <td>--</td>
+        <td>--</td>
+        <td>Label: [Tên MH]</td>
+      </tr>
+      <tr style="background: #e8f5e9">
+        <td>4</td>
+        <td><strong>Progress Bar</strong></td>
+        <td>Label</td>
+        <td>Read-Only</td>
+        <td>--</td>
+        <td>--</td>
+        <td>Trạng thái các bước</td>
+      </tr>
+      <tr>
+        <td class="placeholder">«N»</td>
+        <td class="placeholder">«Tên field»</td>
+        <td class="placeholder">«Textbox / Dropdown / ...»</td>
+        <td class="placeholder">«Click / Select / Input»</td>
+        <td class="placeholder">«Y/N»</td>
+        <td class="placeholder">«Max length»</td>
+        <td class="placeholder">«Mô tả chi tiết»</td>
+      </tr>
+    </table>
+
+    <div class="field-desc">
+      <strong>📝 Hướng dẫn viết cột Mô tả — BẮT BUỘC theo pattern:</strong
+      ><br /><br />
+      <strong>1. Tác nhân</strong><br />
+      <code>NSD:</code> hành động gì (chọn, nhập, click)<br />
+      <code>Client:</code> hiển thị gì<br />
+      <code>Server:</code> trả về gì<br /><br />
+      <strong>2. Logic xử lý</strong><br />
+      + Quy tắc nghiệp vụ: liệt kê rules<br />
+      + Mặc định: giá trị mặc định khi mở MH<br />
+      + Nguồn giá trị: API nào, bảng nào<br />
+      + Validate: rule + thông báo lỗi<br /><br />
+      <strong>3. Popup (nếu có) — BẮT BUỘC đủ 4 phần:</strong><br />
+      <code>Icon:</code> Lỗi / Thông báo / Xác nhận<br />
+      <code>Tiêu đề:</code> «tiêu đề popup»<br />
+      <code>Nội dung:</code> «nội dung tiếng Việt»<br />
+      <code>Button:</code> Hủy bỏ → action, Xác nhận → action
+    </div>
+
+    <!-- DATA GRID -->
+    <h3>Chi tiết lưới dữ liệu</h3>
+    <table>
+      <tr>
+        <th>STT</th>
+        <th>Cột</th>
+        <th>Kiểu hiển thị</th>
+        <th>Kiểu thao tác</th>
+        <th>Bắt buộc</th>
+        <th>Mô tả</th>
+      </tr>
+      <tr>
+        <td class="placeholder">«N»</td>
+        <td class="placeholder">«Tên cột»</td>
+        <td class="placeholder">«Label / Textbox / ...»</td>
+        <td class="placeholder">«Click / Read-Only»</td>
+        <td class="placeholder">«Y/N»</td>
+        <td class="placeholder">«Logic + validate + nguồn dữ liệu»</td>
+      </tr>
+    </table>
+
+    <div class="pagination-box">
+      <strong>📄 Phân trang lưới:</strong>
+      <table style="margin-top: 8px">
+        <tr>
+          <td style="width: 40%; font-weight: 600">Số bản ghi mặc định</td>
+          <td class="placeholder">«N bản ghi/trang»</td>
+        </tr>
+        <tr>
+          <td style="font-weight: 600">Sticky header</td>
+          <td class="placeholder">«Có / Không»</td>
+        </tr>
+        <tr>
+          <td style="font-weight: 600">Empty state</td>
+          <td class="placeholder">«"Chưa có dữ liệu"»</td>
+        </tr>
+        <tr>
+          <td style="font-weight: 600">Loading state</td>
+          <td class="placeholder">«"Đang tải dữ liệu..."»</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- LOGIC -->
+    <h2>4. Logic xử lý</h2>
+    <div class="section-card">
+      <h4>4.N Logic «Tên logic»</h4>
+      <ul style="padding-left: 20px; font-size: 0.9rem">
+        <li class="placeholder">Điều kiện: Nếu ... thì ...</li>
+        <li class="placeholder">Công thức tính: ...</li>
+        <li class="placeholder">API gọi: endpoint, params, response</li>
+        <li class="placeholder">Thời điểm gọi: khi nào</li>
+        <li class="placeholder">Xử lý lỗi: ...</li>
+      </ul>
+    </div>
+
+    <!-- PARAMS -->
+    <h2>5. Tham số khai báo</h2>
+    <table>
+      <tr>
+        <th>Mục</th>
+        <th>Giá trị</th>
+      </tr>
+      <tr>
+        <td>Bảng</td>
+        <td class="placeholder">«Tên bảng DB»</td>
+      </tr>
+      <tr>
+        <td>Trường</td>
+        <td class="placeholder">«Tên trường»</td>
+      </tr>
+      <tr>
+        <td>Giá trị</td>
+        <td class="placeholder">«Giá trị tham số»</td>
+      </tr>
+      <tr>
+        <td>Mô tả</td>
+        <td class="placeholder">«Ý nghĩa tham số»</td>
+      </tr>
+    </table>
+
+    <footer>
+      Template A — iBank2 Screen Spec | BA Skills Pack | Preview dùng để chọn
+      template
+    </footer>
+  </body>
+</html>

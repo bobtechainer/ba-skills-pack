@@ -1,0 +1,69 @@
+{
+  "doc_code": "CHARTER-v1.0",
+  "doc_title_vi": "Đặc tả Khởi tạo Dự án",
+  "doc_title_en": "Project Charter",
+  "project_code": "MSB-MEGA-GAME-2026",
+  "project_name": "MSB Mega Game 2026",
+  "version": "1.1",
+  "output_contract": {
+    "min_word_count": 1500,
+    "min_images": 0,
+    "no_personal_names": false,
+    "_note": "Walking skeleton sample — reduced minimums intentional"
+  },
+  "date": "2026-04-17",
+  "vendor": "Alphaway Technology",
+  "client": "Maritime Bank Vietnam (MSB)",
+  "classification": "CONFIDENTIAL — Walking Skeleton Test",
+  "classification_short": "SAMPLE",
+  "approvals": [
+    {
+      "role": "Prepared by",
+      "name": "Nguyễn Văn A",
+      "title": "Project Manager, Alphaway"
+    },
+    {
+      "role": "Reviewed by",
+      "name": "Trần Thị B",
+      "title": "Solution Architect, Alphaway"
+    },
+    {
+      "role": "Approved by (Vendor)",
+      "name": "Lê C",
+      "title": "Delivery Director, Alphaway"
+    },
+    {
+      "role": "Reviewed by (Client)",
+      "name": "Phạm D",
+      "title": "Digital Banking Lead, MSB"
+    },
+    {
+      "role": "Approved by (Client)",
+      "name": "Hoàng E",
+      "title": "CTO, MSB"
+    }
+  ],
+  "file_hashes": {
+    "01_executive_summary.md": "266a0aa9f6d6",
+    "02_business_case.md": "fbd2261f336e",
+    "03_objectives.md": "424cb9cc1d2c",
+    "04_scope_and_architecture.md": "dbc0fcd5f6f8",
+    "05_stakeholders_risks.md": "2a5b50beec40"
+  },
+  "history": [
+    {
+      "version": "1.1",
+      "date": "2026-04-17",
+      "modified": [],
+      "added": [
+        "01_executive_summary.md",
+        "02_business_case.md",
+        "03_objectives.md",
+        "04_scope_and_architecture.md",
+        "05_stakeholders_risks.md"
+      ],
+      "removed": []
+    }
+  ],
+  "prev_markdown": "# 1. Tóm tắt Điều hành / Executive Summary\n\nDự án **MSB Mega Game 2026** là chương trình khuyến mại gamification kỷ niệm 35 năm thành lập Ngân hàng Thương mại Cổ phần Hàng hải Việt Nam (MSB). Chương trình triển khai trong 90 ngày, từ **01/06/2026 đến 31/08/2026**, tích hợp trên ứng dụng **MSB Digital Bank**, với tổng quỹ giải thưởng **18,655 tỷ VND** và **57,281 giải**.\n\nAlphaway Technology (gọi tắt là \"Alphaway\") là đơn vị đối tác phát triển (*development partner*), chịu trách nhiệm thiết kế, phát triển, kiểm thử và triển khai toàn bộ hệ thống Game Engine cho MSB.\n\n## 1.1. Phạm vi tổng thể / Overall Scope\n\nDự án bao gồm **9 module cốt lõi** được xây dựng trên kiến trúc microservices, tích hợp với các hệ thống ngân hàng hiện có (Payment, Wealth, Card, USL, Account, Notification).\n\n| # | Module | Chức năng chính |\n|---|---|---|\n| 1 | Event Processing | Nhận và xác thực giao dịch giao dịch (*transaction event*) realtime |\n| 2 | Rule Engine | Tính toán lượt quay và sinh mã dự thưởng theo quy tắc nghiệp vụ |\n| 3 | Gamification & Loyalty | Tích lũy lượt chơi, điểm Loyalty, quản lý ví người dùng |\n| 4 | Prize Management | Kho quà, phân bổ, trạng thái còn / đã trúng / đã trao |\n| 5 | Lucky Draw | Random giải ngày + quay số tháng / Mega |\n| 6 | Reward Codes | Sinh, cấp phát, loại trừ mã dự thưởng trúng |\n| 7 | Notification | Push / SMS / Email / In-app realtime |\n| 8 | Reporting | Dashboard, báo cáo, admin operations |\n| 9 | Mobile UI Hub | Floating button, game screens, leaderboard, kho quà |\n\n## 1.2. Giá trị cốt lõi / Key Value\n\n> \"Khẳng định năng lực chuyển đổi số của MSB và gia tăng engagement với **1 triệu+ khách hàng số** thông qua hình thức game hóa (*gamification*) hiện đại, an toàn và tuân thủ pháp luật.\" — MSB Digital Banking Department\n\n\n\n<!-- PAGE_BREAK -->\n\n\n\n# 2. Luận chứng Kinh doanh / Business Case\n\n## 2.1. Bối cảnh / Context\n\nNgành ngân hàng Việt Nam đang cạnh tranh khốc liệt về **user acquisition** và **retention** trên các nền tảng số. Theo báo cáo State Bank of Vietnam (SBV) Q1/2026, tỷ lệ giao dịch digital chiếm 82% tổng giao dịch toàn hệ thống. MSB cần một chiến dịch đủ lớn để:\n\n1. Tăng trưởng **Monthly Active Users (MAU)** của MSB Digital Bank lên **+30%** so với baseline tháng 05/2026\n2. Thu hút khách hàng mới mở tài khoản / sử dụng sản phẩm Wealth (M-Sinh lời, FD, CCTG)\n3. Tạo buzz truyền thông nhân dịp kỷ niệm 35 năm thành lập ngân hàng\n\n## 2.2. Tại sao chọn gamification / Why Gamification\n\nTham khảo case study TPBank (2024, 2025) với 2 game \"Hứng quà rơi\" và \"Match-3 Lì xì\" — cả hai đều đạt:\n- **>2M lượt chơi** trong 30 ngày\n- **+45% MAU** so với chu kỳ thường\n- **Chi phí per-engagement < 500 VND** (thấp hơn 10x so với quảng cáo performance)\n\n> *Gamification in banking is no longer a \"nice-to-have\" — it's a channel. Banks that ignore it lose ground.*\n\n## 2.3. Các phương án đã xem xét / Options Considered\n\n| Phương án | Ưu điểm | Nhược điểm | Quyết định |\n|---|---|---|---|\n| Khuyến mại giảm phí truyền thống | Đơn giản, rẻ | Không tạo buzz, không tăng engagement | ❌ Loại |\n| Chiến dịch quảng cáo performance | Reach rộng | Chi phí cao, ROI thấp | ❌ Loại |\n| **Mega Game 2026 (gamification)** | **Engagement cao, buzz lớn, tái sử dụng được asset** | **Cần phát triển phần mềm, rủi ro kỹ thuật** | ✅ **Chọn** |\n| Live event offline | Impact lớn | Không scale toàn quốc, chi phí logistics | ❌ Loại |\n\n## 2.4. Return on Investment / ROI\n\n| Chỉ số | Baseline | Target | Delta |\n|---|---|---|---|\n| MAU MSB Digital Bank | 850,000 | 1,100,000 | +29% |\n| Số khách hàng mở FD mới | 12,000 / tháng | 18,000 / tháng | +50% |\n| Giao dịch QR (tháng) | 3.2M | 4.5M | +41% |\n| Thương hiệu share-of-voice (SoV) | 14% | 22% | +57% |\n\n\n\n<!-- PAGE_BREAK -->\n\n\n\n# 3. Mục tiêu Dự án / Project Objectives\n\nMục tiêu SMART của dự án MSB Mega Game 2026:\n\n## 3.1. Mục tiêu kinh doanh / Business Objectives\n\n1. **Specific** — Triển khai chương trình gamification tích hợp trên MSB Digital Bank\n2. **Measurable** — Đạt 1 triệu+ người dùng tham gia, 57,281 giải trao đủ, 0 lỗi critical trong production\n3. **Achievable** — Dựa trên precedent TPBank và năng lực đã có của Alphaway\n4. **Relevant** — Trực tiếp phục vụ chiến lược 35 năm kỷ niệm của MSB\n5. **Time-bound** — Go-live 01/06/2026, đóng chương trình 31/08/2026\n\n## 3.2. Mục tiêu kỹ thuật / Technical Objectives\n\n- **SLA 99.9%** trong suốt 90 ngày chiến dịch\n- **Response time < 2 giây** cho mọi API quay thưởng\n- **Concurrent users**: hỗ trợ 50,000 đồng thời (peak)\n- **Fraud rate < 0.1%** (đo bằng reversal / total transactions)\n- **Tuân thủ**: Thông tư 09/2020/TT-NHNN, OWASP Top 10, ISO 27001 controls\n\n## 3.3. Tiêu chí thành công / Success Criteria\n\n| Tiêu chí | Ngưỡng |\n|---|---|\n| Go-live đúng hạn (01/06/2026) | ✅ No-delay |\n| Zero critical incident trong tuần đầu | 0 incident P0/P1 |\n| Customer satisfaction (CSAT) post-campaign | ≥ 4.5 / 5 |\n| 100% giải thưởng được trao đúng quy trình | Theo audit log |\n| Không vi phạm quy định SBV | Theo inspection report |\n\n\n\n<!-- PAGE_BREAK -->\n\n\n\n# 4. Phạm vi & Kiến trúc Tổng quan / Scope & Architecture Overview\n\n## 4.1. In-Scope / Trong phạm vi\n\n- Phát triển Game Engine (9 module) — xem Section 1.1\n- Mini-game \"Hứng quà rơi\" (*falling item catch game*) 60 giây\n- Quay số Mega Draw (slot machine reveal) cuối chiến dịch\n- Tích hợp với 6 banking microservices của MSB\n- Mobile UI hub (9 màn hình) tối ưu cho MSB Digital Bank WebView\n- Admin dashboard quản lý chương trình\n- Báo cáo realtime tồn kho quà + số người tham gia\n\n## 4.2. Out-of-Scope / Ngoài phạm vi\n\n- Không can thiệp vào core banking system của MSB\n- Không phát triển game engine riêng — sử dụng **Phaser 3** làm runtime\n- Không triển khai hạ tầng cloud mới — chạy trên MSB Data Center hiện có\n- Không xử lý thủ tục pháp lý khuyến mại (MSB tự làm với Sở Công Thương)\n- Không thực hiện marketing campaign (MSB agency phụ trách)\n\n## 4.3. Kiến trúc Tổng quan / Architecture Overview\n\n<!-- DIAGRAM:architecture_overview.png Kiến trúc tổng quan Game Engine MSB Mega Game 2026 -->\n\nHệ thống bao gồm 3 lớp chính:\n\n1. **Presentation Layer** — Next.js 15 + Tailwind + Phaser 3, chạy trong WebView của MSB Digital Bank\n2. **Application Layer** — FastAPI backend, Rule Engine, Lucky Draw, Prize Management\n3. **Data Layer** — SQLite (demo) / PostgreSQL (production), Redis cache, S3 asset storage\n\n```python\n# Example: Core Rule Engine snippet (simplified)\ndef award_rounds(customer_id: str, transaction: dict) -> int:\n    \"\"\"Award game rounds based on transaction type and amount.\"\"\"\n    if transaction.type == \"FD_OPEN\" and transaction.amount >= 5_000_000:\n        return min(50, transaction.amount // 5_000_000 * 2)  # 2 rounds per 5M, max 50\n    if transaction.type == \"QR_PAYMENT\" and transaction.amount >= 100_000:\n        return 1  # 1 round per QR payment, max 3/day\n    return 0\n```\n\n> **Nguyên tắc thiết kế:** Atomic prize pool decrement qua Redis INCR/DECR hoặc Postgres row-lock, đảm bảo zero double-spending ngay cả khi có traffic spike cao điểm Tết.\n\n## 4.4. Integration Points\n\n| Hệ thống MSB | Protocol | Mục đích |\n|---|---|---|\n| Payment Service | REST + Webhook | Validate giao dịch QR, bill, chuyển tiền |\n| Wealth Service | REST | Validate FD, CCTG, M-Sinh lời |\n| Card / USL Service | REST | Validate khoản vay, thẻ tín dụng |\n| Account Service | REST | Lấy thông tin KYC, KH status |\n| Notification Service | Message Queue (Kafka) | Push thông báo trúng giải |\n| Data Warehouse | Batch export (daily) | Audit log, báo cáo compliance |\n\n\n\n<!-- PAGE_BREAK -->\n\n\n\n# 5. Các bên Liên quan & Rủi ro / Stakeholders & Risks\n\n## 5.1. Các bên Liên quan / Stakeholders\n\n| Stakeholder | Vai trò | RACI |\n|---|---|---|\n| MSB Digital Banking Department | Chủ sở hữu sản phẩm (*product owner*) | A |\n| MSB CTO Office | Phê duyệt kỹ thuật, review security | A |\n| MSB Marketing | Chủ sở hữu chiến dịch truyền thông | C |\n| MSB Legal & Compliance | Đảm bảo tuân thủ Thông tư 09/2020/TT-NHNN | C |\n| Alphaway Project Manager | Quản lý dự án end-to-end | R |\n| Alphaway Solution Architect | Thiết kế kiến trúc, review code | R |\n| Alphaway Dev Team | Phát triển backend + frontend + game | R |\n| Alphaway QA Team | Kiểm thử + UAT | R |\n| MSB End Customers | Người dùng cuối (*end users*) | I |\n| SBV (Ngân hàng Nhà nước) | Cơ quan giám sát | I |\n\n> *RACI: **R**esponsible — người làm, **A**ccountable — người chịu trách nhiệm cuối, **C**onsulted — tham vấn, **I**nformed — được thông báo.*\n\n## 5.2. Bản đồ Rủi ro / Risk Register (High-Level)\n\n| # | Rủi ro | Xác suất | Tác động | Biện pháp giảm thiểu |\n|---|---|---|---|---|\n| R-01 | Traffic spike vượt quá capacity đã thiết kế | M | H | Load testing 2x peak, auto-scaling, CDN cho static assets |\n| R-02 | Fraud / gaming bằng bot farm | H | H | Device fingerprint, rate limit, behavioral detection |\n| R-03 | Không kịp go-live 01/06/2026 | M | Critical | Buffer 2 tuần, critical path tracking, weekly sync |\n| R-04 | Vỡ compliance Thông tư 09/2020 | L | Critical | Security review Week 6, pentest Week 8, DPA với MSB |\n| R-05 | Integration với MSB microservices chậm / lỗi | M | H | Sandbox environment Week 2, contract testing |\n| R-06 | Data drift: số giải hiển thị ≠ số giải thực tế | L | Critical | Atomic DB operations, daily reconciliation job |\n| R-07 | Khách hàng khiếu nại giải thưởng | M | M | Customer support playbook, SLA rõ ràng 7/14 ngày |\n\n**Legend:** Xác suất (*Probability*): L=Low, M=Medium, H=High. Tác động (*Impact*): L=Low, M=Medium, H=High, Critical=Showstopper.\n\n## 5.3. Assumptions / Các giả định\n\n1. MSB cung cấp đầy đủ API sandbox trước Week 2\n2. MSB Legal đã phê duyệt thể lệ khuyến mại trước Week 4\n3. Không có phát sinh scope change sau Week 6 (lock scope)\n4. MSB hỗ trợ testing trên 2 môi trường: SIT + UAT\n5. Alphaway có thể sử dụng asset Fluent Emoji (MIT license) cho game visuals"
+}

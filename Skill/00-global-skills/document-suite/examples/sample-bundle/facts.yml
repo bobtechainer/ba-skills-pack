@@ -1,0 +1,57 @@
+## facts.yml — CoreLink API Integration (Sample / Fictitious)
+## Purpose: Single source of truth for all numbers used across Charter, BRD, SRS, HLD.
+## NOTE: All names and numbers are fictitious. Replace with real project data.
+
+project:
+  name_vi: "Tích hợp CoreLink API"
+  name_en: "CoreLink API Integration"
+  code: "CORELINK-2026"
+  client: "SampleBank"
+  vendor: "Techainer"
+  anniversary: "35th anniversary"
+  classification: "CONFIDENTIAL"
+  app_url: "https://samplebank.internal/corelink"
+
+doc:
+  version: "1.0"
+  date: "2026-04-14"
+
+schedule:
+  start_date: "2026-05-01"
+  end_date: "2026-09-30"
+  duration_days: "153"
+
+stakeholders:
+  regulation: "Thông tư 09/2020/TT-NHNN"
+  regulatory: "Ngân hàng Nhà nước Việt Nam (NHNN)"
+
+target_users:
+  active_customers_baseline: "120,000"
+  active_customers_target: "180,000"
+  participation_target_pct: "50"
+
+nfr:
+  performance:
+    concurrent_peak: "5,000"
+    tps_peak: "500"
+  availability:
+    sla_monthly_pct: "99.9"
+  reliability:
+    rto_min: "30"
+    rpo_min: "60"
+  fraud:
+    target_fraud_rate_pct: "0.01"
+
+budget:
+  total_vnd: "4,500,000,000"
+  total_label: "4.5 tỷ VND"
+
+support:
+  phone: "+84-28-XXXX-XXXX"
+  email: "support@techainer.com"
+  helpdesk_url: "https://helpdesk.techainer.com"
+
+feature_1:
+  name_vi: "Xác thực khách hàng"
+  name_en: "Customer Authentication"
+  purpose: "Xác thực danh tính khách hàng qua JWT + OTP"

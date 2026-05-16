@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template B: OBD — Đặc tả Step (BDD/Mobile)</title>
+<style>
+  :root { --primary: #7c3aed; --primary-light: #f3e8ff; --border: #d1d5db; --bg: #ffffff; --text: #1f2937; --muted: #6b7280; --accent: #059669; --warning: #d97706; --section-bg: #f9fafb; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; max-width: 960px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 1.75rem; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 12px; margin-bottom: 8px; }
+  .subtitle { color: var(--muted); font-size: 0.95rem; margin-bottom: 24px; }
+  h2 { font-size: 1.25rem; color: var(--text); margin: 32px 0 12px; padding: 8px 12px; background: var(--primary-light); border-left: 4px solid var(--primary); border-radius: 4px; }
+  h3 { font-size: 1.05rem; color: var(--primary); margin: 20px 0 8px; }
+  h4 { font-size: 0.95rem; color: var(--muted); margin: 16px 0 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 0.88rem; }
+  th { background: var(--primary); color: white; padding: 10px 12px; text-align: left; font-weight: 600; }
+  td { padding: 10px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: var(--section-bg); }
+  .placeholder { color: var(--warning); font-style: italic; font-weight: 500; }
+  .rule-box { background: #fffbeb; border: 1px solid #fbbf24; border-radius: 8px; padding: 16px; margin: 16px 0; }
+  .rule-box strong { color: #92400e; }
+  .section-card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; background: var(--section-bg); }
+  .step-flow { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0; }
+  .step-badge { background: var(--primary-light); border: 2px solid var(--primary); border-radius: 24px; padding: 8px 16px; font-weight: 600; font-size: 0.85rem; color: var(--primary); }
+  .step-arrow { display: flex; align-items: center; color: var(--muted); font-size: 1.2rem; }
+  .field-desc { background: #f0fdf4; border-left: 3px solid var(--accent); padding: 12px; margin: 8px 0; font-size: 0.85rem; }
+  .bdd-box { background: #eff6ff; border: 1px solid #93c5fd; border-radius: 8px; padding: 16px; margin: 12px 0; }
+  .bdd-box strong { color: #1d4ed8; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; text-align: center; }
+</style>
+</head>
+<body>
+
+<h1>Template B: OBD — Đặc tả Step (BDD/Mobile)</h1>
+<p class="subtitle">Dùng cho: Mobile app, flow step-by-step, EKYC, onboarding, wizard multi-step</p>
+
+<div class="rule-box">
+  <strong>⚠️ RULES BẮT BUỘC:</strong>
+  <ol style="margin-top: 8px; padding-left: 20px; font-size: 0.9rem;">
+    <li>Mỗi field <strong>PHẢI có đầy đủ</strong>: Tác nhân + Logic + Validate + Thông báo lỗi</li>
+    <li>Liệt kê <strong>TẤT CẢ API</strong> endpoint + params — không tóm tắt</li>
+    <li>Popup <strong>PHẢI có 4 phần</strong>: Icon + Tiêu đề + Nội dung + Buttons</li>
+    <li>Mockup → <strong>PHẢI chèn</strong> ngay trong section tương ứng</li>
+    <li>Bảng revision: chỉ <strong>THÊM</strong> dòng — KHÔNG XÓA</li>
+  </ol>
+</div>
+
+<!-- HEADER -->
+<h2>Header</h2>
+<table>
+  <tr><th style="width: 20%">Mục</th><th>Nội dung</th></tr>
+  <tr><td>FIGMA</td><td class="placeholder">«Link Figma»</td></tr>
+  <tr><td>BRD</td><td class="placeholder">«Link BRD»</td></tr>
+  <tr><td>MIRO</td><td class="placeholder">«Link MIRO flow»</td></tr>
+</table>
+
+<!-- REVISION -->
+<h2>Document Revision Control Table</h2>
+<table>
+  <tr><th>Version</th><th>Date</th><th>Change Description</th><th>A/M/D</th><th>Prepared By</th><th>Approved By</th></tr>
+  <tr>
+    <td class="placeholder">«N»</td>
+    <td class="placeholder">«DD/MM/YYYY»</td>
+    <td class="placeholder">«Mô tả thay đổi»</td>
+    <td class="placeholder">«Add / Modify / Delete»</td>
+    <td class="placeholder">«Tên BA»</td>
+    <td class="placeholder">«Tên PM/Lead»</td>
+  </tr>
+</table>
+
+<!-- FLOW -->
+<h2>Step Flow Overview</h2>
+<div class="step-flow">
+  <div class="step-badge">Step 1: Nhập TT</div>
+  <div class="step-arrow">→</div>
+  <div class="step-badge">Step 2: Upload</div>
+  <div class="step-arrow">→</div>
+  <div class="step-badge">Step 3: Xác nhận</div>
+  <div class="step-arrow">→</div>
+  <div class="step-badge">Step 4: Kết quả</div>
+</div>
+
+<!-- BDD -->
+<h2>BDD Scenarios</h2>
+<div class="bdd-box">
+  <strong>Scenario: «Tên kịch bản»</strong><br>
+  <code>Given</code> <span class="placeholder">«Trạng thái ban đầu»</span><br>
+  <code>When</code> <span class="placeholder">«Hành động trigger»</span><br>
+  <code>Then</code> <span class="placeholder">«Kết quả mong muốn»</span>
+</div>
+
+<!-- STEP DETAIL -->
+<h2>Step «N» — «Tên bước»</h2>
+
+<div class="section-card">
+  <h4>Mockup</h4>
+  <div style="border: 2px dashed var(--border); border-radius: 8px; padding: 24px; text-align: center; color: var(--muted); background: #f3f4f6;">
+    📷 Chèn ảnh mockup — BẮT BUỘC nếu có
+  </div>
+</div>
+
+<h4>Mô tả field</h4>
+<table>
+  <tr><th>STT</th><th>Tên trường</th><th>Định dạng</th><th>M/O</th><th>Editable</th><th>Mô tả</th></tr>
+  <tr>
+    <td class="placeholder">«N»</td>
+    <td class="placeholder">«Tên field»</td>
+    <td class="placeholder">«TextBox / Label / ComboBox»</td>
+    <td class="placeholder">«M / O»</td>
+    <td class="placeholder">«Editable / Read-only»</td>
+    <td class="placeholder">«Mô tả chi tiết»</td>
+  </tr>
+</table>
+
+<div class="field-desc">
+  <strong>📝 Hướng dẫn viết cột Mô tả:</strong><br><br>
+  <strong>Label / Read-Only:</strong> Giá trị lấy từ API <code>«endpoint»</code> field <code>«field_name»</code><br><br>
+  <strong>TextBox:</strong> Placeholder + Min/Max + Format + Maxlength<br><br>
+  <strong>ComboBox:</strong> Gọi API <code>«endpoint»</code> lấy danh sách → Default → Filter logic → Khi thay đổi → reset field nào<br><br>
+  <strong>Button:</strong> Click → action + Validate trước khi action
+</div>
+
+<!-- VALIDATION -->
+<h2>Validate và xử lý đặc biệt</h2>
+<table>
+  <tr><th>Trường</th><th>Validate rule</th><th>Thông báo lỗi</th><th>Xử lý</th></tr>
+  <tr>
+    <td class="placeholder">«Tên field»</td>
+    <td class="placeholder">«format, min/max, required, regex»</td>
+    <td class="placeholder">«"Câu thông báo"»</td>
+    <td class="placeholder">«block / warning / redirect»</td>
+  </tr>
+</table>
+
+<footer>
+  Template B — OBD Step Spec | BA Skills Pack | Preview dùng để chọn template
+</footer>
+
+</body>
+</html>
