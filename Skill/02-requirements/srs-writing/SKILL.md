@@ -64,6 +64,8 @@ If you catch yourself doing ANY of these, **STOP. Go back to the step you skippe
 - Saying "I'll adapt the pipeline for efficiency"
 - **Asking more than ONE question in a single message**
 - Saving files outside the mandatory folder structure
+- Viết `[CROSS-REF]` mà KHÔNG tra cứu Confluence trước → VIOLATION
+- Chuyển sang Step 3.5 mà còn `[CROSS-REF]` chưa resolve và chưa báo cáo → VIOLATION
 - Writing all SRS content into a single .md file instead of splitting
 - Skipping HTML preview generation ("user doesn't need to review")
 - Export .docx without user confirmation after HTML review
@@ -258,13 +260,13 @@ Save plan to `temp/implementation_plan.md`. Plan MUST contain:
 5. Read [anti_slop.md](../00-global-skills/document-suite/writing_rules/anti_slop.md) → remove banned phrases
 6. Read [confluence-ref.md](references/confluence-ref.md) → resolve `[CROSS-REF]` tags → Confluence links
 
-### Confluence Reference Resolution — AUTO
+### Confluence Reference Resolution — HARD GATE ⭐
 
-> [!IMPORTANT]
-> Mỗi khi viết `[CROSS-REF: ...]`, LẬP TỨC tìm trong Knowledge Items `confluence_*` → `artifacts/pages_index.md`.
-> Nếu tìm thấy trang phù hợp → thay thế bằng markdown link `(xem [Tên trang](URL))`.
-> Nếu KHÔNG tìm thấy → giữ nguyên tag `[CROSS-REF: ...]` để user bổ sung.
-> Chi tiết: xem [confluence-ref.md](references/confluence-ref.md).
+> [!CAUTION]
+> **BẮT BUỘC.** Mỗi `[CROSS-REF]` PHẢI được tra cứu trong `pages_index.md` TRƯỚC khi sang Step 3.5.
+> Nếu output .md có `[CROSS-REF]` mà KHÔNG kèm link `https://` → bạn CHƯA HOÀN THÀNH Step 3.
+> Đọc [confluence-ref.md](references/confluence-ref.md) → làm theo TỪNG BƯỚC → báo cáo kết quả.
+> **KHÔNG ĐƯỢC nói "sẽ gắn link sau" hoặc "user tự bổ sung". Gắn NGAY.**
 
 ### Template Enforcement — CRITICAL
 
@@ -281,7 +283,7 @@ Save plan to `temp/implementation_plan.md`. Plan MUST contain:
 
 ### After generating — REPORT all files with FULL ABSOLUTE PATH.
 
-**GATE 3:** All .md files generated + readability pass done.
+**GATE 3:** All .md files generated + readability pass done + **Confluence CROSS-REF resolved (xem báo cáo)**.
 
 ---
 
@@ -342,6 +344,7 @@ Save plan to `temp/implementation_plan.md`. Plan MUST contain:
 □ SOP file updated?
 □ (Edit) Annotations present? → annotation_rules.md
 □ Anti-slop check passed? (→ anti_slop.md)
+□ **Confluence CROSS-REF resolved?** Mỗi tag có link hoặc ghi chú "chưa tìm thấy"? (→ confluence-ref.md)
 ```
 
 **If ANY item fails → go back to Step 3 and fix. Do NOT proceed.**
