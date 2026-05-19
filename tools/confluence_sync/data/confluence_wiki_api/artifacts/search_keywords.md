@@ -1,0 +1,504 @@
+# Keywords — Wiki API
+
+Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
+
+- **Wiki** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/overview
+- **Tài liệu đặc tả HSMIntegration 1.00** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9895942/T+i+li+u+c+t+HSMIntegration+1.00
+- **1.4.33.ACH_Routing** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9895947/1.4.33.ACH_Routing
+- **Tài liệu đặc tả Customer_Employer 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9895954/T+i+li+u+c+t+Customer_Employer+1.0
+- **1.11.3.Employer (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9895965/1.11.3.Employer+update
+- **1.46.HSMIntegration (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9895975/1.46.HSMIntegration+update
+- **Tài liệu đặc tả ExchangeRate 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9895981/T+i+li+u+c+t+ExchangeRate+1.x
+- **Tài liệu đặc tả ACH_Routing 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9895994/T+i+li+u+c+t+ACH_Routing+1.0
+- **1.44.Verify (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896006/1.44.Verify+update
+- **1.4.32.BIDVAPI_SyncAccount** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896015/1.4.32.BIDVAPI_SyncAccount
+- **Tài liệu đặc tả Customer 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896018/T+i+li+u+c+t+Customer+1.0
+- **Tài liệu đặc tả HSMIntegration 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896027/T+i+li+u+c+t+HSMIntegration+2.0
+- **1.29.1.EarmarkUtilisationUpdate** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896032/1.29.1.EarmarkUtilisationUpdate
+- **Tài liệu đặc tả BIDVAPI_SyncAccount 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896037/T+i+li+u+c+t+BIDVAPI_SyncAccount+1.0
+- **1.9.3.CifMerge (update, Core SIBS)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896056/1.9.3.CifMerge+update+Core+SIBS
+- **3.15.3. Sample** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896059/3.15.3.+Sample
+- **3.1.Smart Banking** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896068/3.1.Smart+Banking
+- **2.2.CardService** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896083/2.2.CardService
+- **3.15.2. OutDoc** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896090/3.15.2.+OutDoc
+- **Tài liệu đặc tả ESB RESTFUL EWALLET VNPAY-BIDV 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896099/T+i+li+u+c+t+ESB+RESTFUL+EWALLET+VNPAY-BIDV+1.0
+- **3.16.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896112/3.16.1.+Input
+- **3.13.1. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896117/3.13.1.+Output
+- **Tài liệu đặc tả fxrt service api specification 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896137/T+i+li+u+c+t+fxrt+service+api+specification+1.0
+- **Tài liệu đặc tả ESBRestful - FSS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896160/T+i+li+u+c+t+ESBRestful+-+FSS+1.0
+- **Tài liệu đặc tả CaClose 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896167/T+i+li+u+c+t+CaClose+1.x
+- **Tài liệu đặc tả CustomerRegister 1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896174/T+i+li+u+c+t+CustomerRegister+1.1
+- **Tài liệu đặc tả CifInquiryMis 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896187/T+i+li+u+c+t+CifInquiryMis+1.0
+- **Tài liệu đặc tả AcctDetail 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896198/T+i+li+u+c+t+AcctDetail+1.x
+- **1.9.1.CifInquiryMis (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896211/1.9.1.CifInquiryMis+update
+- **3.14.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896214/3.14.1.+Input
+- **Tài liệu đặc tả chuyển tiền ACH1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896223/T+i+li+u+c+t+chuy+n+ti+n+ACH1.0
+- **1.2.Accuity (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896230/1.2.Accuity+update
+- **3.15. FXRT-SMB** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896237/3.15.+FXRT-SMB
+- **Tài liệu đặc tả AcctList 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896242/T+i+li+u+c+t+AcctList+1.x
+- **1.9.2.Maintenance_AccTranfer (update Core SIBS)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896249/1.9.2.Maintenance_AccTranfer+update+Core+SIBS
+- **3.12. ERP - VNPT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896252/3.12.+ERP+-+VNPT
+- **Tài liệu đặc tả CifMerge 1.0 (Core SIBS)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896272/T+i+li+u+c+t+CifMerge+1.0+Core+SIBS
+- **3.15.1. InDoc** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896277/3.15.1.+InDoc
+- **Tài liệu đặc tả Gateway_Card 1.2** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896322/T+i+li+u+c+t+Gateway_Card+1.2
+- **3.20.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896331/3.20.1.+Input
+- **Tài liệu ESB-BANGIAO-UAT-XNBL 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896336/T+i+li+u+ESB-BANGIAO-UAT-XNBL+1.0
+- **1.9.5.CifCreate** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896361/1.9.5.CifCreate
+- **Tài liệu đặc tả GNHDDT_API 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896372/T+i+li+u+c+t+GNHDDT_API+1.0
+- **Tài liệu đặc tả api FSS 1.0 (20220811)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896385/T+i+li+u+c+t+api+FSS+1.0+20220811
+- **Tài liệu đặc tả ESB RESTFUL FXRT-SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896393/T+i+li+u+c+t+ESB+RESTFUL+FXRT-SMB+1.0
+- **3.14.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896430/3.14.2.+Output
+- **1.21.Parameter** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896441/1.21.Parameter
+- **1.18. MobileCustomerInfo** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896469/1.18.+MobileCustomerInfo
+- **Tài liệu đặc tả ECM BPM 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896478/T+i+li+u+c+t+ECM+BPM+2.0
+- **1.12.ExchangeRate** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896493/1.12.ExchangeRate
+- **3.12.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896506/3.12.1.+Input
+- **Tài liệu đặc tả ECM KTTT 1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896524/T+i+li+u+c+t+ECM+KTTT+1.1
+- **3.35. TK_Dinh_Danh_Ca_Nhan** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896529/3.35.+TK_Dinh_Danh_Ca_Nhan
+- **3.13. EWALLET_PREPAID CARD** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896548/3.13.+EWALLET_PREPAID+CARD
+- **Tài liệu đặc tả ECM BPM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896561/T+i+li+u+c+t+ECM+BPM+1.0
+- **Tài liệu đặc tả BIDVCASH 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896584/T+i+li+u+c+t+BIDVCASH+2.0
+- **1.4.9.ECM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896593/1.4.9.ECM
+- **Tài liệu đặc tả service AgentBank** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896600/T+i+li+u+c+t+service+AgentBank
+- **1.45.CERTIFICATE (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896615/1.45.CERTIFICATE+update
+- **Tài liệu đặc tả CifUpdate 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896622/T+i+li+u+c+t+CifUpdate+1.0
+- **Tài liệu đặc tả ESB RESTFUL ECM-SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896631/T+i+li+u+c+t+ESB+RESTFUL+ECM-SMB+1.0
+- **Tài liệu đặc tả AcctDetail 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896638/T+i+li+u+c+t+AcctDetail+2.0
+- **Tài liệu đặc tả CheckRule 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896655/T+i+li+u+c+t+CheckRule+1.0
+- **3.11.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896672/3.11.2.+Output
+- **Tài liệu đặc tả MICROSERVICE - BIDV API common 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896687/T+i+li+u+c+t+MICROSERVICE+-+BIDV+API+common+1.0
+- **1.31.CheckRule (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896694/1.31.CheckRule+update
+- **3.14. FSS - IDM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896715/3.14.+FSS+-+IDM
+- **Tài liệu đặct tả CERTIFICATE 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896722/T+i+li+u+ct+t+CERTIFICATE+1.0
+- **Tài liệu đặc tả ESBRestful BPM - ECM_temp** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896768/T+i+li+u+c+t+ESBRestful+BPM+-+ECM_temp
+- **Tài liệu đặc tả AcctList 3.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896777/T+i+li+u+c+t+AcctList+3.0
+- **Tài liệu đặc tả Camaintenance 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896796/T+i+li+u+c+t+Camaintenance+1.0
+- **PTTK_BIDV_WebCosent** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896817/PTTK_BIDV_WebCosent
+- **Tài liệu đặc tả Maintenance_AccTranfer 1.0 (Core SIBS)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896827/T+i+li+u+c+t+Maintenance_AccTranfer+1.0+Core+SIBS
+- **1.11.2.CustomerRegister (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896842/1.11.2.CustomerRegister+update
+- **1.23.QLNS (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896864/1.23.QLNS+update
+- **Tài liệu đặc tả AcctList 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896879/T+i+li+u+c+t+AcctList+2.0
+- **3.37. SAALEM_CoreAPI** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896886/3.37.+SAALEM_CoreAPI
+- **4.1.AgentBank** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896907/4.1.AgentBank
+- **Tài liệu đặc tả Cacreate 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896928/T+i+li+u+c+t+Cacreate+1.x
+- **Tài liệu đặc tả Paygate - OPEN API 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896933/T+i+li+u+c+t+Paygate+-+OPEN+API+1.0
+- **2. API Nội bộ _ v1-1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896989/2.+API+N+i+b+_+v1-1
+- **3.9.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897012/3.9.2.+Output
+- **03.Hệ thống ESBRestful** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897019/03.H+th+ng+ESBRestful
+- **Tài liệu đặc tả BIDVHOME 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897022/T+i+li+u+c+t+BIDVHOME+1.0
+- **1.4.Apps (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897041/1.4.Apps+update
+- **Tài liệu đặc tả ESBRestful cho BPM - ECM_05082** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897059/T+i+li+u+c+t+ESBRestful+cho+BPM+-+ECM_05082
+- **1.3.AD (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897066/1.3.AD+update
+- **Tài liệu đặc tả microservice upload hồ sơ ECM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897099/T+i+li+u+c+t+microservice+upload+h+s+ECM+1.0
+- **Tài liệu đặc tả tích hợp hệ thống ESB RESTFUL DKTT-SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897104/T+i+li+u+c+t+t+ch+h+p+h+th+ng+ESB+RESTFUL+DKTT-SMB+1.0
+- **API Agent Banking** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897109/API+Agent+Banking
+- **2.1.CardJob** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897119/2.1.CardJob
+- **Tài liệu đặc tả TokenServer 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897122/T+i+li+u+c+t+TokenServer+1.0
+- **Tài liệu đặc tả BPM - ECM_9999** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897145/T+i+li+u+c+t+BPM+-+ECM_9999
+- **ACH 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897154/ACH+1.0
+- **3.11.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897172/3.11.1.+Input
+- **3.9. DSB-FSS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897179/3.9.+DSB-FSS
+- **4.1.Smart Banking** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897184/4.1.Smart+Banking
+- **1.4.3.BIDVAPI** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897216/1.4.3.BIDVAPI
+- **Tài liệu đặc tả BIDVCASH 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897219/T+i+li+u+c+t+BIDVCASH+1.0
+- **2. API Nội bộ(Mr Hieu)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897224/2.+API+N+i+b+Mr+Hieu
+- **1.6.BIDVCash** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897237/1.6.BIDVCash
+- **Tài liệu đặc tả BPM - ECM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897242/T+i+li+u+c+t+BPM+-+ECM+1.0
+- **Tài liệu đặc tả ESB-ĐẶC TẢ MICROSERVICE DSB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897262/T+i+li+u+c+t+ESB-+C+T+MICROSERVICE+DSB+1.0
+- **1.9.Cif** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897281/1.9.Cif
+- **Tài liệu đặc tả tích hợp ESBRestful - FSS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897286/T+i+li+u+c+t+t+ch+h+p+ESBRestful+-+FSS+1.0
+- **Tài liệu đặc tả MICROSERVICE DSB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897311/T+i+li+u+c+t+MICROSERVICE+DSB+1.0
+- **1.11.Customer** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897320/1.11.Customer
+- **Tài liệu đặc tả API hệ thống Agent Banking** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897333/T+i+li+u+c+t+API+h+th+ng+Agent+Banking
+- **01.Hệ thống SOA 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897360/01.H+th+ng+SOA+1.0
+- **04.Hệ thống OpenAPI** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897377/04.H+th+ng+OpenAPI
+- **1.30.BIDVHOME (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897386/1.30.BIDVHOME+update
+- **3.10.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897391/3.10.1.+Input
+- **1.7.1.NonePhysicalCard** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897400/1.7.1.NonePhysicalCard
+- **1.4.1.ACH (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897407/1.4.1.ACH+update
+- **1.4.30 TokenServer (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897410/1.4.30+TokenServer+update
+- **1.8.ChequeProcessing (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897427/1.8.ChequeProcessing+update
+- **02.Hệ thống GWThe** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897430/02.H+th+ng+GWThe
+- **Tài liệu đặc tả ECM KTTT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897441/T+i+li+u+c+t+ECM+KTTT+1.0
+- **Tài liệu đặc tả api_sweeee 1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897464/T+i+li+u+c+t+api_sweeee+1.1
+- **1.4.27 TFDOKA** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897471/1.4.27+TFDOKA
+- **Tài liệu đặc tả tích hợp Api SWED trên ESBRestful SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897482/T+i+li+u+c+t+t+ch+h+p+Api+SWED+tr+n+ESBRestful+SMB+1.0
+- **3.32.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897503/3.32.2.+Output
+- **Tài liệu đặc tả API FSS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897545/T+i+li+u+c+t+API+FSS+1.0
+- **3.9.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897580/3.9.1.+Input
+- **Tài liệu đặc tả DomesticCard 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897640/T+i+li+u+c+t+DomesticCard+1.x
+- **3.10.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897651/3.10.2.+Output
+- **1.4.28 TTHDOL** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897696/1.4.28+TTHDOL
+- **Tài liệu đặc tả TFDOKA 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897699/T+i+li+u+c+t+TFDOKA+1.0
+- **Tài liệu Mô tả API SWED SMB IBank 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897740/T+i+li+u+M+t+API+SWED+SMB+IBank+1.0
+- **Tài liệu đặc tả TTHDOL 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897751/T+i+li+u+c+t+TTHDOL+1.0
+- **Tài liệu đặc tả NonePhysicalCard 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897770/T+i+li+u+c+t+NonePhysicalCard+1.0
+- **1.7.2.Card** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897799/1.7.2.Card
+- **3.11. ECM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897804/3.11.+ECM
+- **Tài liệu đặc tả VA 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897809/T+i+li+u+c+t+VA+1.x
+- **3.10. DSB-Ibank** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897830/3.10.+DSB-Ibank
+- **3.29.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897851/3.29.2.+Output
+- **1.16.3.ConsumerLoan** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897891/1.16.3.ConsumerLoan
+- **3.27.1. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897938/3.27.1.+Output
+- **1.37.LdapManagement (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897957/1.37.LdapManagement+update
+- **1.36.InternationalCard (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897970/1.36.InternationalCard+update
+- **3.30. SWE** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897983/3.30.+SWE
+- **3.28.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898000/3.28.1.+Input
+- **Tài liệu đặc tả API_SMB-CNTG 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898011/T+i+li+u+c+t+API_SMB-CNTG+1.0
+- **Tài liệu đặc tả ESB-BANGIAO-UAT-WEBSITE-SWE 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898046/T+i+li+u+c+t+ESB-BANGIAO-UAT-WEBSITE-SWE+1.0
+- **1.16.2.Collateral** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898107/1.16.2.Collateral
+- **1.38.Odtier** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898134/1.38.Odtier
+- **Tài liệu bàn  giao ESB-BANGIAO-UAT-SWE_IBANK 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898175/T+i+li+u+b+n+giao+ESB-BANGIAO-UAT-SWE_IBANK+1.0
+- **Tài liệu đặc tả Collateral 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898186/T+i+li+u+c+t+Collateral+1.0
+- **3.31.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898203/3.31.2.+Output
+- **Tài liệu tích hợp ESBRestful - SoftOTP_SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898208/T+i+li+u+t+ch+h+p+ESBRestful+-+SoftOTP_SMB+1.0
+- **3.32. SWED** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898231/3.32.+SWED
+- **TÀI LIỆU TRIỂN KHAI ESB SoftOTP-SMB TRÊN PROD 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898254/T+I+LI+U+TRI+N+KHAI+ESB+SoftOTP-SMB+TR+N+PROD+1.0
+- **Tài liệu đặc tả Notify 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898271/T+i+li+u+c+t+Notify+1.0
+- **Tài liệu đặc tả SAALEM_BIDV_CCOL_AnChi_SMB_RLOS 1.2** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898300/T+i+li+u+c+t+SAALEM_BIDV_CCOL_AnChi_SMB_RLOS+1.2
+- **3.25.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898337/3.25.2.+Output
+- **3.25. SmartCA** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898431/3.25.+SmartCA
+- **Tài liệu đặc tả VNPTSmartCAAPIspecificationDocument 1.9** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898436/T+i+li+u+c+t+VNPTSmartCAAPIspecificationDocument+1.9
+- **Tài liệu đặc tả Gateway_Card 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898510/T+i+li+u+c+t+Gateway_Card+1.0
+- **3.29. SoftOtp** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898533/3.29.+SoftOtp
+- **Tài liệu đặc tả tích hợp ESB _ SMB-CNTG 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898601/T+i+li+u+c+t+t+ch+h+p+ESB+_+SMB-CNTG+1.0
+- **Tại liệu đặc tả Interest 1.2** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898625/T+i+li+u+c+t+Interest+1.2
+- **Tài liệu đặc tả GLCreateBatch 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898689/T+i+li+u+c+t+GLCreateBatch+1.0
+- **BIDV_SOA_ SID_Gateway_Card_v1.3** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898696/BIDV_SOA_+SID_Gateway_Card_v1.3
+- **Tài liệu đặc tả SoftOTP_API_Omni 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898749/T+i+li+u+c+t+SoftOTP_API_Omni+1.0
+- **3.29.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898762/3.29.1.+Input
+- **Tài liệu đặc tả Quickcard_BPM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898780/T+i+li+u+c+t+Quickcard_BPM+1.0
+- **3.22. QL Lãi suất** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898785/3.22.+QL+L+i+su+t
+- **Tài liệu đặc tả DomesticCard  1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898788/T+i+li+u+c+t+DomesticCard+1.x
+- **Tài liệu tích hợp ESBRestful - IBANK_QLLS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898800/T+i+li+u+t+ch+h+p+ESBRestful+-+IBANK_QLLS+1.0
+- **Tài liệu đặc tả Paygate_IbankSpringboot 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898807/T+i+li+u+c+t+Paygate_IbankSpringboot+2.0
+- **Tài liệu đặc tả tích hợp ESBRestful - Website_BPM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898812/T+i+li+u+c+t+t+ch+h+p+ESBRestful+-+Website_BPM+1.0
+- **3.23. QLDA** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898817/3.23.+QLDA
+- **1.32.DomesticCard** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898820/1.32.DomesticCard
+- **Tài liệu tích hợp ESBRestful - BPM_PPM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898828/T+i+li+u+t+ch+h+p+ESBRestful+-+BPM_PPM+1.0
+- **3.22.1. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898839/3.22.1.+Output
+- **3.22.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898848/3.22.1.+Input
+- **1.35.GatewayCard (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898851/1.35.GatewayCard+update
+- **Tài liệu đặc tả tích hợp ESBRestful - SmartCA 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898872/T+i+li+u+c+t+t+ch+h+p+ESBRestful+-+SmartCA+1.0
+- **1.16.4.LNAccount** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898877/1.16.4.LNAccount
+- **Tài liệu đặc tả ConsumerLoan 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898889/T+i+li+u+c+t+ConsumerLoan+1.x
+- **Tài liệu đặc tả tích hợp ESBRestful - SmartCA_VNPT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898907/T+i+li+u+c+t+t+ch+h+p+ESBRestful+-+SmartCA_VNPT+1.0
+- **3.22.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898977/3.22.2.+Output
+- **1.9.4. CIFUpdate** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898988/1.9.4.+CIFUpdate
+- **3.19.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9898997/3.19.2.+Output
+- **Tài liệu đặc tả ESB-BANGIAO-UAT-IBANK_QLLS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899032/T+i+li+u+c+t+ESB-BANGIAO-UAT-IBANK_QLLS+1.0
+- **Tài liệu đặc tả tích hợp hệ thống ESB RESTFUL OMNI-DKDVTT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899039/T+i+li+u+c+t+t+ch+h+p+h+th+ng+ESB+RESTFUL+OMNI-DKDVTT+1.0
+- **Tài liệu đặc tả CifCreation 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899062/T+i+li+u+c+t+CifCreation+1.0
+- **Tài liệu đặc tả CustomerInfo 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899067/T+i+li+u+c+t+CustomerInfo+1.x
+- **1.11.1.CustomerInfo** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899078/1.11.1.CustomerInfo
+- **3.18. Note** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899081/3.18.+Note
+- **3.21. Paygate** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899084/3.21.+Paygate
+- **Tài liệu đặc tả service_WebSite_iBank 1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899089/T+i+li+u+c+t+service_WebSite_iBank+1.1
+- **Tài liệu đặc tả LDAPManagement 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899094/T+i+li+u+c+t+LDAPManagement+1.0
+- **Tài liệu đặc tả service QuanLyLaisuat 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899099/T+i+li+u+c+t+service+QuanLyLaisuat+1.0
+- **Tài liệu đặc tả CustomerRegister 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899110/T+i+li+u+c+t+CustomerRegister+1.0
+- **ĐẶC TẢ TÍCH HỢP HỆ THỐNG ESB RESTFUL OTT-SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899115/C+T+T+CH+H+P+H+TH+NG+ESB+RESTFUL+OTT-SMB+1.0
+- **3.17.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899120/3.17.2.+Output
+- **Tài liệu đặc tả OTT SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899123/T+i+li+u+c+t+OTT+SMB+1.0
+- **3.17. GNTT&KTTT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899128/3.17.+GNTT+KTTT
+- **Tài liệu đặc tả InternationalCard 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899135/T+i+li+u+c+t+InternationalCard+1.0
+- **3.16. GNHDDT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899142/3.16.+GNHDDT
+- **Tài liệu đặc tả Paygate_IbankSpringboot 1.3** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899145/T+i+li+u+c+t+Paygate_IbankSpringboot+1.3
+- **3.21.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899152/3.21.1.+Input
+- **3.16.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899155/3.16.2.+Output
+- **1.22.1.Salary** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899174/1.22.1.Salary
+- **Tài liệu đặc tả GLCashWithdraw 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899181/T+i+li+u+c+t+GLCashWithdraw+1.0
+- **Tài liệu đặc tả Quickcard_BPM 1.0.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899200/T+i+li+u+c+t+Quickcard_BPM+1.0.0
+- **Tài liệu đặc tả SAALEM_CoreAPI_BIDV_SMB_AUTO 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899239/T+i+li+u+c+t+SAALEM_CoreAPI_BIDV_SMB_AUTO+1.0
+- **Tài liệu đặc tả Salary 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899250/T+i+li+u+c+t+Salary+1.x
+- **Tài liệu đặc tả TÍCH HỢP HỆ THỐNG CMS VNPAY – PREPAID CARD - OPEN API 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899255/T+i+li+u+c+t+T+CH+H+P+H+TH+NG+CMS+VNPAY+PREPAID+CARD+-+OPEN+API+1.0
+- **Tài liệu đặc tả Push_Notification_v1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899289/T+i+li+u+c+t+Push_Notification_v1.0
+- **3.38. Rlos** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899311/3.38.+Rlos
+- **3.37.2. Robotic** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899330/3.37.2.+Robotic
+- **Tài liệu đặc tả SAALEM_CoreAPI_BIDV_BIC 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899341/T+i+li+u+c+t+SAALEM_CoreAPI_BIDV_BIC+1.0
+- **1.24.4.GLTransfer (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899346/1.24.4.GLTransfer+update
+- **3.37.1. BIC** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899359/3.37.1.+BIC
+- **Tài liệu đặc tả EmployeeInfo 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899370/T+i+li+u+c+t+EmployeeInfo+1.0
+- **Tài liệu đặc tả OTT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899403/T+i+li+u+c+t+OTT+1.0
+- **1.21.1.CutOffTime** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899431/1.21.1.CutOffTime
+- **3.36. Quickcard_BPM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899434/3.36.+Quickcard_BPM
+- **1.21.3.BilateralReserved** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899447/1.21.3.BilateralReserved
+- **Tài liệu đặc tả CutOffTime1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899452/T+i+li+u+c+t+CutOffTime1.0
+- **1.39.OTT (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899459/1.39.OTT+update
+- **Tài liệu đặc tả QLNS_v1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899462/T+i+li+u+c+t+QLNS_v1.0
+- **4.2. Paygate** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899483/4.2.+Paygate
+- **4.3. CMS Prepaid** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899492/4.3.+CMS+Prepaid
+- **Tài liệu đặc tả SAALEM_CoreAPI_BIDV_Robotic 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899513/T+i+li+u+c+t+SAALEM_CoreAPI_BIDV_Robotic+1.0
+- **Tài liệu đặc tả GLCash 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899520/T+i+li+u+c+t+GLCash+1.0
+- **Ví dụ tích hợp RLOS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899542/V+d+t+ch+h+p+RLOS
+- **1.21.2.WorkingDate** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899572/1.21.2.WorkingDate
+- **Tài liệu đặc tả WorkingDate 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899581/T+i+li+u+c+t+WorkingDate+1.x
+- **ESB Restful Openshift** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899600/ESB+Restful+Openshift
+- **Tài liệu đặc tả BilateralReserved 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899607/T+i+li+u+c+t+BilateralReserved+1.0
+- **Tài liệu đặc tả Service tích hợp ESBRestful cho BPM- SWIFT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899633/T+i+li+u+c+t+Service+t+ch+h+p+ESBRestful+cho+BPM-+SWIFT+1.0
+- **Tài liệu đặc tả Service tích hợp cho BPM- SWIFT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899676/T+i+li+u+c+t+Service+t+ch+h+p+cho+BPM-+SWIFT+1.0
+- **Tài liệu đặc tả ESB-BANGIAO-UAT-SWED-IBANK2.0-CTQT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899697/T+i+li+u+c+t+ESB-BANGIAO-UAT-SWED-IBANK2.0-CTQT+1.0
+- **Tài liệu đặc tả ForeignExchangeRate 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899714/T+i+li+u+c+t+ForeignExchangeRate+1.0
+- **Tài liệu đặc tả tích hợp Api SWED trên ESBRestful 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899729/T+i+li+u+c+t+t+ch+h+p+Api+SWED+tr+n+ESBRestful+1.0
+- **Tài liệu đặc tả Odtier 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899750/T+i+li+u+c+t+Odtier+1.x
+- **Tài liệu đặc tả OTPManage 1.2_version cũ** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899769/T+i+li+u+c+t+OTPManage+1.2_version+c
+- **1.23.1.EmployeeInfo** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899776/1.23.1.EmployeeInfo
+- **3.35.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899779/3.35.1.+Input
+- **1.20.1.Manage** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899844/1.20.1.Manage
+- **1.40.Push_Notification (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899849/1.40.Push_Notification+update
+- **1.16.5.LNAppf** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899868/1.16.5.LNAppf
+- **Tài liệu đặc tả LNAccount 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899877/T+i+li+u+c+t+LNAccount+1.x
+- **Tài liệu tích hợp ESBRestful - SWE_IBANK 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899894/T+i+li+u+t+ch+h+p+ESBRestful+-+SWE_IBANK+1.0
+- **3.33.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899899/3.33.1.+Input
+- **3.33. SWIFT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899910/3.33.+SWIFT
+- **3.33. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899923/3.33.+Input
+- **Tài liệu SwiftEditor_Đặc tả API SMB, IBank 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899942/T+i+li+u+SwiftEditor_+c+t+API+SMB+IBank+1.0
+- **Tài liệu đặc tả api_sweeee 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899953/T+i+li+u+c+t+api_sweeee+1.0
+- **3.31. SWE - IBANK** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899962/3.31.+SWE+-+IBANK
+- **Tài liệu đặc tả MobileCustomerInfo 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899989/T+i+li+u+c+t+MobileCustomerInfo+1.0
+- **Tài liệu đặc tả LNAppf 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900004/T+i+li+u+c+t+LNAppf+1.0
+- **Tài liệu đặc tả tích hợp Api SWED trên ESBRestful SMB_SIT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900015/T+i+li+u+c+t+t+ch+h+p+Api+SWED+tr+n+ESBRestful+SMB_SIT+1.0
+- **3.33.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900020/3.33.2.+Output
+- **Tài liệu đặc tả api 1.0.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900029/T+i+li+u+c+t+api+1.0.0
+- **Tài liệu đặc tả OTPManage 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900038/T+i+li+u+c+t+OTPManage+1.0
+- **3.34. TaiLieuHuongDan** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900061/3.34.+TaiLieuHuongDan
+- **1.44.1.Customer** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900085/1.44.1.Customer
+- **Tài liệu đặc tả NostroReconcile 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900098/T+i+li+u+c+t+NostroReconcile+1.0
+- **Tài liệu đặc tả SyncTmtran 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900125/T+i+li+u+c+t+SyncTmtran+1.0
+- **1.42.STM (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900142/1.42.STM+update
+- **Tài liệu đặc tả FacilityList 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900202/T+i+li+u+c+t+FacilityList+1.0
+- **Tài liệu đặc tả Customer_v1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900251/T+i+li+u+c+t+Customer_v1.1
+- **1.29.3.FacilityList** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900294/1.29.3.FacilityList
+- **1.41.2.SmartOTP_GW** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900332/1.41.2.SmartOTP_GW
+- **1.4.31.BIDVAPP (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900351/1.4.31.BIDVAPP+update
+- **1.28.1.NostroReconcile** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900376/1.28.1.NostroReconcile
+- **1.41.SmartOTP (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900383/1.41.SmartOTP+update
+- **Tài liệu đặc taSmartOTP_GW 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900388/T+i+li+u+c+taSmartOTP_GW+2.0
+- **Tài liệu đặc tả SmartOTP_GW 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900399/T+i+li+u+c+t+SmartOTP_GW+1.0
+- **Tài liệu đặc tả SyncMobile_v1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900412/T+i+li+u+c+t+SyncMobile_v1.0
+- **1.28.4.SyncMobile (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900435/1.28.4.SyncMobile+update
+- **Tài liệu đặc tả EarmarkUtilisationUpdate 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900482/T+i+li+u+c+t+EarmarkUtilisationUpdate+1.0
+- **Tài liệu đặc tả Portal_1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900501/T+i+li+u+c+t+Portal_1.0
+- **Tài liệu đặc tả SmartOTP 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900538/T+i+li+u+c+t+SmartOTP+1.0
+- **Tài liệu đặc tả SessionKey_v1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900610/T+i+li+u+c+t+SessionKey_v1.0
+- **Tài liệu đặc tả GLTransfer_v1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900628/T+i+li+u+c+t+GLTransfer_v1.0
+- **1.41.1.SmartOTP** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900663/1.41.1.SmartOTP
+- **1.28.3.Portal.Portal (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900690/1.28.3.Portal.Portal+update
+- **Tài liệu đặc tả Utils_RMInfo 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900699/T+i+li+u+c+t+Utils_RMInfo+1.0
+- **1.25.1.SessionKey1.SessionKey** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900708/1.25.1.SessionKey1.SessionKey
+- **1.28.2.SyncTmtran_Treasury** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900794/1.28.2.SyncTmtran_Treasury
+- **Tài liệu đặc tả GLCash_v2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900831/T+i+li+u+c+t+GLCash_v2.0
+- **Tài liệu đặc tả SAALEM_CoreAPI_BIDV_Robotic 1.4** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900842/T+i+li+u+c+t+SAALEM_CoreAPI_BIDV_Robotic+1.4
+- **1.24.2.GLCash** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900859/1.24.2.GLCash
+- **Tài liệu đặc tả SAALEM_CoreAPI_BIDV_Robotic 1.2** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900870/T+i+li+u+c+t+SAALEM_CoreAPI_BIDV_Robotic+1.2
+- **1.23.2.QLNS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900895/1.23.2.QLNS
+- **Tài liệu đặc tả DomesticXfer 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900914/T+i+li+u+c+t+DomesticXfer+1.x
+- **1.24.1.DomesticXfer** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900923/1.24.1.DomesticXfer
+- **3.39. ACH** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900942/3.39.+ACH
+- **Tài liệu đặc tả STM_v1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900963/T+i+li+u+c+t+STM_v1.0
+- **1.24.3.GLCashWithdraw** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900968/1.24.3.GLCashWithdraw
+- **1.24.7.Utils_RMInfo** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900973/1.24.7.Utils_RMInfo
+- **Tài liệu đặc tả BIDVAPP_V1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900976/T+i+li+u+c+t+BIDVAPP_V1
+- **Tài liệu đặc tả api rlos 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9900987/T+i+li+u+c+t+api+rlos+1.0
+- **3.37.3. SMB_AUTO** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901024/3.37.3.+SMB_AUTO
+- **TIÊU CHUẨN KỸ THUẬT TRIỂN KHAI HỆ THỐNG ESBRESTFUL** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901807/TI+U+CHU+N+K+THU+T+TRI+N+KHAI+H+TH+NG+ESBRESTFUL
+- **3.19.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901814/3.19.1.+Input
+- **Tài liệu đặc tả MICROSERVICE DSB** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901824/T+i+li+u+c+t+MICROSERVICE+DSB
+- **Tài liệu đặc tả Input API Signing Server 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901829/T+i+li+u+c+t+Input+API+Signing+Server+2.0
+- **3.4. BPM-IDM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901845/3.4.+BPM-IDM
+- **3.3.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901848/3.3.2.+Output
+- **Tài liệu đặc tả API tìm ngân hàng tại SWE 1.2** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901855/T+i+li+u+c+t+API+t+m+ng+n+h+ng+t+i+SWE+1.2
+- **3.3.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901867/3.3.1.+Input
+- **3.41. MICROSERVICE DSB** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901872/3.41.+MICROSERVICE+DSB
+- **3.17.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901875/3.17.1.+Input
+- **Tài liệu đặc tả API tìm ngân hàng tại SWE 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901878/T+i+li+u+c+t+API+t+m+ng+n+h+ng+t+i+SWE+1.0
+- **2.3.Tai lieu dac ta ban tin BIDV -GW the_202108_6.1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901891/2.3.Tai+lieu+dac+ta+ban+tin+BIDV+-GW+the_202108_6.1.0
+- **Tài liệu đặc tả AGBK_SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901896/T+i+li+u+c+t+AGBK_SMB+1.0
+- **3.2. AGBK_SMB** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901901/3.2.+AGBK_SMB
+- **Tài liệu đặc tả tích hợp ESBRestful - BPM _ GNHDDT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901904/T+i+li+u+c+t+t+ch+h+p+ESBRestful+-+BPM+_+GNHDDT+1.0
+- **Tài liệu đặc tả WEBSERVICE BIDV-ACH 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901913/T+i+li+u+c+t+WEBSERVICE+BIDV-ACH+1.0
+- **3.40. SWE** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901918/3.40.+SWE
+- **Tài liệu đặc tả API tìm ngân hàng tại SWE 1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901923/T+i+li+u+c+t+API+t+m+ng+n+h+ng+t+i+SWE+1.1
+- **3.3. SIGNING SERVER** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901930/3.3.+SIGNING+SERVER
+- **Tài liệu đặc tả FDCreate 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901933/T+i+li+u+c+t+FDCreate+1.x
+- **3.20.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901940/3.20.2.+Output
+- **Tài liệu đặc tả ESB _ BPM - SIGNINGSERVER 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901950/T+i+li+u+c+t+ESB+_+BPM+-+SIGNINGSERVER+1.0
+- **Tài liệu tích hợp ESBRestful - BPM_IDM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901955/T+i+li+u+t+ch+h+p+ESBRestful+-+BPM_IDM
+- **3.5. BPM-MIS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901960/3.5.+BPM-MIS
+- **Tài liệu đặc tả WithdrawalCash 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901963/T+i+li+u+c+t+WithdrawalCash+1.0
+- **Tài liệu đặc tả OTT SMB 1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901968/T+i+li+u+c+t+OTT+SMB+1.1
+- **Tài liệu đặc tả API 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901975/T+i+li+u+c+t+API+1.0
+- **Tài liệu đặc tả API 1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901982/T+i+li+u+c+t+API+1.1
+- **AccHold 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901991/AccHold+1.0
+- **3.21.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901998/3.21.2.+Output
+- **3.4.2.Output Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902005/3.4.2.Output+Output
+- **Tài liệu đặc tả ESBRestful cho BPM- MIS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902016/T+i+li+u+c+t+ESBRestful+cho+BPM-+MIS+1.0
+- **Tài liệu đặc tả Input API Signing Server 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902033/T+i+li+u+c+t+Input+API+Signing+Server+1.0
+- **Tài liệu đặc tả tích hợp BPM - IDM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902041/T+i+li+u+c+t+t+ch+h+p+BPM+-+IDM
+- **Tài liệu đặc tả Customize 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902046/T+i+li+u+c+t+Customize+1.0
+- **3.19. OMNI-DKDVTT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902053/3.19.+OMNI-DKDVTT
+- **Tài liệu đặc tả AccHist 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902058/T+i+li+u+c+t+AccHist+1.0
+- **1.4.22 PPM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902070/1.4.22+PPM
+- **AccCreation 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902073/AccCreation+2.0
+- **Tài liệu đặc tả DKTT Partner Service_v2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902077/T+i+li+u+c+t+DKTT+Partner+Service_v2.0
+- **1.1.1.AccCreation** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902082/1.1.1.AccCreation
+- **AccHist 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902085/AccHist+1.0
+- **Tài liệu đặc tả PPM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902095/T+i+li+u+c+t+PPM+1.0
+- **Tài liệu đặc tả Tài liệu đặc tả VSII_ 1.0PTTK_HTDKTT 3.7** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902104/T+i+li+u+c+t+T+i+li+u+c+t+VSII_+1.0PTTK_HTDKTT+3.7
+- **3.7.3. Phát_hành_thẻ_qua_SmartBanking** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902109/3.7.3.+Ph+t_h+nh_th+_qua_SmartBanking
+- **3.8.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902114/3.8.1.+Input
+- **Tài liệu đặc tả ESB-BANGIAO-UAT-SoftOTP_SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902117/T+i+li+u+c+t+ESB-BANGIAO-UAT-SoftOTP_SMB+1.0
+- **1.1.3.AccHold** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902124/1.1.3.AccHold
+- **Tài liệu đặc tả PGS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902127/T+i+li+u+c+t+PGS+1.0
+- **1.1.4.AcctDetail** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902132/1.1.4.AcctDetail
+- **1.4.21 PGS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902144/1.4.21+PGS
+- **1.1.2.AccHist** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902147/1.1.2.AccHist
+- **Tài liệu đặc tả RLOS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902154/T+i+li+u+c+t+RLOS+1.0
+- **1.4.29 VA** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902161/1.4.29+VA
+- **1.4.25 RLOS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902166/1.4.25+RLOS
+- **Tài liệu đặc tả AccCreation 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902169/T+i+li+u+c+t+AccCreation+2.0
+- **Tài liệu đặc tả API_IBANK_SWE 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902175/T+i+li+u+c+t+API_IBANK_SWE+1.0
+- **AccCreation 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902180/AccCreation+1.0
+- **3.31.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902198/3.31.1.+Input
+- **1.1.Account** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902201/1.1.Account
+- **Tài liệu đặc tả QUICKCARD_SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902204/T+i+li+u+c+t+QUICKCARD_SMB+1.0
+- **1.4.24 QUICKCARD_SMB** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902211/1.4.24+QUICKCARD_SMB
+- **1.4.7.DKTT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902214/1.4.7.DKTT
+- **Tài liệu đặc tả ESBRESTFUL EPIN-CMS PREPAID** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902217/T+i+li+u+c+t+ESBRESTFUL+EPIN-CMS+PREPAID
+- **1.5.Backends (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902226/1.5.Backends+update
+- **Tài liệu đặc tả IBFT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902241/T+i+li+u+c+t+IBFT+1.0
+- **1.4.19 NICEACC** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902246/1.4.19+NICEACC
+- **1.4.10.EMAIL** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902249/1.4.10.EMAIL
+- **3.7. DKTT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902258/3.7.+DKTT
+- **Tài liệu đặc tả PCS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902263/T+i+li+u+c+t+PCS+1.0
+- **3.26.1.Input Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902268/3.26.1.Input+Input
+- **1.7.Card** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902271/1.7.Card
+- **1.4.16 H2H** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902274/1.4.16+H2H
+- **Tài liệu đặc tả BIDV_SOA_ SID_Apps_DKTT_v1_OMNI 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902277/T+i+li+u+c+t+BIDV_SOA_+SID_Apps_DKTT_v1_OMNI+1.0
+- **Tài liệu đặc tả ESB _ SMB-CMS_VNPAY-PREPAID_CARD 2.2.3** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902282/T+i+li+u+c+t+ESB+_+SMB-CMS_VNPAY-PREPAID_CARD+2.2.3
+- **AccHist 1.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902287/AccHist+1.1
+- **Tài liệu đặc tả ERPAccounting 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902301/T+i+li+u+c+t+ERPAccounting+1.0
+- **1.3.1.QLNS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902306/1.3.1.QLNS
+- **1.4.11.EPIN** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902315/1.4.11.EPIN
+- **Tài liệu đặc tả ESB _ SMB-DKTT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902318/T+i+li+u+c+t+ESB+_+SMB-DKTT
+- **3.26.2.Output Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902325/3.26.2.Output+Output
+- **Tài liệu đặc tả ESB _ SMB-CMS_VNPAY-PREPAID_CARD 2.2.4** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902337/T+i+li+u+c+t+ESB+_+SMB-CMS_VNPAY-PREPAID_CARD+2.2.4
+- **1.4.6.CARDGW** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902348/1.4.6.CARDGW
+- **3.27. SMB-EPIN** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902355/3.27.+SMB-EPIN
+- **1.1.14.GLAcctBidirect** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902360/1.1.14.GLAcctBidirect
+- **Tài liệu đặc tả QLUDTT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902363/T+i+li+u+c+t+QLUDTT+1.0
+- **3.8. DKTT-SMB** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902370/3.8.+DKTT-SMB
+- **1.4.20 PCS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902379/1.4.20+PCS
+- **1.4.23 QLUDTT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902382/1.4.23+QLUDTT
+- **3.28. SMB-RLOS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902385/3.28.+SMB-RLOS
+- **1.4.2.ATMCN** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902388/1.4.2.ATMCN
+- **3.7.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902391/3.7.2.+Output
+- **1.1.9.CAClose** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902394/1.1.9.CAClose
+- **1.1.10.CACreation** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902397/1.1.10.CACreation
+- **1.2.1.IBAN** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902410/1.2.1.IBAN
+- **3.8.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902413/3.8.2.+Output
+- **Tài liệu đặc tả ESB _ SMB-CMS_VNPAY-PREPAID_CARD 2.2.5** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902422/T+i+li+u+c+t+ESB+_+SMB-CMS_VNPAY-PREPAID_CARD+2.2.5
+- **1.4.18 MMS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902429/1.4.18+MMS
+- **ĐẶC TẢ TÍCH HỢP HỆ THỐNG ESB RESTFUL EPIN-SMB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902434/C+T+T+CH+H+P+H+TH+NG+ESB+RESTFUL+EPIN-SMB+1.0
+- **1.1.12.Customize** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902441/1.1.12.Customize
+- **1.1.7.AFTMaintenance** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902448/1.1.7.AFTMaintenance
+- **1.1.5.AcctList** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902455/1.1.5.AcctList
+- **Tài liệu đặc tả NICEACC 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902462/T+i+li+u+c+t+NICEACC+1.x
+- **Tài liệu đặc tả Chinh sua service phat hanh the online - DKDVTT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902467/T+i+li+u+c+t+Chinh+sua+service+phat+hanh+the+online+-+DKDVTT+1.0
+- **Tài liệu đặc tả SpecDKTTDuKien** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902472/T+i+li+u+c+t+SpecDKTTDuKien
+- **Tài liệu đặc tả ESB _ SMB-EPIN 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902479/T+i+li+u+c+t+ESB+_+SMB-EPIN+1.0
+- **1.1.16.WithdrawalCash** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902488/1.1.16.WithdrawalCash
+- **Tài liệu đặc tả MMS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902498/T+i+li+u+c+t+MMS+1.0
+- **Tài liệu đặc tả KichBanThuNghiem 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902507/T+i+li+u+c+t+KichBanThuNghiem+1.0
+- **1.4.15 ERPAccounting** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902512/1.4.15+ERPAccounting
+- **4.2.WebConsent** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902515/4.2.WebConsent
+- **3.28.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902521/3.28.2.+Output
+- **Tài liệu đặc tả ESB _ SMB-CMS_VNPAY-PREPAID_CARD 2.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902533/T+i+li+u+c+t+ESB+_+SMB-CMS_VNPAY-PREPAID_CARD+2.1
+- **Tài liệu đặc tả ESB _ SMB-CMS_VNPAY-PREPAID_CARD 2.2.1** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902540/T+i+li+u+c+t+ESB+_+SMB-CMS_VNPAY-PREPAID_CARD+2.2.1
+- **Tài liệu mô tả mô hình OAuth** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902545/T+i+li+u+m+t+m+h+nh+OAuth
+- **Tài liệu đặc tả DKTT 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902559/T+i+li+u+c+t+DKTT+1.0
+- **3.25.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902572/3.25.1.+Input
+- **3.24.2. Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902579/3.24.2.+Output
+- **1.27.SWE (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902582/1.27.SWE+update
+- **Tài liệu đặc tả ESB _ CMS PREPAID - GetListCard** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902593/T+i+li+u+c+t+ESB+_+CMS+PREPAID+-+GetListCard
+- **Tài liệu đặc tả service interface AgentBank 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902598/T+i+li+u+c+t+service+interface+AgentBank+1.0
+- **1.4.13 CSDLDC** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902607/1.4.13+CSDLDC
+- **1.4.8.DSPB** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902615/1.4.8.DSPB
+- **1.1.13.FDCreation** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902630/1.1.13.FDCreation
+- **Tài liệu đặc tả ESB _ SMB-CMS_VNPAY-PREPAID_CARD 2.2.2** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902635/T+i+li+u+c+t+ESB+_+SMB-CMS_VNPAY-PREPAID_CARD+2.2.2
+- **1.4.17 IBFT** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902646/1.4.17+IBFT
+- **1.4.5.BSMS** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902651/1.4.5.BSMS
+- **3.7.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902654/3.7.1.+Input
+- **1.1.15.Withdrawal** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902659/1.1.15.Withdrawal
+- **1.4.4.BIDVHOME** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902662/1.4.4.BIDVHOME
+- **1.4.14 ERP** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902665/1.4.14+ERP
+- **Tài liệu đặc tả AFTMaintenance 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902676/T+i+li+u+c+t+AFTMaintenance+1.0
+- **Tài liệu đặc tả EPIN 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902681/T+i+li+u+c+t+EPIN+1.x
+- **Tài liệu đặc tả ERP 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902690/T+i+li+u+c+t+ERP+1.0
+- **Tài liệu đặc tả H2H 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902699/T+i+li+u+c+t+H2H+1.0
+- **1.1.11.CAMaintenance** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902708/1.1.11.CAMaintenance
+- **Tài liệu đặc tả DSPB 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902711/T+i+li+u+c+t+DSPB+1.0
+- **1.13.GL** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902725/1.13.GL
+- **1.17.Lottery (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902748/1.17.Lottery+update
+- **3.6.1. EEpin** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902751/3.6.1.+EEpin
+- **1.3.2 Handle** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902756/1.3.2+Handle
+- **Tài liệu đặc tả ESBRESTFUL Paygate-Ibank 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902759/T+i+li+u+c+t+ESBRESTFUL+Paygate-Ibank+1.0
+- **Tài liệu đặc tả Qickcard_BPM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902764/T+i+li+u+c+t+Qickcard_BPM+1.0
+- **Tài liệu đặc tả tích hợp ERESTFUL CMS-VNPAY PREPAID CARD-EPIN** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902769/T+i+li+u+c+t+t+ch+h+p+ERESTFUL+CMS-VNPAY+PREPAID+CARD-EPIN
+- **Tài liệu đặc tả Handle 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902774/T+i+li+u+c+t+Handle+1.0
+- **Tài liệu đặc tả Withdrawal 3.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902779/T+i+li+u+c+t+Withdrawal+3.0
+- **1.16.Loan** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902784/1.16.Loan
+- **3.5.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902793/3.5.1.+Input
+- **1.15.LDAPManagement (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902796/1.15.LDAPManagement+update
+- **Tài liệu đặc tả InternalFundXfer V2.0 (ngoại tệ)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902805/T+i+li+u+c+t+InternalFundXfer+V2.0+ngo+i+t
+- **Tài liệu đặc tả OTT_VNPAY 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902810/T+i+li+u+c+t+OTT_VNPAY+1.0
+- **Tài Liệu đặc tả InternalFundXfer V1.x (VNĐ)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902825/T+i+Li+u+c+t+InternalFundXfer+V1.x+VN
+- **3.24. QUICKLOAN** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902834/3.24.+QUICKLOAN
+- **3.4.1. Inputnput** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902839/3.4.1.+Inputnput
+- **Tài liệu đặc tả Withdrawal 1.x** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902842/T+i+li+u+c+t+Withdrawal+1.x
+- **1.24.Remittance** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902847/1.24.Remittance
+- **3.5.2.Output Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902856/3.5.2.Output+Output
+- **3.20. OTT_SMB** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902863/3.20.+OTT_SMB
+- **1.19.Notification (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902868/1.19.Notification+update
+- **1.25.Securities (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902873/1.25.Securities+update
+- **3.6.2. InputInput** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902880/3.6.2.+InputInput
+- **3.24.1. Input** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902883/3.24.1.+Input
+- **Tài liệu đặc tả CSDLDC 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902888/T+i+li+u+c+t+CSDLDC+1.0
+- **1.28.Synchronization** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902895/1.28.Synchronization
+- **3.26. SMB - CNTG** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902904/3.26.+SMB+-+CNTG
+- **Tài liệu đặc tả ESB Quickcard_BPM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902911/T+i+li+u+c+t+ESB+Quickcard_BPM+1.0
+- **Tài liệu đặc tả CROM 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902920/T+i+li+u+c+t+CROM+1.0
+- **1.4.12 CROM** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902933/1.4.12+CROM
+- **1.26.Stocks (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902936/1.26.Stocks+update
+- **Tài liệu đặc tả Input CMS_PREPAID 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902941/T+i+li+u+c+t+Input+CMS_PREPAID+1.0
+- **1.14.InterestRate** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902946/1.14.InterestRate
+- **Thong tin khoi tạo cap Key Credential** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902967/Thong+tin+khoi+t+o+cap+Key+Credential
+- **Tài liệu đặc tả QuanLyLaisuat 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902977/T+i+li+u+c+t+QuanLyLaisuat+1.0
+- **3.6.3.Output Output** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902990/3.6.3.Output+Output
+- **1.29.TF** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902995/1.29.TF
+- **Tài liệu đặc tả BSMS 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902998/T+i+li+u+c+t+BSMS+1.0
+- **4.1.Tài liệu đào tạo** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9903003/4.1.T+i+li+u+o+t+o
+- **1.20.OTP (update)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9903009/1.20.OTP+update
+- **Tài liệu đặc tả ATMCN 1.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9903012/T+i+li+u+c+t+ATMCN+1.0
+- **Tài liệu đặc tả tích hợp ESB - CMS_PinOffset** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9903017/T+i+li+u+c+t+t+ch+h+p+ESB+-+CMS_PinOffset
+- **3.6. CMS_PREPAID CARD** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9903022/3.6.+CMS_PREPAID+CARD
+- **Tài liệu đặc tả bản tin BIDV-GW The ver7.3.0** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/101777431/T+i+li+u+c+t+b+n+tin+BIDV-GW+The+ver7.3.0
+- **PTTK** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/102334811/PTTK
+- **Mo hinh xac thuc tich hop Chatbot** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/172064868/Mo+hinh+xac+thuc+tich+hop+Chatbot
+- **Thông tin môi trường LTT (phục vụ ghi log và tra log)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/191856950/Th+ng+tin+m+i+tr+ng+LTT+ph+c+v+ghi+log+v+tra+log
+- **(v2.0) Hệ thống Log tập trung ELK** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/191889699/v2.0+H+th+ng+Log+t+p+trung+ELK
+- **3. HDSD khai thác LTT sử dụng Kibana và Elasticsearch API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/192119029/3.+HDSD+khai+th+c+LTT+s+d+ng+Kibana+v+Elasticsearch+API
+- **06. DATAHUB API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149353/06.+DATAHUB+API
+- **Bảng mã lỗi Datahub** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149367/B+ng+m+l+i+Datahub
+- **Tài liệu đặc tả nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149381/T+i+li+u+c+t+nghi+p+v
+- **API lấy danh sách chi nhánh** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149395/API+l+y+danh+s+ch+chi+nh+nh
+- **API vấn tin tên khách hàng theo CIF** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149411/API+v+n+tin+t+n+kh+ch+h+ng+theo+CIF
+- **Tài liệu đặc tả kỹ thuật realtime API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149427/T+i+li+u+c+t+k+thu+t+realtime+API
+- **CATEGORY001: API lấy danh sách chi nhánh** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149441/CATEGORY001+API+l+y+danh+s+ch+chi+nh+nh
+- **CIF006: Lấy thông tin bảo lãnh từ DOKA của cif** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149472/CIF006+L+y+th+ng+tin+b+o+l+nh+t+DOKA+c+a+cif
+- **CIF002: Sercice vấn tin giới hạn tín dụng của CIF** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149501/CIF002+Sercice+v+n+tin+gi+i+h+n+t+n+d+ng+c+a+CIF
+- **Các bước golive GHTD Rlos All API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149530/C+c+b+c+golive+GHTD+Rlos+All+API
+- **CIF005: Tính giới hạn tín dụng thẻ của CIF** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149573/CIF005+T+nh+gi+i+h+n+t+n+d+ng+th+c+a+CIF
+- **CIF004: Tính giới hạn tín dụng phần DOKA của CIF** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149602/CIF004+T+nh+gi+i+h+n+t+n+d+ng+ph+n+DOKA+c+a+CIF
+- **CIF000 Vấn tin tên khách hàng theo CIF (1 CIF)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149631/CIF000+V+n+tin+t+n+kh+ch+h+ng+theo+CIF+1+CIF
+- **DATAHUB External Connector API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149671/DATAHUB+External+Connector+API

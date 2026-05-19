@@ -1,0 +1,43 @@
+{
+  "synced_at": "2026-05-19T04:05:07.458536+00:00",
+  "total_spaces": 6,
+  "total_pages": 1595,
+  "spaces": [
+    {
+      "name": "2024.KH001_Ibank 2.0",
+      "key": "KH0012024",
+      "dir": "confluence_2024kh001_ibank_20",
+      "pages_index": "confluence_2024kh001_ibank_20/artifacts/pages_index.md"
+    },
+    {
+      "name": "2026.KH076 Xây dựng các ứng dụng trên không gian AI Space",
+      "key": "KH0762026",
+      "dir": "confluence_2026kh076_xây_dựng_các_ứng_dụng_trên_không_gian_ai_space",
+      "pages_index": "confluence_2026kh076_xây_dựng_các_ứng_dụng_trên_không_gian_ai_space/artifacts/pages_index.md"
+    },
+    {
+      "name": "iBank 2 - BIDV-Đối tác",
+      "key": "IBANK2",
+      "dir": "confluence_ibank_2_-_bidv-đối_tác",
+      "pages_index": "confluence_ibank_2_-_bidv-đối_tác/artifacts/pages_index.md"
+    },
+    {
+      "name": "NHÓM KIẾN TRUC VÀ UIUX",
+      "key": "NKTUIUX",
+      "dir": "confluence_nhóm_kiến_truc_và_uiux",
+      "pages_index": "confluence_nhóm_kiến_truc_và_uiux/artifacts/pages_index.md"
+    },
+    {
+      "name": "Sample Space",
+      "key": "SS",
+      "dir": "confluence_sample_space",
+      "pages_index": "confluence_sample_space/artifacts/pages_index.md"
+    },
+    {
+      "name": "Wiki API",
+      "key": "WIKI",
+      "dir": "confluence_wiki_api",
+      "pages_index": "confluence_wiki_api/artifacts/pages_index.md"
+    }
+  ]
+}

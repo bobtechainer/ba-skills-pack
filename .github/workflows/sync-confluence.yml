@@ -1,0 +1,55 @@
+name: Sync Confluence Documentation
+
+on:
+  schedule:
+    # Chạy mỗi ngày lúc 1:00 UTC (8:00 sáng VN)
+    - cron: "0 1 * * *"
+  workflow_dispatch: # Cho phép chạy thủ công từ GitHub UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Create config from secrets
+        run: |
+          cat > tools/confluence_sync/config.json << EOF
+          {
+            "confluence_url": "${{ secrets.CONFLUENCE_URL }}",
+            "email": "${{ secrets.CONFLUENCE_EMAIL }}",
+            "api_token": "${{ secrets.CONFLUENCE_API_TOKEN }}",
+            "spaces": [],
+            "ki_output_dir": "tools/confluence_sync/data",
+            "max_pages_per_space": 500
+          }
+          EOF
+
+      - name: Run sync
+        run: python tools/confluence_sync/sync_confluence.py
+
+      - name: Cleanup config (don't commit secrets)
+        run: rm -f tools/confluence_sync/config.json
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tools/confluence_sync/data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: auto-sync Confluence documentation [$(date -u +%Y-%m-%d)]"
+            git push
+          fi

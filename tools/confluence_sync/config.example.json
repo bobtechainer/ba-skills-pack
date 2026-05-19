@@ -1,0 +1,8 @@
+{
+  "confluence_url": "https://YOUR-DOMAIN.atlassian.net",
+  "email": "your-email@company.com",
+  "api_token": "YOUR_API_TOKEN_HERE",
+  "spaces": [],
+  "ki_output_dir": "",
+  "max_pages_per_space": 500
+}

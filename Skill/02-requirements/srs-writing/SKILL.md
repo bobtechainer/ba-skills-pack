@@ -34,6 +34,7 @@ This skill is a **pipeline orchestrator**. It calls other skills in a fixed sequ
 | [banking_field_rules.md](references/writing_rules/banking_field_rules.md) | Format số tiền, Grid tabs, File upload, Enable/Disable, Validate |
 | [annotation_rules.md](references/writing_rules/annotation_rules.md)       | Tags, Comment registry, Convention detection, Verification       |
 | [readability_rules.md](references/writing_rules/readability_rules.md)     | `<br>` insertion, "Đọc To" test, Image paths                     |
+| [confluence-ref.md](references/confluence-ref.md)                         | Auto-resolve `[CROSS-REF]` → Confluence links via KI pages_index |
 
 ### Imported from document-suite (`Skill/00-global-skills/document-suite/`)
 
@@ -255,6 +256,15 @@ Save plan to `temp/implementation_plan.md`. Plan MUST contain:
 3. Read [annotation_rules.md](references/writing_rules/annotation_rules.md) → apply tags if editing
 4. Read [readability_rules.md](references/writing_rules/readability_rules.md) → apply readability pass after each file
 5. Read [anti_slop.md](../00-global-skills/document-suite/writing_rules/anti_slop.md) → remove banned phrases
+6. Read [confluence-ref.md](references/confluence-ref.md) → resolve `[CROSS-REF]` tags → Confluence links
+
+### Confluence Reference Resolution — AUTO
+
+> [!IMPORTANT]
+> Mỗi khi viết `[CROSS-REF: ...]`, LẬP TỨC tìm trong Knowledge Items `confluence_*` → `artifacts/pages_index.md`.
+> Nếu tìm thấy trang phù hợp → thay thế bằng markdown link `(xem [Tên trang](URL))`.
+> Nếu KHÔNG tìm thấy → giữ nguyên tag `[CROSS-REF: ...]` để user bổ sung.
+> Chi tiết: xem [confluence-ref.md](references/confluence-ref.md).
 
 ### Template Enforcement — CRITICAL
 
@@ -538,13 +548,14 @@ When pipeline says "invoke skill X" → OPEN SKILL.md → READ → FOLLOW. **Eac
 
 ## References
 
-| Document                                                                     | Content                            |
-| ---------------------------------------------------------------------------- | ---------------------------------- |
-| [Template Index](references/templates/README.md)                             | All available templates            |
-| [Nguyên tắc chung](references/nguyen-tac-chung.md)                           | Banking business rules             |
-| [Cross-Ref Check](references/cross-ref-check.md)                             | Find related sections when editing |
-| [Diff Strategies](references/diff-strategies.md)                             | Comparison strategies per trigger  |
-| [Quality Samples](references/examples/ibank2-screen-spec-quality-samples.md) | 5 quality patterns to cross-check  |
+| Document                                                                     | Content                                   |
+| ---------------------------------------------------------------------------- | ----------------------------------------- |
+| [Template Index](references/templates/README.md)                             | All available templates                   |
+| [Nguyên tắc chung](references/nguyen-tac-chung.md)                           | Banking business rules                    |
+| [Cross-Ref Check](references/cross-ref-check.md)                             | Find related sections when editing        |
+| [Confluence Ref](references/confluence-ref.md)                               | Auto-resolve CROSS-REF → Confluence links |
+| [Diff Strategies](references/diff-strategies.md)                             | Comparison strategies per trigger         |
+| [Quality Samples](references/examples/ibank2-screen-spec-quality-samples.md) | 5 quality patterns to cross-check         |
 
 ---
 
