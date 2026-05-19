@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -27,7 +27,7 @@ jobs:
 
       - name: Create config from secrets
         run: |
-          cat > tools/confluence_sync/config.json << EOF
+          cat > tools/confluence_sync/config.json << 'EOF'
           {
             "confluence_url": "${{ secrets.CONFLUENCE_URL }}",
             "email": "${{ secrets.CONFLUENCE_EMAIL }}",
@@ -53,6 +53,10 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: auto-sync Confluence documentation [$(date -u +%Y-%m-%d)]"
-            git pull --rebase origin main
-            git push
+            # Pull latest then push (retry up to 3 times for race conditions)
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Retry $i..."
+              sleep 5
+            done
           fi
