@@ -12,6 +12,7 @@ Kết quả: tạo thư mục KI trong ~/.gemini/antigravity/knowledge/confluenc
 """
 
 import json
+import io
 import os
 import sys
 import re
@@ -20,9 +21,12 @@ from pathlib import Path
 from datetime import datetime, timezone
 from urllib.parse import quote
 
-# Fix Windows Unicode encoding
-sys.stdout.reconfigure(encoding='utf-8')
-sys.stderr.reconfigure(encoding='utf-8')
+# Fix Windows Unicode encoding (safe for Linux CI)
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+except (AttributeError, io.UnsupportedOperation):
+    pass
 
 
 # --- Auto-install requests if missing ---
