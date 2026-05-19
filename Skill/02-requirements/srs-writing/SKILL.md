@@ -309,7 +309,8 @@ Save plan to `temp/implementation_plan.md`. Plan MUST contain:
 - Các element dynamic (`class="placeholder"`) → thay bằng nội dung thực
 - Nếu có nhiều rows (field table, API table) → duplicate `<tr>` cho mỗi row
 - Nếu có mockup → embed `<img src="absolute-path">`
-- Nếu có `[MANUAL]` hoặc `[CROSS-REF]` → hiện dạng highlighted text trong HTML
+- Nếu có `[MANUAL]` → hiện dạng highlighted text trong HTML (`<span class="tag-manual">...</span>`)
+- **ĐẶC BIỆT CHÚ Ý LINK CROSS-REF:** Nếu nội dung .md có link markdown (do Step 3 đã resolve, dạng `[Text](https://...)`), BẮT BUỘC phải convert thành thẻ HTML `<a href="https://..." target="_blank" class="tag-crossref">Text</a>`. Tuyệt đối KHÔNG render text thuần dạng `[Text](URL)` ra màn hình HTML.
 
 ### Post-fill check
 
