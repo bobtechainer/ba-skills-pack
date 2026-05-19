@@ -121,11 +121,11 @@ temp/
 ## Pipeline — MANDATORY SEQUENCE
 
 ```
-STEP 0 → STEP 1 → STEP 1.5 → STEP 2 → STEP 3 → STEP 3.5 → STEP 4 → STEP 4.5 → STEP 5
-  │         │         │          │         │          │           │          │          │
-GATE 0   GATE 1    GATE 1.5   GATE 2    GATE 3    GATE 3.5    GATE 4    GATE 4.5    DONE
-(input   (checklist (deep-read (plan     (gen .md  (gen HTML   (verify   (user OK    (export
-convert) complete)  brainstorm) approved) done)    preview)    pass)    + confirm)   .docx)
+STEP 0 → STEP 1 → STEP 1.5 → STEP 2 → STEP 3 → STEP 3.25 → STEP 3.5 → STEP 4 → STEP 4.5 → STEP 5
+  │         │         │          │         │          │            │           │          │          │
+GATE 0   GATE 1    GATE 1.5   GATE 2    GATE 3    GATE 3.25     GATE 3.5    GATE 4    GATE 4.5    DONE
+(input   (checklist (deep-read (plan     (gen .md  (CROSS-REF    (gen HTML   (verify   (user OK    (export
+convert) complete)  brainstorm) approved) done)    resolved)⭐   preview)    pass)    + confirm)   .docx)
 ```
 
 **NEVER skip a step. NEVER combine steps. NEVER reorder steps.**
@@ -258,15 +258,10 @@ Save plan to `temp/implementation_plan.md`. Plan MUST contain:
 3. Read [annotation_rules.md](references/writing_rules/annotation_rules.md) → apply tags if editing
 4. Read [readability_rules.md](references/writing_rules/readability_rules.md) → apply readability pass after each file
 5. Read [anti_slop.md](../00-global-skills/document-suite/writing_rules/anti_slop.md) → remove banned phrases
-6. Read [confluence-ref.md](references/confluence-ref.md) → resolve `[CROSS-REF]` tags → Confluence links
+6. (**Chuẩn bị cho Step 3.25**) Gắn tag `[CROSS-REF: ...]` theo [annotation_rules.md](references/writing_rules/annotation_rules.md) — Step 3.25 sẽ resolve thành link
 
-### Confluence Reference Resolution — HARD GATE ⭐
-
-> [!CAUTION]
-> **BẮT BUỘC.** Mỗi `[CROSS-REF]` PHẢI được tra cứu trong `pages_index.md` TRƯỚC khi sang Step 3.5.
-> Nếu output .md có `[CROSS-REF]` mà KHÔNG kèm link `https://` → bạn CHƯA HOÀN THÀNH Step 3.
-> Đọc [confluence-ref.md](references/confluence-ref.md) → làm theo TỪNG BƯỚC → báo cáo kết quả.
-> **KHÔNG ĐƯỢC nói "sẽ gắn link sau" hoặc "user tự bổ sung". Gắn NGAY.**
+> [!NOTE]
+> `[CROSS-REF]` tags sẽ được resolve ở **Step 3.25** (bước riêng). Ở Step 3 chỉ cần gắn tag đúng format.
 
 ### Template Enforcement — CRITICAL
 
@@ -283,11 +278,76 @@ Save plan to `temp/implementation_plan.md`. Plan MUST contain:
 
 ### After generating — REPORT all files with FULL ABSOLUTE PATH.
 
-**GATE 3:** All .md files generated + readability pass done + **Confluence CROSS-REF resolved (xem báo cáo)**.
+**GATE 3:** All .md files generated + readability pass done.
 
 ---
 
-## STEP 3.5: Generate HTML Preview — HARD GATE ⭐ MỚI
+## STEP 3.25: Resolve Confluence CROSS-REF — HARD GATE ⭐ MỚI
+
+> [!CAUTION]
+> **BẮT BUỘC. KHÔNG ĐƯỢC BỎ QUA. KHÔNG ĐƯỢC GỘP VÀO STEP KHÁC.**
+> Mỗi `[CROSS-REF]` trong output .md PHẢI được tra cứu trong Confluence data.
+> Nếu bạn chuyển sang Step 3.5 mà còn `[CROSS-REF]` chưa resolve → VIOLATION.
+
+### Quy trình — THỰC HIỆN TỪNG BƯỚC, KHÔNG ĐƯỢC BỎ BƯỚC NÀO
+
+#### 1. Load danh sách Confluence spaces
+
+**Chạy lệnh sau (chọn 1 trong 3 cách):**
+
+```python
+# Cách 1 — Local repo (ưu tiên)
+view_file("c:/Working/Techainer/BA Skills/tools/confluence_sync/data/manifest.json")
+
+# Cách 2 — GitHub URL
+read_url_content("https://raw.githubusercontent.com/bobtechainer/ba-skills-pack/main/tools/confluence_sync/data/manifest.json")
+
+# Cách 3 — Knowledge Items
+find_by_name(SearchDirectory="~/.gemini/antigravity/knowledge", Pattern="confluence_*")
+```
+
+**Nếu CẢ 3 cách đều không có data → HỎI USER:** "Chưa có dữ liệu Confluence. Bạn muốn chạy `python tools/confluence_sync/sync_confluence.py` không?"
+
+#### 2. Đọc pages_index.md của space chính
+
+Từ manifest.json, chọn space phù hợp (VD: `confluence_2024kh001_ibank_20` cho dự án iBank2).
+
+```python
+# Đọc bảng tra cứu
+view_file("c:/Working/Techainer/BA Skills/tools/confluence_sync/data/<space_dir>/artifacts/pages_index.md")
+```
+
+#### 3. Quét TẤT CẢ file .md đã generate → tìm `[CROSS-REF]`
+
+```python
+grep_search(SearchPath="<temp_dir>", Query="CROSS-REF")
+```
+
+#### 4. Với MỖI kết quả → tìm trong pages_index.md → thay thế
+
+| Tag trong .md                 | Keyword tìm            | Thay bằng                        |
+| ----------------------------- | ---------------------- | -------------------------------- |
+| `[CROSS-REF: GĐ 3]`           | "GĐ 3", "cấp 3", "RSD" | `(xem [RSD cấp 3_Payment](URL))` |
+| `[CROSS-REF: SRS GĐ 3]`       | "SRS", "GĐ 3"          | `(xem [SRS Giải ngân GĐ3](URL))` |
+| `[CROSS-REF: PTTK module FX]` | "FX", "tỷ giá"         | `(xem [PTTK FX](URL))`           |
+
+**Tìm thấy:** Thay `[CROSS-REF: ...]` bằng `(xem [Tên trang](https://bidv-vn.atlassian.net/wiki/...))`
+**Không tìm thấy:** Sửa thành `[CROSS-REF: ... — chưa tìm thấy trên Confluence]`
+
+#### 5. BÁO CÁO (BẮT BUỘC — phải hiển thị cho user)
+
+```
+📊 Confluence Reference Resolution: X/Y resolved
+✅ [CROSS-REF: GĐ 3] → RSD cấp 3_Payment_MVP (link)
+✅ [CROSS-REF: PTTK FX] → PTTK Foreign Exchange (link)
+❌ [CROSS-REF: mục 5 URD] → Chưa tìm thấy
+```
+
+**GATE 3.25:** Báo cáo đã hiển thị + mỗi CROSS-REF đều có link HOẶC ghi chú "chưa tìm thấy".
+
+---
+
+## STEP 3.5: Generate HTML Preview — HARD GATE ⭐
 
 > [!CAUTION]
 > **BẮT BUỘC.** Sau khi generate .md, PHẢI tạo HTML preview cho user review.
@@ -309,8 +369,7 @@ Save plan to `temp/implementation_plan.md`. Plan MUST contain:
 - Các element dynamic (`class="placeholder"`) → thay bằng nội dung thực
 - Nếu có nhiều rows (field table, API table) → duplicate `<tr>` cho mỗi row
 - Nếu có mockup → embed `<img src="absolute-path">`
-- Nếu có `[MANUAL]` → hiện dạng highlighted text trong HTML (`<span class="tag-manual">...</span>`)
-- **ĐẶC BIỆT CHÚ Ý LINK CROSS-REF:** Nếu nội dung .md có link markdown (do Step 3 đã resolve, dạng `[Text](https://...)`), BẮT BUỘC phải convert thành thẻ HTML `<a href="https://..." target="_blank" class="tag-crossref">Text</a>`. Tuyệt đối KHÔNG render text thuần dạng `[Text](URL)` ra màn hình HTML.
+- Nếu có `[MANUAL]` hoặc `[CROSS-REF]` → hiện dạng highlighted text trong HTML
 
 ### Post-fill check
 
