@@ -3,7 +3,7 @@
 **Space Key:** `IBANK2`
 **URL:** [iBank 2 - BIDV-Đối tác](https://bidv-vn.atlassian.net/wiki/spaces/IBANK2)
 **Tổng số trang:** 500
-**Mô tả:** iBank 2 - BIDV-Đối tác
+**Mô tả:** iBank 2 - BIDV-Đối tác
 Các đối tác bên ngoài BIDV tham gia dự án
 
 ## Các chủ đề chính
