@@ -75,16 +75,20 @@ If you catch yourself doing ANY of these, **STOP. Go back to the step you skippe
 ## Mandatory Folder Structure
 
 > [!CAUTION]
-> **ALL files MUST be saved under this root:**
+> **ALL files MUST be saved under the user's currently opened workspace/project folder by default.**
+>
+> Determine `WORKSPACE_ROOT` from the current working directory / IDE workspace the user opened. Do **NOT** hard-code a personal or machine-specific base path. Only use a different base folder when the user explicitly provides one.
 >
 > ```
-> c:\Working\Techainer\BA Skills\output\SRS_{TenDuAn}_{YYYYMMDD}\
+> {WORKSPACE_ROOT}\output\SRS_{TenDuAn}_{YYYYMMDD}\
 > ├── temp\          ← draft .md files, research, plan, converted input
 > ├── output\        ← .docx final files ONLY + HTML preview
 > └── images\        ← mockups, screenshots (for embedding in .md)
 > ```
 >
-> **Folder creation:** At STEP 0, create this folder structure FIRST.
+> Example: if the user opened `c:\ba-skills-pack`, save under `c:\ba-skills-pack\output\SRS_{TenDuAn}_{YYYYMMDD}\`.
+>
+> **Folder creation:** At STEP 0, create this folder structure FIRST under `WORKSPACE_ROOT`.
 
 **File naming in `output/`:**
 
@@ -197,9 +201,9 @@ After reading → confirm: "Tôi đã đọc file. Đây là tài liệu về [t
 ```markdown
 | #   | Template                             | Mô tả                                              | Preview                                                                                                                                                |
 | --- | ------------------------------------ | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| A   | iBank2 Screen Spec — **Khuyến nghị** | Đặc tả MH web banking: use case + bảng field + API | [Xem preview](file:///c:/Working/Techainer/BA%20Skills/Skill/02-requirements/srs-writing/references/templates/banking/ibank2-screen-spec.html)         |
-| B   | OBD Step Spec                        | Flow step-by-step mobile/onboarding                | [Xem preview](file:///c:/Working/Techainer/BA%20Skills/Skill/02-requirements/srs-writing/references/templates/banking/obd-step-spec.html)              |
-| C   | Digital Lending CCC                  | User Story format cho vay tiêu dùng                | [Xem preview](file:///c:/Working/Techainer/BA%20Skills/Skill/02-requirements/srs-writing/references/templates/banking/digital-lending-user-story.html) |
+| A   | iBank2 Screen Spec — **Khuyến nghị** | Đặc tả MH web banking: use case + bảng field + API | `Skill/02-requirements/srs-writing/references/templates/banking/ibank2-screen-spec.html`         |
+| B   | OBD Step Spec                        | Flow step-by-step mobile/onboarding                | `Skill/02-requirements/srs-writing/references/templates/banking/obd-step-spec.html`              |
+| C   | Digital Lending CCC                  | User Story format cho vay tiêu dùng                | `Skill/02-requirements/srs-writing/references/templates/banking/digital-lending-user-story.html` |
 | D   | Khác — paste mẫu hoặc upload         |                                                    |                                                                                                                                                        |
 ```
 
