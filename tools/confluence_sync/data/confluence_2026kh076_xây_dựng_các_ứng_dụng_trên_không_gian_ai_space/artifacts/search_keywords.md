@@ -30,5 +30,6 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Space] Hướng dẫn sử dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2329346710/AI+Space+H+ng+d+n+s+d+ng
 - **[AI Space 1.1.0] Biên bản nghiệm thu ANBM** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2353922056/AI+Space+1.1.0+Bi+n+b+n+nghi+m+thu+ANBM
 - **2026.KH07 - Tài liệu PTTK Tổng thể Xây dựng các ứng dụng trên không gian AI Space (Bổ sung kết nối B.One Mobile)** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2381547547/2026.KH07+-+T+i+li+u+PTTK+T+ng+th+X+y+d+ng+c+c+ng+d+ng+tr+n+kh+ng+gian+AI+Space+B+sung+k+t+n+i+B.One+Mobile
+  Tags: pttk
 - **[AI Space 1.1.0] Hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2401470695/AI+Space+1.1.0+H+ng+d+n+c+i+t
 - **[AI Space 1.1.0] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2404812923/AI+Space+1.1.0+T+tr+nh+tri+n+khai

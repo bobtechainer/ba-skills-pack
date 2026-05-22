@@ -104,7 +104,6 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
   Tags: requirements
 - **[iB12_Liquidity] - Product backlog Ver 1** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/186286425/iB12_Liquidity+-+Product+backlog+Ver+1
   Tags: requirements
-- **6. Tài liệu Phân tích thiết kế_2024KH001** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/186286449/6.+Ta+i+li+u+Ph+n+t+ch+thi+t+k+_2024KH001
 - **3. iB03_eKYC_Backlog** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/186318849/3.+iB03_eKYC_Backlog
   Tags: requirements
 - **[iB03_eKYC] - Product backlog Ver 1** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/186318871/iB03_eKYC+-+Product+backlog+Ver+1
@@ -510,12 +509,10 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
   Tags: 2017-dv-006, ibank2_urd
 - **6. Hướng dẫn sử dụng chương trình test link, hướng dẫn xây dựng test case** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/303039691/6.+H+ng+d+n+s+d+ng+ch+ng+tr+nh+test+link+h+ng+d+n+x+y+d+ng+test+case
   Tags: 2017-dv-006, ibank2_urd
-- **2. CIM - Tham số** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/303039895/2.+CIM+-+Tham+s
 - **URD CNR&VA 2.5. Hủy đăng ký_Đăng ký TTHĐ _Nạp tiền tự động__LV3** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/303071920/URD+CNR+VA+2.5.+H+y+ng+k+_+ng+k+TTH+_N+p+ti+n+t+ng__LV3
   Tags: 2017-dv-006, ibank2_urd
 - **URD CNR&VA 2.3 Thêm mới_Đăng ký nạp tiền (Topup) tự động_LV3** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/303071968/URD+CNR+VA+2.3+Th+m+m+i_+ng+k+n+p+ti+n+Topup+t+ng_LV3
   Tags: 2017-dv-006, ibank2_urd
-- **1. CIMBACK - PTTK Chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/303072729/1.+CIMBACK+-+PTTK+Chi+ti+t
 - **URD CNR&VA 2.6 Phê duyệt_Đăng ký TTHĐ tự động_Nạp tiền tự động_LV3** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/303105018/URD+CNR+VA+2.6+Ph+duy+t_+ng+k+TTH+t+ng_N+p+ti+n+t+ng_LV3
   Tags: 2017-dv-006, ibank2_urd
 - **URD CNR&VA 3.4 Đăng ký nạp Topup tự động_Phê duyệt đăng ký_LV3** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/303105057/URD+CNR+VA+3.4+ng+k+n+p+Topup+t+ng_Ph+duy+t+ng+k+_LV3
@@ -566,7 +563,6 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **02.1  Yêu cầu kênh App/ Web/ iConnect qua ibank** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/306055195/02.1+Y+u+c+u+k+nh+App+Web+iConnect+qua+ibank
 - **03.2 Yêu cầu kênh H2H** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/306055210/03.2+Y+u+c+u+k+nh+H2H
 - **05.4 Báo cáo** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/306055244/05.4+B+o+c+o
-- **1. Đặc tả chung** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/306055933/1.+c+t+chung
 - **Quy định thiết kế API** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/306187679/Quy+nh+thi+t+k+API
 - **02.1.5. Phê duyệt giao dịch** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/306188766/02.1.5.+Ph+duy+t+giao+d+ch
 - **12. Thông báo thực hiện DEVSECOPS trong dự án iBank 2.0** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/306217009/12.+Th+ng+b+o+th+c+hi+n+DEVSECOPS+trong+d+n+iBank+2.0
@@ -592,24 +588,10 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **Testcase_QC: CIMBACK_Danh mục** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/308806541/Testcase_QC+CIMBACK_Danh+m+c
 - **2024-04-03_Payment thanh toán lương, bảng kê, đối soát...** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/308806936/2024-04-03_Payment+thanh+to+n+l+ng+b+ng+k+i+so+t...
   Tags: meeting-notes
-- **1. Danh sách các Module của ứng dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/309756216/1.+Danh+s+ch+c+c+Module+c+a+ng+d+ng
-  Tags: ibank2_pttk, 2017-dv-006
-- **3.2.1.Mi001 Microservice 1** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/309789083/3.2.1.Mi001+Microservice+1
-  Tags: ibank2_pttk, 2017-dv-006
-- **3.1. Các chức năng cho người dùng trên phân lớp FrontEnd** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/309821776/3.1.+C+c+ch+c+n+ng+cho+ng+i+d+ng+tr+n+ph+n+l+p+FrontEnd
-  Tags: ibank2_pttk, 2017-dv-006
 - **11. Deleted Documents** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/309854654/11.+Deleted+Documents
   Tags: ibank2_pttk, 2017-dv-006
 - **Nguyên tắc nghiệp vụ cần xử lý với luồng đăng nhập, kích hoạt, liên quan đến mật khẩu - iBank và KeyCloak** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/309888567/Nguy+n+t+c+nghi+p+v+c+n+x+l+v+i+lu+ng+ng+nh+p+k+ch+ho+t+li+n+quan+n+m+t+kh+u+-+iBank+v+KeyCloak
-- **3.1.1 FEB-001 Tham số chi nhánh** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/309920145/3.1.1+FEB-001+Tham+s+chi+nh+nh
-  Tags: ibank2_pttk, 2017-dv-006
-- **2. Các flow liên kết các chức năng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310018464/2.+C+c+flow+li+n+k+t+c+c+ch+c+n+ng
-  Tags: ibank2_pttk, 2017-dv-006
 - **10. Template Documents** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310018498/10.+Template+Documents
-  Tags: ibank2_pttk, 2017-dv-006
-- **0. Thiết kế Database** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310116359/0.+Thi+t+k+Database
-  Tags: ibank2_pttk, 2017-dv-006
-- **3.2.1. Mi_CIM001_PAR.BRANCH** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310116374/3.2.1.+Mi_CIM001_PAR.BRANCH
   Tags: ibank2_pttk, 2017-dv-006
 - **[CLONE] 2. TEN_MODULE - Sprint XXX - Nội dung** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310116395/CLONE+2.+TEN_MODULE+-+Sprint+XXX+-+N+i+dung
   Tags: ibank2_pttk, 2017-dv-006
@@ -626,10 +608,6 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[CLONE] 3.2. Các microservice trên phân lớp Microservice** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310116498/CLONE+3.2.+C+c+microservice+tr+n+ph+n+l+p+Microservice
   Tags: ibank2_pttk, 2017-dv-006
 - **[CLONE] 3.2.1.Mi001 Microservice 1** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310116514/CLONE+3.2.1.Mi001+Microservice+1
-  Tags: ibank2_pttk, 2017-dv-006
-- **3. Thiết kế chi tiết module** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310149340/3.+Thi+t+k+chi+ti+t+module
-  Tags: ibank2_pttk, 2017-dv-006
-- **3.2. Các microservice trên phân lớp Microservice** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310149376/3.2.+C+c+microservice+tr+n+ph+n+l+p+Microservice
   Tags: ibank2_pttk, 2017-dv-006
 - **[TEMPLATE] Tài liệu PTTK Chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/310149551/TEMPLATE+T+i+li+u+PTTK+Chi+ti+t
   Tags: ibank2_pttk, 2017-dv-006
@@ -709,8 +687,26 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **05.1.3 Yêu cầu ERP (App/Web Flow)** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/323781808/05.1.3+Y+u+c+u+ERP+App+Web+Flow
 - **2024-04-19 Họp Weekly Sprint 2- CIM Back** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/323813384/2024-04-19+H+p+Weekly+Sprint+2-+CIM+Back
   Tags: meeting-notes
-- **3.2.2. Mi_CIM002_PAR.CURRENCY** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/323846816/3.2.2.+Mi_CIM002_PAR.CURRENCY
-  Tags: ibank2_pttk, 2017-dv-006
 - **[Phụ lục][CIMBACK_Tham số] Các yêu cầu dùng chung** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324337736/Ph+l+c+CIMBACK_Tham+s+C+c+y+u+c+u+d+ng+chung
 - **Brainstorm only_Luồng check chuyển tiền** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324372239/Brainstorm+only_Lu+ng+check+chuy+n+ti+n
 - **4. URD_2024KH001** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324374776/4.+URD_2024KH001
+- **05.1.4 Yêu cầu BE** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324404250/05.1.4+Y+u+c+u+BE
+- **05.4 Danh sách người thụ hưởng bắt buộc** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324404328/05.4+Danh+s+ch+ng+i+th+h+ng+b+t+bu+c
+- **Danh mục Cây sản phẩm ở Back Office** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324408355/Danh+m+c+C+y+s+n+ph+m+Back+Office
+  Tags: 2017-dv-006, ibank2_urd
+- **Danh mục trạng thái tham số nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324895082/Danh+m+c+tr+ng+th+i+tham+s+nghi+p+v
+  Tags: 2017-dv-006, ibank2_urd
+- **5. RSD_2024KH001** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324895361/5.+RSD_2024KH001
+- **RSD_iBank 2.0_GĐ MVP** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324895386/RSD_iBank+2.0_G+MVP
+- **Tham khảo tham số DDA - TGCKH** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/324929865/Tham+kh+o+tham+s+DDA+-+TGCKH
+  Tags: 2017-dv-006, ibank2_urd
+- **URD - 7.1 Chức năng Quản lý yêu cầu đăng ký KH - Mô tả chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/327026278/URD+-+7.1+Ch+c+n+ng+Qu+n+l+y+u+c+u+ng+k+KH+-+M+t+chi+ti+t
+  Tags: 2017-dv-006, ibank2_urd
+- **Màn hình khởi tạo giao dịch qua số TK** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/328697454/M+n+h+nh+kh+i+t+o+giao+d+ch+qua+s+TK
+  Tags: 2017-dv-006, ibank2_rsd
+- **2024-04-25 Họp định kỳ với Trưởng Ban QLDA** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/329187933/2024-04-25+H+p+nh+k+v+i+Tr+ng+Ban+QLDA
+  Tags: meeting-notes
+- **Quản lý danh sách gói dịch vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/329189479/Qu+n+l+danh+s+ch+g+i+d+ch+v
+- **TTBK-Màn hình bảng kê tải lên_web** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/330305252/TTBK-M+n+h+nh+b+ng+k+t+i+l+n_web
+- **URD - 7.4 Chức năng Quản lý Người dùng (User access management)** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/330564760/URD+-+7.4+Ch+c+n+ng+Qu+n+l+Ng+i+d+ng+User+access+management
+- **Design system UIUX** → https://bidv-vn.atlassian.net/wiki/spaces/KH0012024/pages/330568574/Design+system+UIUX
