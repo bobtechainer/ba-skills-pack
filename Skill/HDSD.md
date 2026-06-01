@@ -62,6 +62,7 @@ Skill/
 │   ├── brainstorming/
 │   ├── writing-plans/
 │   ├── document-suite/
+│   ├── doc-coauthoring/
 │   ├── humanize-writing/
 │   └── systematic-debugging/
 ├── 02-requirements/
@@ -96,27 +97,25 @@ Nhận tài liệu + mockup (bất kỳ format)
        ↓
   ★ Convert input → .md  ← BƯỚC BẮT BUỘC
        ↓
-  Detect domain (tự động từ nội dung .md)
+  Detect domain + Brainstorm + chọn template
        ↓
-  Brainstorm (hỏi dynamic, có khuyến nghị)
+  Tạo implementation_plan.md → User review/OK
        ↓
-  Chọn template (.md — user review trực tiếp)
+  ★ Gen SRS dạng nhiều file .md  ← KẾT QUẢ TRUNG GIAN
        ↓
-  Tạo implementation_plan.md
+  Resolve CROSS-REF + generate HTML preview
        ↓
-  User review + comment trên file
+  Verify checklist trên .md + HTML
        ↓
-  [Lặp sửa plan cho đến khi OK]
+  /doc-coauthoring proofread + reader-test
        ↓
-  ★ Gen SRS dạng .md (giữ static, fill dynamic)  ← KẾT QUẢ TRUNG GIAN
+  User review HTML + confirm export
        ↓
-  /humanize-writing (trên .md)
+  ★ Export .md → .docx + verify_docx.js
        ↓
-  ★ Export .md → .docx (áp dụng styles từ template)  ← OUTPUT CUỐI
+  /doc-coauthoring final output verification
        ↓
-  Annotation → Word comment + highlight
-       ↓
-  Gửi khách hàng
+  Gửi output cho người dùng / khách hàng
 ```
 
 ---
