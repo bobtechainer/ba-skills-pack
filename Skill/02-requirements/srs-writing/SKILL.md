@@ -6,6 +6,7 @@ description: >-
   user review, and Word export.
   STOP if you are about to write SRS content without completing brainstorming first.
   STOP if you are about to export .docx without user reviewing HTML preview first.
+  STOP if you are about to return final output without proofreading, reader-testing, and final verification.
   STOP if you are about to save a file without using the mandatory folder structure.
 metadata:
   category: discipline
@@ -68,7 +69,9 @@ If you catch yourself doing ANY of these, **STOP. Go back to the step you skippe
 - Chuyển sang Step 3.5 mà còn `[CROSS-REF]` chưa resolve và chưa báo cáo → VIOLATION
 - Writing all SRS content into a single .md file instead of splitting
 - Skipping HTML preview generation ("user doesn't need to review")
+- Skipping `/doc-coauthoring` final proofread / reader-test before output
 - Export .docx without user confirmation after HTML review
+- Returning final answer before final verification report is clean
 
 ---
 
@@ -125,11 +128,11 @@ temp/
 ## Pipeline — MANDATORY SEQUENCE
 
 ```
-STEP 0 → STEP 1 → STEP 1.5 → STEP 2 → STEP 3 → STEP 3.25 → STEP 3.5 → STEP 4 → STEP 4.5 → STEP 5
-  │         │         │          │         │          │            │           │          │          │
-GATE 0   GATE 1    GATE 1.5   GATE 2    GATE 3    GATE 3.25     GATE 3.5    GATE 4    GATE 4.5    DONE
-(input   (checklist (deep-read (plan     (gen .md  (CROSS-REF    (gen HTML   (verify   (user OK    (export
-convert) complete)  brainstorm) approved) done)    resolved)⭐   preview)    pass)    + confirm)   .docx)
+STEP 0 → STEP 1 → STEP 1.5 → STEP 2 → STEP 3 → STEP 3.25 → STEP 3.5 → STEP 4 → STEP 4.25 → STEP 4.5 → STEP 5 → STEP 5.5
+  │         │         │          │         │          │            │           │          │           │          │        │
+GATE 0   GATE 1    GATE 1.5   GATE 2    GATE 3    GATE 3.25     GATE 3.5    GATE 4    GATE 4.25   GATE 4.5   GATE 5  DONE
+(input   (checklist (deep-read (plan     (gen .md  (CROSS-REF    (gen HTML   (verify   (coauthor   (user OK    (export (final
+convert) complete)  brainstorm) approved) done)    resolved)⭐   preview)    pass)    review)     + confirm)   .docx) verify)
 ```
 
 **NEVER skip a step. NEVER combine steps. NEVER reorder steps.**
@@ -408,10 +411,51 @@ grep_search(SearchPath="<temp_dir>", Query="CROSS-REF")
 □ SOP file updated?
 □ (Edit) Annotations present? → annotation_rules.md
 □ Anti-slop check passed? (→ anti_slop.md)
+□ Chính tả/grammar/thuật ngữ đã sẵn sàng cho `/doc-coauthoring` final review?
 □ **Confluence CROSS-REF resolved?** Mỗi tag có link hoặc ghi chú "chưa tìm thấy"? (→ confluence-ref.md)
 ```
 
 **If ANY item fails → go back to Step 3 and fix. Do NOT proceed.**
+
+---
+
+## STEP 4.25: Co-Authoring Proofread & Reader Test — HARD GATE ⭐
+
+> [!CAUTION]
+> **BẮT BUỘC trước khi đưa HTML cho user review và trước khi export.**
+> INVOKE `Skill/00-global-skills/doc-coauthoring/SKILL.md`.
+> Use it as `document-suite mode=collab` for final proofread + reader testing.
+
+### Scope
+
+Run this pass on BOTH:
+
+1. all generated `.md` files in `temp/`
+2. generated HTML preview in `output/`
+
+### Required checks
+
+1. **Proofread pass:** chính tả, grammar, dấu câu, từ lặp, câu khó đọc, format bảng, numbering.
+2. **Terminology pass:** banking terms, bilingual terms, field/API names, abbreviations consistent with glossary/conventions.
+3. **SRS clarity pass:** mỗi requirement testable, actor rõ, logic không mơ hồ, không thiếu precondition/error handling.
+4. **No unresolved flags:** no raw `TODO`, `«placeholder»`, unresolved `[CROSS-REF]`, unexplained `[MANUAL]`.
+5. **Fresh reader test:** dispatch a no-context reader agent with only the final candidate output. Ask it to summarize, list open questions, and flag confusing/ambiguous passages.
+
+### Report format — MUST show user
+
+```markdown
+📋 Co-Authoring Final Review
+- Proofread: PASS / FIXED / FAIL
+- Terminology: PASS / FIXED / FAIL
+- Reader-test: PASS / ISSUES FOUND
+- Issues fixed: N
+- Remaining risks: [none / list]
+```
+
+If any issue is FIXED → regenerate HTML (Step 3.5), re-run Step 4, then re-run Step 4.25 on the fixed candidate.
+If any issue remains FAIL → do NOT proceed to Step 4.5.
+
+**GATE 4.25:** Proofread pass done + reader-test feedback addressed + report displayed.
 
 ---
 
@@ -433,9 +477,9 @@ grep_search(SearchPath="<temp_dir>", Query="CROSS-REF")
    > A. Có — xuất .docx ngay
    > B. Không — dừng tại HTML"
 4. **Nếu A → Step 5**
-5. **Nếu B → DONE** — pipeline kết thúc tại HTML
+5. **Nếu B → Step 5.5 (HTML-only final verification)** — verify HTML preview as the final deliverable, then DONE.
 
-**GATE 4.5:** User confirmed HTML + User chose to export.
+**GATE 4.5:** User confirmed HTML + User chose export path (DOCX or HTML-only).
 
 ---
 
@@ -455,6 +499,40 @@ grep_search(SearchPath="<temp_dir>", Query="CROSS-REF")
 4. **VERIFY** `node Skill/04-documentation/docx/scripts/verify_docx.js output.docx`
 5. Nếu verify FAIL → sửa → lại bước 3-4
 6. Nếu verify PASS → báo user full absolute path
+
+**GATE 5:** `.docx` exported + `verify_docx.js` PASS.
+
+---
+
+## STEP 5.5: Final Output Verification — HARD GATE ⭐
+
+> [!CAUTION]
+> **BẮT BUỘC trước khi trả output cuối cho user.**
+> Do NOT return final answer until this verification is complete and reported.
+
+Invoke `/doc-coauthoring` one last time for output-level verification:
+
+1. Verify final deliverable path exists and non-zero bytes:
+   - DOCX path: final `.docx` exists + `verify_docx.js` passed.
+   - HTML-only path: final HTML preview exists + no remaining `«placeholder»` / unresolved flags.
+2. Check final deliverable against the latest source `.md` list.
+3. Confirm final proofread/reader-test from Step 4.25 is still valid after export or HTML-only selection.
+4. If export/layout changed content materially, re-run reader-test on the exported content or extracted text.
+5. Prepare the final response with paths, review status, and remaining risks.
+
+### Final response MUST include
+
+```markdown
+✅ SRS Output Ready
+- HTML preview: <absolute path>
+- DOCX: <absolute path / N/A HTML-only>
+- Proofread/chính tả: PASS / PASS WITH ACCEPTED RISK / FAIL
+- Reader-test: PASS / PASS WITH ACCEPTED RISK / FAIL
+- Output verification: PASS / FAIL
+- Remaining risks: none / <list>
+```
+
+**GATE 5.5:** Final verification report is clean OR only non-blocking risks are explicitly listed as `PASS WITH ACCEPTED RISK`. Any `FAIL` blocks final output.
 
 ### Font Profile (from document-suite)
 
@@ -517,9 +595,11 @@ Auto-create at Step 0. Update after every step.
 - [ ] Step 3: Readability pass done
 - [ ] Step 3.5: HTML preview generated ⭐
 - [ ] Step 4: Verify pass
+- [ ] Step 4.25: Co-authoring proofread + reader-test done ⭐
 - [ ] Step 4.5: User reviewed HTML ⭐
 - [ ] Step 4.5: User confirmed export ⭐
 - [ ] Step 5: Export done
+- [ ] Step 5.5: Final output verification done ⭐
 
 ## Files
 
@@ -561,7 +641,7 @@ KHÔNG hỏi lại checklist từ đầu. Đọc .md → tự nhận diện → 
 
 Same as Mode A Step 3.5 — fill template with updated .md content.
 
-### Steps 4, 4.5, 5: Same as Mode A
+### Steps 4, 4.25, 4.5, 5, 5.5: Same as Mode A
 
 ---
 
@@ -579,6 +659,7 @@ Same as Mode A Step 3.5 — fill template with updated .md content.
 | "I'll put it all in one .md file"                 | Split into multiple files. Maintenance matters.             |
 | "Output structure doesn't need to match template" | Template = CONTRACT. Output MUST match.                     |
 | "I can export docx without asking user"           | User MUST confirm after HTML review. ALWAYS ASK.            |
+| "I'll skip `/doc-coauthoring` final review"       | Final proofread + reader-test catches errors before output. |
 | "I'll skip anti-slop check"                       | Every sentence must carry information. Read anti_slop.md.   |
 | "Brainstorm is overkill for small edits"          | Even small edits affect cross-references. Follow pipeline.  |
 
@@ -597,6 +678,7 @@ When pipeline says "invoke skill X" → OPEN SKILL.md → READ → FOLLOW. **Eac
 | 2        | Writing Plans        | `00-global-skills/writing-plans/SKILL.md`                             |
 | 2 (edit) | Systematic Debugging | `00-global-skills/systematic-debugging/SKILL.md`                      |
 | 3        | Anti-Slop            | `00-global-skills/document-suite/writing_rules/anti_slop.md`          |
+| 4.25/5.5 | Doc Coauthoring      | `00-global-skills/doc-coauthoring/SKILL.md`                           |
 | 3        | Banking Tone         | `00-global-skills/document-suite/writing_rules/banking_tone.md`       |
 | 3        | Bilingual Glossary   | `00-global-skills/document-suite/writing_rules/bilingual_glossary.md` |
 | 5        | Humanize Writing     | `00-global-skills/humanize-writing/SKILL.md`                          |
