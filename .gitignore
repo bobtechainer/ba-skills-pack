@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp files
+*.tmp
+*.bak
+*.log
+
+# Local test/scratch folders (prefix with _ to keep out of git)
+_*/
+
+# Node.js
+node_modules/
+package.json
+package-lock.json
+
+# Generated output
+output/
