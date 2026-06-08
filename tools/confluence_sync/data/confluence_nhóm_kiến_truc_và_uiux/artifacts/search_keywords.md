@@ -71,3 +71,5 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
   Tags: meeting-notes
 - **2026-03-03 Meeting notes** → https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/2179399937/2026-03-03+Meeting+notes
   Tags: meeting-notes
+- **2026-06-08 Meeting notes** → https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/2481848583/2026-06-08+Meeting+notes
+  Tags: meeting-notes
