@@ -179,7 +179,7 @@ export default function SurveyPage() {
   const [submitting, setSubmitting] = useState(false);
   const topRef = useRef(null);
 
-  const respondentName = sessionStorage.getItem('ba-survey-name') || '';
+  const respondentName = sessionStorage.getItem('pm-survey-name') || '';
 
   // Redirect if no name
   useEffect(() => {
@@ -223,9 +223,9 @@ export default function SurveyPage() {
       });
       if (!res.ok) throw new Error('Submit failed');
     } catch {
-      const existing = JSON.parse(localStorage.getItem('ba-survey-responses') || '[]');
+      const existing = JSON.parse(localStorage.getItem('pm-survey-responses') || '[]');
       existing.push(payload);
-      localStorage.setItem('ba-survey-responses', JSON.stringify(existing));
+      localStorage.setItem('pm-survey-responses', JSON.stringify(existing));
     }
 
     navigate('/thankyou');

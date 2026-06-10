@@ -15,7 +15,7 @@ function PasswordGate({ onUnlock }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (pw === DASHBOARD_PASSWORD) {
-      sessionStorage.setItem('ba-dashboard-auth', '1');
+      sessionStorage.setItem('pm-dashboard-auth', '1');
       onUnlock();
     } else {
       setError('Mật khẩu không đúng');
@@ -252,7 +252,7 @@ function MatrixSummary({ question, responses }) {
 /* ─── Dashboard Page ─── */
 
 export default function DashboardPage() {
-  const [authed, setAuthed] = useState(() => sessionStorage.getItem('ba-dashboard-auth') === '1');
+  const [authed, setAuthed] = useState(() => sessionStorage.getItem('pm-dashboard-auth') === '1');
   const [responses, setResponses] = useState([]);
   const [loading, setLoading] = useState(true);
   const [view, setView] = useState('overview');
@@ -268,7 +268,7 @@ export default function DashboardPage() {
           if (data.length > 0) { setResponses(data); setLoading(false); return; }
         }
       } catch { /* fallback */ }
-      const local = JSON.parse(localStorage.getItem('ba-survey-responses') || '[]');
+      const local = JSON.parse(localStorage.getItem('pm-survey-responses') || '[]');
       setResponses(local);
       setLoading(false);
     }
@@ -285,14 +285,14 @@ export default function DashboardPage() {
   return (
     <div className="container dashboard" style={{ maxWidth: 960 }}>
       <div className="dashboard-header">
-        <h1>Dashboard khảo sát BA</h1>
+        <h1>Dashboard khảo sát PM</h1>
         <p>{responses.length} phản hồi đã nhận</p>
       </div>
 
       {responses.length === 0 ? (
         <div className="dashboard-empty">
           <p>Chưa có ai điền khảo sát.</p>
-          <p style={{ fontSize: 13, marginTop: 8 }}>Gửi link cho BA để bắt đầu thu thập dữ liệu.</p>
+          <p style={{ fontSize: 13, marginTop: 8 }}>Gửi link cho PM để bắt đầu thu thập dữ liệu.</p>
         </div>
       ) : (
         <>
