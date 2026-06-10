@@ -284,7 +284,7 @@ export default function DashboardPage() {
   return (
     <div className="container dashboard" style={{ maxWidth: 960 }}>
       <div className="dashboard-header">
-        <h1>Dashboard khảo sát PM</h1>
+        <h1>Kết quả khảo sát PM</h1>
         <p>{responses.length} phản hồi đã nhận</p>
       </div>
 
