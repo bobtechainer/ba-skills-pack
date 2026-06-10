@@ -33,7 +33,7 @@ Web khảo sát PM cần thu được dữ liệu để tạo các artifact sau:
 - Giữ optional follow-up text: `+ Ghi thêm (nếu muốn)`.
 - Giữ cơ chế submit: gửi `/api/submit`, nếu fail thì fallback vào localStorage.
 - Đổi toàn bộ wording từ BA sang PM outsource.
-- Thay bộ câu hỏi thành 42 câu chia 10 phần.
+- Thay bộ câu hỏi thành 44 câu chia 10 phần.
 
 ### Không làm trong phiên bản đầu
 
@@ -81,7 +81,7 @@ Storage key mới:
 
 ## 5. Cấu trúc khảo sát
 
-Tổng: 42 câu, 10 phần.
+Tổng: 44 câu, 10 phần.
 
 1. Bối cảnh PM và loại dự án
 2. Nhận dự án, handover, kickoff
@@ -974,7 +974,7 @@ App PM survey được coi là đạt khi:
 
 1. `tools/pm-survey/` chạy được độc lập bằng `npm install` và `npm run dev`.
 2. Landing page hiển thị đúng “Khảo sát quy trình làm việc của PM Outsource”.
-3. Survey có 42 câu, chia 10 phần đúng như thiết kế.
+3. Survey có 44 câu, chia 10 phần đúng như thiết kế.
 4. Tất cả question type render đúng.
 5. Progress, sidebar, next/back hoạt động.
 6. `+ Ghi thêm` lưu theo từng câu.
@@ -998,7 +998,7 @@ App PM survey được coi là đạt khi:
 
 1. Copy `tools/ba-survey/` sang `tools/pm-survey/`.
 2. Đổi metadata và package name.
-3. Thay `src/data/questions.js` bằng 10 sections và 42 questions.
+3. Thay `src/data/questions.js` bằng 10 sections và 44 questions.
 4. Đổi storage/auth keys trong landing/survey/dashboard.
 5. Đổi UI wording từ BA sang PM.
 6. Chạy install/build hoặc kiểm tra lint/build nếu dependency có sẵn.

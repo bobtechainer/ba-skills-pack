@@ -223,7 +223,7 @@ node --input-type=module <<'NODE'
 const mod = await import('./tools/pm-survey/src/data/questions.js');
 const { sections, questions } = mod;
 if (sections.length !== 10) throw new Error(`expected 10 sections, got ${sections.length}`);
-if (questions.length !== 42) throw new Error(`expected 42 questions, got ${questions.length}`);
+if (questions.length !== 44) throw new Error(`expected 44 questions, got ${questions.length}`);
 const expectedSectionTitles = [
   'Bối cảnh PM và loại dự án',
   'Nhận dự án, handover, kickoff',
@@ -1420,7 +1420,7 @@ for (const token of forbidden) {
 }
 const { sections, questions } = await import('./tools/pm-survey/src/data/questions.js');
 if (sections.length !== 10) throw new Error(`expected 10 sections, got ${sections.length}`);
-if (questions.length !== 42) throw new Error(`expected 42 questions, got ${questions.length}`);
+if (questions.length !== 44) throw new Error(`expected 44 questions, got ${questions.length}`);
 NODE
 ```
 
