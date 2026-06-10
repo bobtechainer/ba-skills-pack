@@ -1,20 +1,9 @@
-import { createClient } from 'redis';
+import { Redis } from '@upstash/redis';
 
-let client;
-
-async function getRedis() {
-  if (client && client.isOpen) return client;
-  client = createClient({
-    url: process.env.REDIS_URL,
-    socket: {
-      connectTimeout: 3000,
-      reconnectStrategy: (retries) => (retries > 1 ? false : 300),
-    },
-  });
-  client.on('error', (err) => console.error('Redis error:', err));
-  await client.connect();
-  return client;
-}
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN,
+});
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -22,14 +11,13 @@ export default async function handler(req, res) {
   }
 
   try {
-    const redis = await getRedis();
     const response = req.body;
 
     // Store response as JSON string
     await redis.set(`pm_response:${response.id}`, JSON.stringify(response));
 
     // Add ID to the list
-    await redis.lPush('pm_response_ids', response.id);
+    await redis.lpush('pm_response_ids', response.id);
 
     return res.status(200).json({ success: true, id: response.id });
   } catch (error) {

@@ -1,20 +1,9 @@
-import { createClient } from 'redis';
+import { Redis } from '@upstash/redis';
 
-let client;
-
-async function getRedis() {
-  if (client && client.isOpen) return client;
-  client = createClient({
-    url: process.env.REDIS_URL,
-    socket: {
-      connectTimeout: 3000,
-      reconnectStrategy: (retries) => (retries > 1 ? false : 300),
-    },
-  });
-  client.on('error', (err) => console.error('Redis error:', err));
-  await client.connect();
-  return client;
-}
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN,
+});
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -22,10 +11,8 @@ export default async function handler(req, res) {
   }
 
   try {
-    const redis = await getRedis();
-
     // Get all response IDs
-    const ids = await redis.lRange('pm_response_ids', 0, -1);
+    const ids = await redis.lrange('pm_response_ids', 0, -1);
 
     // Delete each response
     for (const id of ids) {
