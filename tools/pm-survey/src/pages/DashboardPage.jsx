@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { questions, sections } from '../data/questions';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
@@ -32,7 +31,7 @@ function PasswordGate({ onUnlock }) {
             <path d="M7 11V7a5 5 0 0 1 10 0v4" />
           </svg>
         </div>
-        <h1 style={{ fontSize: 22 }}>Dashboard khảo sát</h1>
+        <h1 style={{ fontSize: 22 }}>Dashboard khảo sát PM</h1>
         <p className="landing-desc">Nhập mật khẩu để xem kết quả</p>
         <form onSubmit={handleSubmit}>
           <input
