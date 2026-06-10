@@ -13,7 +13,7 @@ export default function LandingPage() {
       setError('Vui lòng nhập tên để bắt đầu');
       return;
     }
-    sessionStorage.setItem('ba-survey-name', trimmed);
+    sessionStorage.setItem('pm-survey-name', trimmed);
     navigate('/survey');
   };
 
@@ -27,11 +27,11 @@ export default function LandingPage() {
           </svg>
         </div>
 
-        <h1>Khảo sát quy trình làm việc của BA</h1>
+        <h1>Khảo sát quy trình làm việc của PM Outsource</h1>
 
         <p className="landing-desc">
-          Khảo sát ngắn giúp bọn em hiểu rõ cách anh/chị làm việc hàng ngày — 
-          từ thu thập yêu cầu, viết tài liệu, đến phối hợp với các bên. 
+          Khảo sát này giúp bọn em hiểu cách anh/chị handover, quản lý dự án, phối hợp client,
+          xử lý thay đổi, theo dõi rủi ro và báo cáo trong dự án outsource.
           Anh/chị chọn đáp án gần đúng nhất là được ạ
         </p>
 
@@ -41,7 +41,7 @@ export default function LandingPage() {
             <div className="landing-stat-label">câu hỏi</div>
           </div>
           <div className="landing-stat">
-            <div className="landing-stat-number">~10</div>
+            <div className="landing-stat-number">~15</div>
             <div className="landing-stat-label">phút</div>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function LandingPage() {
             id="respondent-name"
             className={`name-input${error ? ' has-error' : ''}`}
             type="text"
-            placeholder="Ví dụ: Chị Nga"
+            placeholder="Ví dụ: Anh/Chị PM dự án outsource"
             value={name}
             onChange={(e) => { setName(e.target.value); setError(''); }}
             onKeyDown={(e) => e.key === 'Enter' && handleStart()}
