@@ -30,4 +30,6 @@
 | [AI Space 1.1.0] Source code | [[AI Space 1.1.0] Source code](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2323448906/AI+Space+1.1.0+Source+code) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc > [AI Space 1.1.0] |  |
 | [AI Space 1.1.0] Test case SIT | [[AI Space 1.1.0] Test case SIT](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2327871859/AI+Space+1.1.0+Test+case+SIT) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc > [AI Space 1.1.0] |  |
 | [AI Space 1.1.0] Tờ trình triển khai | [[AI Space 1.1.0] Tờ trình triển khai](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2404812923/AI+Space+1.1.0+T+tr+nh+tri+n+khai) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc > [AI Space 1.1.0] |  |
+| [AI Space 1.1.1] RSD | [[AI Space 1.1.1] RSD](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2494137299/AI+Space+1.1.1+RSD) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc > [AI Space 1.1.1] |  |
+| [AI Space 1.1.1] URD | [[AI Space 1.1.1] URD](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2493121367/AI+Space+1.1.1+URD) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc > [AI Space 1.1.1] |  |
 | [AI Space] Hướng dẫn sử dụng | [[AI Space] Hướng dẫn sử dụng](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2329346710/AI+Space+H+ng+d+n+s+d+ng) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc |  |

@@ -33,3 +33,5 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
   Tags: pttk
 - **[AI Space 1.1.0] Hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2401470695/AI+Space+1.1.0+H+ng+d+n+c+i+t
 - **[AI Space 1.1.0] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2404812923/AI+Space+1.1.0+T+tr+nh+tri+n+khai
+- **[AI Space 1.1.1] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2493121367/AI+Space+1.1.1+URD
+- **[AI Space 1.1.1] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2494137299/AI+Space+1.1.1+RSD
