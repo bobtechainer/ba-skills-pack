@@ -36,7 +36,8 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Space 1.1.1] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2493121367/AI+Space+1.1.1+URD
 - **[AI Space 1.1.1] Test case SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2493547934/AI+Space+1.1.1+Test+case+SIT
 - **[AI Space 1.1.1] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2493711789/AI+Space+1.1.1+Bi+n+b+n+nghi+m+thu+nghi+p+v
-- **[AI Space 1.1.1] Hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2493940878/AI+Space+1.1.1+H+ng+d+n+c+i+t
 - **Thư công tác - Đề nghị bảo trì nâng cấp AI Space 1.1.1** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2494039493/Th+c+ng+t+c+-+ngh+b+o+tr+n+ng+c+p+AI+Space+1.1.1
 - **[AI Space 1.1.1] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2494137299/AI+Space+1.1.1+RSD
 - **[AI Space 1.1.1] Biên bản nghiệm thu kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2494236250/AI+Space+1.1.1+Bi+n+b+n+nghi+m+thu+k+thu+t
+- **[AI Space 1.1.1] Kết quả scancode** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2499937393/AI+Space+1.1.1+K+t+qu+scancode
+- **[AI Space 1.1.1] Hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2500134037/AI+Space+1.1.1+H+ng+d+n+c+i+t
