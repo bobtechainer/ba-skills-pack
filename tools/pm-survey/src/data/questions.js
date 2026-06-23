@@ -3,7 +3,8 @@ export const sections = [
   { id: 2, title: 'Thời gian và công việc hằng ngày' },
   { id: 3, title: 'Tài liệu và chất lượng thông tin' },
   { id: 4, title: 'Thay đổi và xử lý tình huống' },
-  { id: 5, title: 'Giao tiếp, bàn giao và cải thiện' },
+  { id: 5, title: 'Chi phí, ngân sách và margin' },
+  { id: 6, title: 'Giao tiếp, phối hợp và cải thiện' },
 ];
 
 export const questions = [
@@ -32,7 +33,7 @@ export const questions = [
       'Yêu cầu phi chức năng (bảo mật, hiệu năng)',
       'Phạm vi và ranh giới module',
       'Thông tin tích hợp với hệ thống khác',
-      'Timeline, deadline bàn giao',
+      'Timeline, deadline giao sản phẩm',
       'Đầu mối liên hệ phía ngân hàng',
     ],
     columns: ['Đầy đủ', 'Có nhưng thiếu', 'Rất sơ sài', 'Không có', 'Phải tự tìm hiểu'],
@@ -120,7 +121,7 @@ export const questions = [
     text: 'Tài liệu dự án hiện tại của anh/chị cập nhật đến mức nào?',
     type: 'matrix',
     rows: [
-      'Kế hoạch dự án, mốc bàn giao',
+      'Kế hoạch dự án, mốc giao sản phẩm',
       'Phạm vi công việc từng module',
       'Danh sách rủi ro, vấn đề đang theo dõi',
       'Yêu cầu thay đổi đang xử lý',
@@ -227,10 +228,93 @@ export const questions = [
     ],
   },
 
-  // ─── Phần 5 — Giao tiếp, bàn giao và cải thiện ───
+  // ─── Phần 5 — Chi phí, ngân sách và margin ───
   {
     id: '5.1',
     section: 5,
+    text: 'Khi dự án xong, chi phí thực tế thường lệch bao nhiêu so với ước lượng ban đầu?',
+    type: 'single-range',
+    options: [
+      'Lệch dưới 5%',
+      '5–15%',
+      '15–30%',
+      '30–50%',
+      'Trên 50%',
+    ],
+  },
+  {
+    id: '5.2',
+    section: 5,
+    text: 'Trong 12 tháng qua, bao nhiêu phần các dự án anh/chị phụ trách bị vượt ngân sách (hoặc vượt effort cho phép)?',
+    type: 'single-range',
+    options: [
+      'Không có dự án nào',
+      'Dưới một phần tư',
+      'Khoảng một nửa',
+      'Hơn một nửa',
+      'Gần như tất cả',
+    ],
+  },
+  {
+    id: '5.3',
+    section: 5,
+    text: 'Mấy việc liên quan đến tiền dưới đây, anh/chị làm thường xuyên đến mức nào?',
+    type: 'matrix',
+    rows: [
+      'Cập nhật chi phí hoặc effort thực tế so với kế hoạch',
+      'Đối chiếu giờ công thực tế với ước lượng',
+      'Tính lại margin khi có thay đổi',
+      'Rà soát các khoản phát sinh ngoài dự toán',
+      'Báo cáo tình hình chi phí cho quản lý',
+    ],
+    columns: ['Không làm', 'Hằng tháng', 'Vài lần một tháng', 'Hằng tuần', 'Hằng ngày'],
+  },
+  {
+    id: '5.4',
+    section: 5,
+    text: 'Những thứ dưới đây làm đội chi phí dự án của anh/chị nhiều đến mức nào?',
+    type: 'matrix',
+    rows: [
+      'Làm thêm yêu cầu ngoài hợp đồng mà không tính tiền',
+      'Sửa tới sửa lui do hiểu sai yêu cầu',
+      'Ước lượng ban đầu thấp hơn thực tế',
+      'Tăng ca hoặc dồn người để kịp hạn',
+      'Chờ phía ngân hàng phản hồi làm kéo dài việc',
+      'Lỗi phát hiện muộn nên sửa tốn kém',
+    ],
+    columns: ['Không đáng kể', 'Ít', 'Vừa', 'Nhiều', 'Rất nhiều'],
+  },
+  {
+    id: '5.5',
+    section: 5,
+    text: 'Anh/chị cập nhật được con số chi phí và margin thực tế của dự án bao lâu một lần?',
+    type: 'single-range',
+    options: [
+      'Gần như theo thời gian thực',
+      'Hằng tuần',
+      'Hằng tháng',
+      'Theo mốc thanh toán',
+      'Hầu như không cập nhật',
+    ],
+  },
+  {
+    id: '5.6',
+    section: 5,
+    text: 'Thường thì anh/chị nhận ra dự án sắp vượt chi phí vào lúc nào?',
+    type: 'single-choice',
+    options: [
+      'Ngay từ khi ước lượng, biết trước là sát',
+      'Khi đang làm, còn kịp điều chỉnh',
+      'Khi ngân sách gần cạn',
+      'Khi đã lỡ vượt rồi',
+      'Chỉ biết lúc quyết toán cuối dự án',
+    ],
+  },
+
+  // ─── Phần 6 — Giao tiếp, phối hợp và cải thiện ───
+  {
+    id: '6.1',
+    section: 6,
     text: 'Phối hợp với các bên dưới đây, anh/chị thấy dễ hay khó?',
     type: 'matrix',
     rows: [
@@ -244,8 +328,8 @@ export const questions = [
     columns: ['Rất dễ', 'Khá dễ', 'Bình thường', 'Khá khó', 'Rất khó'],
   },
   {
-    id: '5.2',
-    section: 5,
+    id: '6.2',
+    section: 6,
     text: 'Bao nhiêu phần trăm quyết định quan trọng trong dự án của anh/chị được ghi lại bằng văn bản (email, biên bản, tool)?',
     type: 'single-range',
     options: [
@@ -257,8 +341,8 @@ export const questions = [
     ],
   },
   {
-    id: '5.3',
-    section: 5,
+    id: '6.3',
+    section: 6,
     text: 'Có bao nhiêu quy tắc hoặc cách làm trong dự án mà anh/chị phải tự rút ra từ kinh nghiệm, không có tài liệu nào ghi?',
     type: 'single-range',
     options: [
@@ -270,9 +354,9 @@ export const questions = [
     ],
   },
   {
-    id: '5.4',
-    section: 5,
-    text: 'Anh/chị cần nghỉ phép 2 tuần. Một đồng nghiệp sẽ phụ trách tạm. Anh/chị cần bao lâu để bàn giao đủ cho họ nắm được tình hình?',
+    id: '6.4',
+    section: 6,
+    text: 'Anh/chị nghỉ phép 2 tuần, một đồng nghiệp phụ trách tạm. Anh/chị cần bao lâu để cập nhật đủ tình hình cho họ nắm việc?',
     type: 'single-range',
     options: [
       'Dưới 1 giờ',
@@ -283,8 +367,8 @@ export const questions = [
     ],
   },
   {
-    id: '5.5',
-    section: 5,
+    id: '6.5',
+    section: 6,
     text: 'Anh/chị hài lòng đến mức nào với cách mình đang làm ở mấy phần sau?',
     type: 'matrix',
     rows: [
@@ -294,13 +378,13 @@ export const questions = [
       'Lưu trữ và tìm lại thông tin',
       'Phối hợp với phía ngân hàng',
       'Quản lý rủi ro, vấn đề',
-      'Bàn giao thông tin khi thay đổi nhân sự',
+      'Cập nhật tình hình khi thay đổi nhân sự',
     ],
     columns: ['Rất không hài lòng', 'Không hài lòng', 'Tạm được', 'Hài lòng', 'Rất hài lòng'],
   },
   {
-    id: '5.6',
-    section: 5,
+    id: '6.6',
+    section: 6,
     text: 'Việc nào anh/chị thường mất nhiều thời gian nhất để chuẩn bị trước khi gửi cho phía NH hoặc quản lý?',
     type: 'single-choice',
     options: [
@@ -314,8 +398,8 @@ export const questions = [
     ],
   },
   {
-    id: '5.7',
-    section: 5,
+    id: '6.7',
+    section: 6,
     text: 'Nếu tài liệu đã ẩn hết thông tin nhạy cảm, anh/chị có thể chia sẻ mẫu để giúp cải thiện quy trình chung không?',
     type: 'single-range',
     options: [

@@ -11,7 +11,7 @@ export default function ThankYouPage() {
         </svg>
       </div>
       <h1>Cảm ơn anh/chị!</h1>
-      <p>Bọn em đã nhận được câu trả lời. Thông tin này sẽ giúp thiết kế skill AI hỗ trợ bàn giao công việc và onboarding PM mới nhanh hơn.</p>
+      <p>Bọn em đã nhận được câu trả lời. Thông tin này sẽ giúp thiết kế skill AI hỗ trợ công việc hằng ngày của PM dự án nhanh hơn.</p>
       <div style={{ marginTop: 28 }}>
         <button className="btn btn-secondary" onClick={() => navigate('/')}>
           Về trang chủ

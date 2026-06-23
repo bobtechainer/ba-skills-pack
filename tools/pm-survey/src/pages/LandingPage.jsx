@@ -27,13 +27,12 @@ export default function LandingPage() {
           </svg>
         </div>
 
-        <h1>Khảo sát bàn giao công việc PM outsource</h1>
+        <h1>Khảo sát quy trình quản lý module outsource</h1>
 
         <p className="landing-desc">
-          Khảo sát này giúp bọn em hiểu cách anh/chị đang quản lý dự án outsource,
-          những tài liệu, routine, rủi ro và quy ước ngầm cần bàn giao, để thiết kế
-          skill AI hỗ trợ PM mới tiếp quản công việc nhanh hơn.
-          Anh/chị chọn đáp án gần đúng nhất, mỗi câu có thể ghi thêm nếu muốn.
+          Khảo sát này giúp bọn em hiểu cách anh/chị đang quản lý các module outsource
+          hằng ngày, từ lúc nhận yêu cầu từ ngân hàng đến lúc giao sản phẩm.
+          Anh/chị chọn đáp án gần đúng nhất, mất khoảng 8 phút.
         </p>
 
         <div className="landing-stats">
