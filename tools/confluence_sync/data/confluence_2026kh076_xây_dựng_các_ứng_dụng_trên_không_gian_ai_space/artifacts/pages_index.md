@@ -42,3 +42,4 @@
 | [AI Space 1.1.1] Test case SIT | [[AI Space 1.1.1] Test case SIT](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2493547934/AI+Space+1.1.1+Test+case+SIT) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc > [AI Space 1.1.1] |  |
 | [AI Space 1.1.1] URD | [[AI Space 1.1.1] URD](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2493121367/AI+Space+1.1.1+URD) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc > [AI Space 1.1.1] |  |
 | [AI Space] Hướng dẫn sử dụng | [[AI Space] Hướng dẫn sử dụng](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2329346710/AI+Space+H+ng+d+n+s+d+ng) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc |  |
+| [AI space] HDCD chính thức - TTCNTT | [[AI space] HDCD chính thức - TTCNTT](https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2542831790/AI+space+HDCD+ch+nh+th+c+-+TTCNTT) | KH0762026_AI Space Home > 2. Tài liệu kiến trúc > [AI Space 1.1.1] |  |

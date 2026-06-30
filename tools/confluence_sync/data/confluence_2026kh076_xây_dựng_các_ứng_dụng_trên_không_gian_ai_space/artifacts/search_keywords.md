@@ -44,3 +44,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Space 1.1.1] Nghiệm thu ANBM** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2508489127/AI+Space+1.1.1+Nghi+m+thu+ANBM
 - **[AI Space 1.1.1] Source code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2508881993/AI+Space+1.1.1+Source+code
 - **[AI Space 1.1.1] Account** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2512651735/AI+Space+1.1.1+Account
+- **[AI space] HDCD chính thức - TTCNTT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2542831790/AI+space+HDCD+ch+nh+th+c+-+TTCNTT
