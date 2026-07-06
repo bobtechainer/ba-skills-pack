@@ -23,6 +23,7 @@
 | 2026-01-19 Meeting notes | [2026-01-19 Meeting notes](https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/2023293112/2026-01-19+Meeting+notes) | NHÓM KIẾN TRUC VÀ UIUX > T-SA Team | meeting-notes |
 | 2026-03-03 Meeting notes | [2026-03-03 Meeting notes](https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/2179399937/2026-03-03+Meeting+notes) | NHÓM KIẾN TRUC VÀ UIUX > T-SA Team | meeting-notes |
 | 2026-06-08 Meeting notes | [2026-06-08 Meeting notes](https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/2481848583/2026-06-08+Meeting+notes) | NHÓM KIẾN TRUC VÀ UIUX > T-SA Team | meeting-notes |
+| 2026-07-06 Meeting notes | [2026-07-06 Meeting notes](https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/2564359914/2026-07-06+Meeting+notes) | NHÓM KIẾN TRUC VÀ UIUX > T-SA Team | meeting-notes |
 | Archived Trao đổi kiến trúc LQpw | [Archived Trao đổi kiến trúc LQpw](https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/1110934112/Archived+Trao+i+ki+n+tr+c+LQpw) | (Root) |  |
 | BIDV Home Roadmap | [BIDV Home Roadmap](https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/1137904335/BIDV+Home+Roadmap) | NHÓM KIẾN TRUC VÀ UIUX > T-SA Team |  |
 | Cloud | [Cloud](https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/54034816/Cloud) | NHÓM KIẾN TRUC VÀ UIUX |  |
