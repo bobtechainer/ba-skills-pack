@@ -47,3 +47,5 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI space] HDCD chính thức - TTCNTT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2542831790/AI+space+HDCD+ch+nh+th+c+-+TTCNTT
 - **[AI Meeting 1.0.0] - RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2564327154/AI+Meeting+1.0.0+-+RSD
 - **[AI Meeting 1.0.0] - URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2566357532/AI+Meeting+1.0.0+-+URD
+- **[AI Meeting 1.0.0] Test case SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2566424965/AI+Meeting+1.0.0+Test+case+SIT
+- **[AI Meeting 1.0.0] Biên bản nghiệm thu kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2567013136/AI+Meeting+1.0.0+Bi+n+b+n+nghi+m+thu+k+thu+t
