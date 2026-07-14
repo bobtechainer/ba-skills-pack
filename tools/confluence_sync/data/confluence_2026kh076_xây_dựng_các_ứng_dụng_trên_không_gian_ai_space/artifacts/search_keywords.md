@@ -45,7 +45,16 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Space 1.1.1] Source code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2508881993/AI+Space+1.1.1+Source+code
 - **[AI Space 1.1.1] Account** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2512651735/AI+Space+1.1.1+Account
 - **[AI space] HDCD chính thức - TTCNTT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2542831790/AI+space+HDCD+ch+nh+th+c+-+TTCNTT
-- **[AI Meeting 1.0.0] - RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2564327154/AI+Meeting+1.0.0+-+RSD
-- **[AI Meeting 1.0.0] - URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2566357532/AI+Meeting+1.0.0+-+URD
+- **[AI Meeting 1.0.0] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2564327154/AI+Meeting+1.0.0+RSD
 - **[AI Meeting 1.0.0] Test case SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2566424965/AI+Meeting+1.0.0+Test+case+SIT
 - **[AI Meeting 1.0.0] Biên bản nghiệm thu kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2567013136/AI+Meeting+1.0.0+Bi+n+b+n+nghi+m+thu+k+thu+t
+- **[AI Meeting 1.0.0] Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2584677367/AI+Meeting+1.0.0+Ph+n+t+ch+thi+t+k+t+ng+th
+- **[AI Meeting 1.0.0] Source code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2584904706/AI+Meeting+1.0.0+Source+code
+- **[AI Meeting 1.0.0] Kết quả Scancode** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2585199601/AI+Meeting+1.0.0+K+t+qu+Scancode
+- **[AI Meeting 1.0.0] Account test** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2585266892/AI+Meeting+1.0.0+Account+test
+- **[AI Meeting 1.0.0] Log tập trung** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2588966969/AI+Meeting+1.0.0+Log+t+p+trung
+- **[AI Meeting 1.0.0] Hướng dẫn sử dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2590507477/AI+Meeting+1.0.0+H+ng+d+n+s+d+ng
+- **[AI Meeting 1.0.0] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2590605734/AI+Meeting+1.0.0+Bi+n+b+n+nghi+m+thu+nghi+p+v
+- **[AI Meeting 1.0.0] Tài liệu hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2590737130/AI+Meeting+1.0.0+T+i+li+u+h+ng+d+n+c+i+t
+- **[AI Meeting 1.0.0] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2591195315/AI+Meeting+1.0.0+Ph+n+t+ch+thi+t+k+chi+ti+t
+- **[AI Meeting 1.0.0] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2591949273/AI+Meeting+1.0.0+URD
