@@ -56,9 +56,9 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Meeting 2.0.0] Hướng dẫn sử dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2590507477/AI+Meeting+2.0.0+H+ng+d+n+s+d+ng
 - **[AI Meeting 2.0.0] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2590605734/AI+Meeting+2.0.0+Bi+n+b+n+nghi+m+thu+nghi+p+v
 - **[AI Meeting 2.0.0] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2591195315/AI+Meeting+2.0.0+Ph+n+t+ch+thi+t+k+chi+ti+t
-- **[AI Meeting 2.0.0] Tài liệu hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2591524761/AI+Meeting+2.0.0+T+i+li+u+h+ng+d+n+c+i+t
 - **[AI Meeting 2.0.0] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2591949273/AI+Meeting+2.0.0+URD
 - **[AI Meeting 2.0.0] KTNT ANBM** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2592015203/AI+Meeting+2.0.0+KTNT+ANBM
 - **[AI Space 1.1.1] Tài liệu thiết kế chi tiết 1.0.0 - 1.1.1** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2627896273/AI+Space+1.1.1+T+i+li+u+thi+t+k+chi+ti+t+1.0.0+-+1.1.1
 - **[AI Space 1.1.1] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2641068819/AI+Space+1.1.1+T+tr+nh+tri+n+khai
-- **[AI Meeting 2.0.0] Tài liệu hướng dẫn cài đặt chính thức** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2642053330/AI+Meeting+2.0.0+T+i+li+u+h+ng+d+n+c+i+t+ch+nh+th+c
+- **[AI Meeting 2.0.0] Tờ trình triển khai nghiệp vụ B.One** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2644281602/AI+Meeting+2.0.0+T+tr+nh+tri+n+khai+nghi+p+v+B.One
+- **[AI Meeting 2.0.0] Tài liệu hướng dẫn cài đặt chính thức** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2645230657/AI+Meeting+2.0.0+T+i+li+u+h+ng+d+n+c+i+t+ch+nh+th+c
