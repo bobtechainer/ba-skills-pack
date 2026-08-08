@@ -3,6 +3,7 @@
 | Tên trang | Link | Thuộc mục | Labels |
 |-----------|------|-----------|--------|
 | Brainstorming | [Brainstorming](https://bidv-vn.atlassian.net/wiki/spaces/SS/pages/163952/Brainstorming) | Sample Space |  |
+| Mẫu URD tham khảo | [Mẫu URD tham khảo](https://bidv-vn.atlassian.net/wiki/spaces/SS/pages/2672626053/M+u+URD+tham+kh+o) | Sample Space > Sample page |  |
 | Project timeline | [Project timeline](https://bidv-vn.atlassian.net/wiki/spaces/SS/pages/9077049/Project+timeline) | Sample Space > Team homepage |  |
 | Release Notes - 2024.KH004_Hệ thống Payment Hub - Giai đoạn 2 - uat-taskcentre-epay-in-20251210-v1 - Dec 11 09:29 | [Release Notes - 2024.KH004_Hệ thống Payment Hub - Giai đoạn 2 - uat-taskcentre-epay-in-20251210-v1 - Dec 11 09:29](https://bidv-vn.atlassian.net/wiki/spaces/SS/pages/1855881248/Release+Notes+-+2024.KH004_H+th+ng+Payment+Hub+-+Giai+o+n+2+-+uat-taskcentre-epay-in-20251210-v1+-+Dec+11+09+29) | Sample Space |  |
 | Sample | [Sample](https://bidv-vn.atlassian.net/wiki/spaces/SS/pages/10387474/Sample) | Sample Space |  |
