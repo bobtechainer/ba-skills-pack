@@ -65,7 +65,6 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Meeting 2.0.0] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2650472532/AI+Meeting+2.0.0+T+tr+nh+tri+n+khai
 - **[AI Meeting 3.0.0] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2666464042/AI+Meeting+3.0.0+URD
 - **[AI Meeting 3.0.0] Test case SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2667479421/AI+Meeting+3.0.0+Test+case+SIT
-- **[AI Meeting 3.0.0] Account test** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2667479439/AI+Meeting+3.0.0+Account+test
 - **[AI Meeting 3.0.0] Hướng dẫn sử dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2667512322/AI+Meeting+3.0.0+H+ng+d+n+s+d+ng
 - **[AI Meeting 3.0.0] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2667708942/AI+Meeting+3.0.0+Bi+n+b+n+nghi+m+thu+nghi+p+v
 - **[AI Meeting 3.0.0] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2667839703/AI+Meeting+3.0.0+RSD
@@ -78,3 +77,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Meeting 3.0.0] Kết quả Scancode** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2668429849/AI+Meeting+3.0.0+K+t+qu+Scancode
 - **[AI Meeting 3.0.0] Tài liệu hướng dẫn cài đặt chính thức** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2700313707/AI+Meeting+3.0.0+T+i+li+u+h+ng+d+n+c+i+t+ch+nh+th+c
 - **[AI Meeting 3.0.0] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2702279507/AI+Meeting+3.0.0+Ph+n+t+ch+thi+t+k+chi+ti+t
+- **[AI Meeting 3.0.0] AccountTest** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2705294783/AI+Meeting+3.0.0+AccountTest
