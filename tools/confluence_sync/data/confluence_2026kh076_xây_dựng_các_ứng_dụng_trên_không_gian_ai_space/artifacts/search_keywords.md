@@ -78,3 +78,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Meeting 3.0.0] Tài liệu hướng dẫn cài đặt chính thức** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2700313707/AI+Meeting+3.0.0+T+i+li+u+h+ng+d+n+c+i+t+ch+nh+th+c
 - **[AI Meeting 3.0.0] AccountTest** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2705294783/AI+Meeting+3.0.0+AccountTest
 - **[AI Meeting 3.0.0] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2737112202/AI+Meeting+3.0.0+Ph+n+t+ch+thi+t+k+chi+ti+t
+- **[AI Meeting 3.0.0] Tờ trình triển khai kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2758279761/AI+Meeting+3.0.0+T+tr+nh+tri+n+khai+k+thu+t
