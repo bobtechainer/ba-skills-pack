@@ -79,3 +79,18 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Meeting 3.0.0] AccountTest** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2705294783/AI+Meeting+3.0.0+AccountTest
 - **[AI Meeting 3.0.0] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2737112202/AI+Meeting+3.0.0+Ph+n+t+ch+thi+t+k+chi+ti+t
 - **[AI Meeting 3.0.0] Tờ trình triển khai kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2758279761/AI+Meeting+3.0.0+T+tr+nh+tri+n+khai+k+thu+t
+- **[B.Assets 1.0.0] KTNT ANBM** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2796454356/B.Assets+1.0.0+KTNT+ANBM
+- **[B.Assets 1.0.0] AccountTest** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2796683530/B.Assets+1.0.0+AccountTest
+- **[B.Assets 1.0.0] Source code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2796814508/B.Assets+1.0.0+Source+code
+- **[B.Assets 1.0.0] Hướng dẫn sử dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2796847347/B.Assets+1.0.0+H+ng+d+n+s+d+ng
+- **[B.Assets 1.0.0] Kết quả Scancode** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2796945561/B.Assets+1.0.0+K+t+qu+Scancode
+- **[B.Assets 1.0.0] Tài liệu hướng dẫn cài đặt chính thức** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797043906/B.Assets+1.0.0+T+i+li+u+h+ng+d+n+c+i+t+ch+nh+th+c
+- **[B.Assets 1.0.0] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797109380/B.Assets+1.0.0+URD
+- **[B.Assets 1.0.0] Test case SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797142219/B.Assets+1.0.0+Test+case+SIT
+- **[B.Assets 1.0.0] Biên bản nghiệm thu kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797174886/B.Assets+1.0.0+Bi+n+b+n+nghi+m+thu+k+thu+t
+- **[B.Assets 1.0.0] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797535477/B.Assets+1.0.0+Ph+n+t+ch+thi+t+k+chi+ti+t
+- **[B.Assets 1.0.0] Tờ trình triển khai kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797928623/B.Assets+1.0.0+T+tr+nh+tri+n+khai+k+thu+t
+- **[B.Assets 1.0.0] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797994130/B.Assets+1.0.0+Bi+n+b+n+nghi+m+thu+nghi+p+v
+- **[B.Assets 1.0.0] Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798026888/B.Assets+1.0.0+Ph+n+t+ch+thi+t+k+t+ng+th
+- **[B.Assets 1.0.0] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798092471/B.Assets+1.0.0+RSD
+- **[B.Assets 1.0.0] Tờ trình triển khai nghiệp vụ B.One** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798256188/B.Assets+1.0.0+T+tr+nh+tri+n+khai+nghi+p+v+B.One
