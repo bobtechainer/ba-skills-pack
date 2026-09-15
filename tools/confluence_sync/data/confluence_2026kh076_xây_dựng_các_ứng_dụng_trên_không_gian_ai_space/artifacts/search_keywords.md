@@ -94,3 +94,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[B.Assets 1.0.0] Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798026888/B.Assets+1.0.0+Ph+n+t+ch+thi+t+k+t+ng+th
 - **[B.Assets 1.0.0] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798092471/B.Assets+1.0.0+RSD
 - **[B.Assets 1.0.0] Tờ trình triển khai nghiệp vụ B.One** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798256188/B.Assets+1.0.0+T+tr+nh+tri+n+khai+nghi+p+v+B.One
+- **[B.Assets 1.0.0] Hướng dẫn sử dụng - B.Assets** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2802712579/B.Assets+1.0.0+H+ng+d+n+s+d+ng+-+B.Assets
