@@ -91,7 +91,8 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Space 4.0.0 - B.Assets] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797535477/AI+Space+4.0.0+-+B.Assets+Ph+n+t+ch+thi+t+k+chi+ti+t
 - **[AI Space 4.0.0 - B.Assets] Tờ trình triển khai kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797928623/AI+Space+4.0.0+-+B.Assets+T+tr+nh+tri+n+khai+k+thu+t
 - **[AI Space 4.0.0 - B.Assets] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2797994130/AI+Space+4.0.0+-+B.Assets+Bi+n+b+n+nghi+m+thu+nghi+p+v
-- **[AI Space 4.0.0 - B.Assets] Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798026888/AI+Space+4.0.0+-+B.Assets+Ph+n+t+ch+thi+t+k+t+ng+th
 - **[AI Space 4.0.0 - B.Assets] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798092471/AI+Space+4.0.0+-+B.Assets+RSD
 - **[AI Space 4.0.0 - B.Assets] Tờ trình triển khai nghiệp vụ B.One** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2798256188/AI+Space+4.0.0+-+B.Assets+T+tr+nh+tri+n+khai+nghi+p+v+B.One
 - **[AI Space 4.0.0 - B.Assets] Hướng dẫn sử dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2807529841/AI+Space+4.0.0+-+B.Assets+H+ng+d+n+s+d+ng
+- **[AI Space 4.0.0 - B.Assets] Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2808383203/AI+Space+4.0.0+-+B.Assets+Ph+n+t+ch+thi+t+k+t+ng+th
+  Tags: pttk
