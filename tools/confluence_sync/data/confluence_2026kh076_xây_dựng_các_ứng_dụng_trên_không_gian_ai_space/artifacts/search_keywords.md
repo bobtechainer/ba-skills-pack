@@ -96,3 +96,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Space 4.0.0 - B.Assets] Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2808383203/AI+Space+4.0.0+-+B.Assets+Ph+n+t+ch+thi+t+k+t+ng+th
   Tags: pttk
 - **[AI Space 4.0.0 - B.Assets] Log tập trung** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2814805104/AI+Space+4.0.0+-+B.Assets+Log+t+p+trung
+- **[AI Space 4.0.0 - B.Assets] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2822409541/AI+Space+4.0.0+-+B.Assets+T+tr+nh+tri+n+khai
