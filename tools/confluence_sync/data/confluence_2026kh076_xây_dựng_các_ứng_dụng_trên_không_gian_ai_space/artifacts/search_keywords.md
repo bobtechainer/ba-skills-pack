@@ -97,3 +97,8 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
   Tags: pttk
 - **[AI Space 4.0.0 - B.Assets] Log tập trung** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2814805104/AI+Space+4.0.0+-+B.Assets+Log+t+p+trung
 - **[AI Space 4.0.0 - B.Assets] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2822409541/AI+Space+4.0.0+-+B.Assets+T+tr+nh+tri+n+khai
+- **Dữ liệu sample - TTPTPM gửi** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2832991387/D+li+u+sample+-+TTPTPM+g+i
+- **TTr Quy hoạch hệ thống Dashboard quản trị điều hành** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2833253493/TTr+Quy+ho+ch+h+th+ng+Dashboard+qu+n+tr+i+u+h+nh
+- **Mô tả 18 chỉ tiêu** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2833482658/M+t+18+ch+ti+u
+- **Thiết kế 3 Level Thuyết minh AI - 18 chỉ tiêu v2** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2833581000/Thi+t+k+3+Level+Thuy+t+minh+AI+-+18+ch+ti+u+v2
+- **Rule-based thuyết minh nhanh 18 chỉ tiêu v2** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2833744729/Rule-based+thuy+t+minh+nhanh+18+ch+ti+u+v2
