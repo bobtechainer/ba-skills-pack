@@ -102,3 +102,5 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **Mô tả 18 chỉ tiêu** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2833482658/M+t+18+ch+ti+u
 - **Thiết kế 3 Level Thuyết minh AI - 18 chỉ tiêu v2** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2833581000/Thi+t+k+3+Level+Thuy+t+minh+AI+-+18+ch+ti+u+v2
 - **Rule-based thuyết minh nhanh 18 chỉ tiêu v2** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2833744729/Rule-based+thuy+t+minh+nhanh+18+ch+ti+u+v2
+- **[AI Meeting 5.0.0] KTNT ANBM** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2836333332/AI+Meeting+5.0.0+KTNT+ANBM
+- **[AI Meeting 5.0.0] Source code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2838003773/AI+Meeting+5.0.0+Source+code
