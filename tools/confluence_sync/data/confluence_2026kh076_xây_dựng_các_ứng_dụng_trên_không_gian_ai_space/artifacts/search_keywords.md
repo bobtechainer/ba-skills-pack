@@ -107,3 +107,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Meeting 5.0.0] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2854292343/AI+Meeting+5.0.0+Ph+n+t+ch+thi+t+k+chi+ti+t
 - **[AI Meeting 5.0.0] Test case SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2859337066/AI+Meeting+5.0.0+Test+case+SIT
 - **[AI Meeting 5.0.0] - Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2859828306/AI+Meeting+5.0.0+-+Ph+n+t+ch+thi+t+k+t+ng+th
+- **[AI Meeting 6.0.0] PTTK tổng thể AI Dashboard** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2874311052/AI+Meeting+6.0.0+PTTK+t+ng+th+AI+Dashboard

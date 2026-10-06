@@ -58,7 +58,6 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
   Tags: meeting-notes
 - **2025-10-13 Meeting notes** → https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/1469055304/2025-10-13+Meeting+notes
   Tags: meeting-notes
-- **Giải pháp upload/download file từ internet** → https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/1478886222/Gi+i+ph+p+upload+download+file+t+internet
 - **Giải pháp bảo mật cho kết nối Backend - Backend** → https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/1499332671/Gi+i+ph+p+b+o+m+t+cho+k+t+n+i+Backend+-+Backend
 - **2025-10-27 Meeting notes** → https://bidv-vn.atlassian.net/wiki/spaces/NKTUIUX/pages/1550778659/2025-10-27+Meeting+notes
   Tags: meeting-notes
