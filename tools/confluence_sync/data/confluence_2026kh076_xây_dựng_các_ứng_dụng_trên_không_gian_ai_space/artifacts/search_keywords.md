@@ -108,4 +108,8 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Meeting 5.0.0] Test case SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2859337066/AI+Meeting+5.0.0+Test+case+SIT
 - **[AI Meeting 5.0.0] - Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2859828306/AI+Meeting+5.0.0+-+Ph+n+t+ch+thi+t+k+t+ng+th
 - **[AI Meeting 6.0.0] PTTK tổng thể AI Dashboard** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2874311052/AI+Meeting+6.0.0+PTTK+t+ng+th+AI+Dashboard
+- **Test** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2881488380/Test
 - **[AI Meeting 5.0.0] Kết quả Scan code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2882536492/AI+Meeting+5.0.0+K+t+qu+Scan+code
+- **[AI Meeting 5.0.0] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2882701525/AI+Meeting+5.0.0+RSD
+- **[AI Meeting 5.0.0] Tài liệu hướng dẫn cài đặt chính thức** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2883125603/AI+Meeting+5.0.0+T+i+li+u+h+ng+d+n+c+i+t+ch+nh+th+c
+- **[AI Meeting 5.0.0] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2883453623/AI+Meeting+5.0.0+URD
