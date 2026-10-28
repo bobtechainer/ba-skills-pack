@@ -490,9 +490,6 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **3. HDSD khai thác LTT sử dụng Kibana và Elasticsearch API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/192119029/3.+HDSD+khai+th+c+LTT+s+d+ng+Kibana+v+Elasticsearch+API
 - **06. DATAHUB API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149353/06.+DATAHUB+API
 - **Bảng mã lỗi Datahub** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149367/B+ng+m+l+i+Datahub
-- **Tài liệu đặc tả nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149381/T+i+li+u+c+t+nghi+p+v
-- **API lấy danh sách chi nhánh** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149395/API+l+y+danh+s+ch+chi+nh+nh
-- **API vấn tin tên khách hàng theo CIF** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149411/API+v+n+tin+t+n+kh+ch+h+ng+theo+CIF
 - **Tài liệu đặc tả kỹ thuật realtime API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149427/T+i+li+u+c+t+k+thu+t+realtime+API
 - **CATEGORY001: API lấy danh sách chi nhánh** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149441/CATEGORY001+API+l+y+danh+s+ch+chi+nh+nh
 - **CIF006: Lấy thông tin bảo lãnh từ DOKA của cif** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149472/CIF006+L+y+th+ng+tin+b+o+l+nh+t+DOKA+c+a+cif
@@ -502,3 +499,6 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **CIF004: Tính giới hạn tín dụng phần DOKA của CIF** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149602/CIF004+T+nh+gi+i+h+n+t+n+d+ng+ph+n+DOKA+c+a+CIF
 - **CIF000 Vấn tin tên khách hàng theo CIF (1 CIF)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149631/CIF000+V+n+tin+t+n+kh+ch+h+ng+theo+CIF+1+CIF
 - **DATAHUB External Connector API** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149671/DATAHUB+External+Connector+API
+- **DOAKA_VIEW: Lấy thông tin vay bảo lãnh từ DOKA*** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149685/DOAKA_VIEW+L+y+th+ng+tin+vay+b+o+l+nh+t+DOKA
+- **CIF007: Tính giới hạn tín dụng theo danh sách cif ( tối đa 100 cif 1 lần gọi)** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/199065842/CIF007+T+nh+gi+i+h+n+t+n+d+ng+theo+danh+s+ch+cif+t+i+a+100+cif+1+l+n+g+i
+- **2. HD Ứng dụng tích hợp LTT ELK** → https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/216137744/2.+HD+ng+d+ng+t+ch+h+p+LTT+ELK

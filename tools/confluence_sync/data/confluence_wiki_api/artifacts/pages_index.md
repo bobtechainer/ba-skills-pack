@@ -136,6 +136,7 @@
 | 1.9.Cif | [1.9.Cif](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897281/1.9.Cif) | Wiki > 01.Hệ thống SOA 1.0 |  |
 | 2. API Nội bộ _ v1-1 | [2. API Nội bộ _ v1-1](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896989/2.+API+N+i+b+_+v1-1) | Wiki > 03.Hệ thống ESBRestful > 3.34. TaiLieuHuongDan |  |
 | 2. API Nội bộ(Mr Hieu) | [2. API Nội bộ(Mr Hieu)](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897224/2.+API+N+i+b+Mr+Hieu) | Wiki > 03.Hệ thống ESBRestful > 3.34. TaiLieuHuongDan |  |
+| 2. HD Ứng dụng tích hợp LTT ELK | [2. HD Ứng dụng tích hợp LTT ELK](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/216137744/2.+HD+ng+d+ng+t+ch+h+p+LTT+ELK) | Wiki > 05. LTT > (v2.0) Hệ thống Log tập trung ELK |  |
 | 2.1.CardJob | [2.1.CardJob](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897119/2.1.CardJob) | Wiki > 02.Hệ thống GWThe |  |
 | 2.2.CardService | [2.2.CardService](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896083/2.2.CardService) | Wiki > 02.Hệ thống GWThe |  |
 | 2.3.Tai lieu dac ta ban tin BIDV -GW the_202108_6.1.0 | [2.3.Tai lieu dac ta ban tin BIDV -GW the_202108_6.1.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9901891/2.3.Tai+lieu+dac+ta+ban+tin+BIDV+-GW+the_202108_6.1.0) | Wiki > 02.Hệ thống GWThe > Đặc tả dịch vụ |  |
@@ -250,8 +251,6 @@
 | 4.3. CMS Prepaid | [4.3. CMS Prepaid](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899492/4.3.+CMS+Prepaid) | Wiki > 04.Hệ thống OpenAPI |  |
 | ACH 1.0 | [ACH 1.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897154/ACH+1.0) | (Root) |  |
 | API Agent Banking | [API Agent Banking](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897109/API+Agent+Banking) | (Root) |  |
-| API lấy danh sách chi nhánh | [API lấy danh sách chi nhánh](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149395/API+l+y+danh+s+ch+chi+nh+nh) | Wiki > 06. DATAHUB API > Tài liệu đặc tả nghiệp vụ |  |
-| API vấn tin tên khách hàng theo CIF | [API vấn tin tên khách hàng theo CIF](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149411/API+v+n+tin+t+n+kh+ch+h+ng+theo+CIF) | Wiki > 06. DATAHUB API > Tài liệu đặc tả nghiệp vụ |  |
 | AccCreation 1.0 | [AccCreation 1.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902180/AccCreation+1.0) | (Root) |  |
 | AccCreation 2.0 | [AccCreation 2.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902073/AccCreation+2.0) | (Root) |  |
 | AccHist 1.0 | [AccHist 1.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902085/AccHist+1.0) | (Root) |  |
@@ -265,8 +264,10 @@
 | CIF004: Tính giới hạn tín dụng phần DOKA của CIF | [CIF004: Tính giới hạn tín dụng phần DOKA của CIF](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149602/CIF004+T+nh+gi+i+h+n+t+n+d+ng+ph+n+DOKA+c+a+CIF) | Wiki > 06. DATAHUB API > Tài liệu đặc tả kỹ thuật realtime API > CIF: Các service liên quan đến thông tin CIF |  |
 | CIF005: Tính giới hạn tín dụng thẻ của CIF | [CIF005: Tính giới hạn tín dụng thẻ của CIF](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149573/CIF005+T+nh+gi+i+h+n+t+n+d+ng+th+c+a+CIF) | Wiki > 06. DATAHUB API > Tài liệu đặc tả kỹ thuật realtime API > CIF: Các service liên quan đến thông tin CIF |  |
 | CIF006: Lấy thông tin bảo lãnh từ DOKA của cif | [CIF006: Lấy thông tin bảo lãnh từ DOKA của cif](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149472/CIF006+L+y+th+ng+tin+b+o+l+nh+t+DOKA+c+a+cif) | Wiki > 06. DATAHUB API > Tài liệu đặc tả kỹ thuật realtime API > CIF: Các service liên quan đến thông tin CIF |  |
+| CIF007: Tính giới hạn tín dụng theo danh sách cif ( tối đa 100 cif 1 lần gọi) | [CIF007: Tính giới hạn tín dụng theo danh sách cif ( tối đa 100 cif 1 lần gọi)](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/199065842/CIF007+T+nh+gi+i+h+n+t+n+d+ng+theo+danh+s+ch+cif+t+i+a+100+cif+1+l+n+g+i) | Wiki > 06. DATAHUB API > Tài liệu đặc tả kỹ thuật realtime API > CIF: Các service liên quan đến thông tin CIF |  |
 | Các bước golive GHTD Rlos All API | [Các bước golive GHTD Rlos All API](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149530/C+c+b+c+golive+GHTD+Rlos+All+API) | Wiki > 06. DATAHUB API > Tài liệu đặc tả kỹ thuật realtime API > CIF: Các service liên quan đến thông tin CIF > CIF002: Sercice vấn tin giới hạn tín dụng của CIF |  |
 | DATAHUB External Connector API | [DATAHUB External Connector API](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149671/DATAHUB+External+Connector+API) | Wiki > 06. DATAHUB API > Tài liệu đặc tả kỹ thuật realtime API |  |
+| DOAKA_VIEW: Lấy thông tin vay bảo lãnh từ DOKA* | [DOAKA_VIEW: Lấy thông tin vay bảo lãnh từ DOKA*](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149685/DOAKA_VIEW+L+y+th+ng+tin+vay+b+o+l+nh+t+DOKA) | Wiki > 06. DATAHUB API > Tài liệu đặc tả kỹ thuật realtime API > DATAHUB External Connector API |  |
 | ESB Restful Openshift | [ESB Restful Openshift](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899600/ESB+Restful+Openshift) | Wiki > 03.Hệ thống ESBRestful > 3.34. TaiLieuHuongDan |  |
 | Mo hinh xac thuc tich hop Chatbot | [Mo hinh xac thuc tich hop Chatbot](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/172064868/Mo+hinh+xac+thuc+tich+hop+Chatbot) | Wiki |  |
 | PTTK | [PTTK](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/102334811/PTTK) | Wiki > 02.Hệ thống GWThe |  |
@@ -477,7 +478,6 @@
 | Tài liệu đặc tả fxrt service api specification 1.0 | [Tài liệu đặc tả fxrt service api specification 1.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896137/T+i+li+u+c+t+fxrt+service+api+specification+1.0) | Wiki > 03.Hệ thống ESBRestful > 3.15. FXRT-SMB > 3.15.1. InDoc |  |
 | Tài liệu đặc tả kỹ thuật realtime API | [Tài liệu đặc tả kỹ thuật realtime API](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149427/T+i+li+u+c+t+k+thu+t+realtime+API) | Wiki > 06. DATAHUB API |  |
 | Tài liệu đặc tả microservice upload hồ sơ ECM 1.0 | [Tài liệu đặc tả microservice upload hồ sơ ECM 1.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9897099/T+i+li+u+c+t+microservice+upload+h+s+ECM+1.0) | Wiki > 03.Hệ thống ESBRestful > 3.11. ECM > 3.11.1. Input |  |
-| Tài liệu đặc tả nghiệp vụ | [Tài liệu đặc tả nghiệp vụ](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/196149381/T+i+li+u+c+t+nghi+p+v) | Wiki > 06. DATAHUB API |  |
 | Tài liệu đặc tả service AgentBank | [Tài liệu đặc tả service AgentBank](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9896600/T+i+li+u+c+t+service+AgentBank) | Wiki > 04.Hệ thống OpenAPI > 4.1.AgentBank |  |
 | Tài liệu đặc tả service QuanLyLaisuat 1.0 | [Tài liệu đặc tả service QuanLyLaisuat 1.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9899099/T+i+li+u+c+t+service+QuanLyLaisuat+1.0) | Wiki > 03.Hệ thống ESBRestful > 3.22. QL Lãi suất > 3.22.1. Input |  |
 | Tài liệu đặc tả service interface AgentBank 1.0 | [Tài liệu đặc tả service interface AgentBank 1.0](https://bidv-vn.atlassian.net/wiki/spaces/WIKI/pages/9902598/T+i+li+u+c+t+service+interface+AgentBank+1.0) | Wiki > 04.Hệ thống OpenAPI > 4.1.AgentBank |  |
