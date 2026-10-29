@@ -113,7 +113,12 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Meeting 5.0.0] Kết quả Scan code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2882536492/AI+Meeting+5.0.0+K+t+qu+Scan+code
 - **[AI Meeting 5.0.0] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2882701525/AI+Meeting+5.0.0+RSD
 - **[AI Meeting 5.0.0] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2883453623/AI+Meeting+5.0.0+URD
-- **[AI Space 7.0.0] Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2911602344/AI+Space+7.0.0+Ph+n+t+ch+thi+t+k+t+ng+th
+- **[AI Space 7.0.0 - B.Assets] Phân tích thiết kế tổng thể** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2911602344/AI+Space+7.0.0+-+B.Assets+Ph+n+t+ch+thi+t+k+t+ng+th
 - **[AI Meeting 5.0.0] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2931263347/AI+Meeting+5.0.0+Bi+n+b+n+nghi+m+thu+nghi+p+v
 - **[AI Meeting 5.0.0] Biên bản nghiệm thu kỹ thuật** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2931361724/AI+Meeting+5.0.0+Bi+n+b+n+nghi+m+thu+k+thu+t
 - **[AI Meeting 5.0.0] Tài liệu hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2942634013/AI+Meeting+5.0.0+T+i+li+u+h+ng+d+n+c+i+t
+- **[AI Space 7.0.0 - B.Assets] Tờ trình triển khai nghiệp vụ B.One** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2948439671/AI+Space+7.0.0+-+B.Assets+T+tr+nh+tri+n+khai+nghi+p+v+B.One
+- **[AI Space 7.0.0 - B.Assets] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2948466242/AI+Space+7.0.0+-+B.Assets+URD
+- **[AI Space 7.0.0 - B.Assets] Test case SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2948466284/AI+Space+7.0.0+-+B.Assets+Test+case+SIT
+- **[AI Space 7.0.0 - B.Assets] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2948466416/AI+Space+7.0.0+-+B.Assets+Bi+n+b+n+nghi+m+thu+nghi+p+v
+- **[AI Space 7.0.0 - B.Assets] Log tập trung** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2951020559/AI+Space+7.0.0+-+B.Assets+Log+t+p+trung
