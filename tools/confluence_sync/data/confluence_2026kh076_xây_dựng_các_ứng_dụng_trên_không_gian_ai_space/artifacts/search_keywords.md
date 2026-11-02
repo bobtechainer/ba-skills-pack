@@ -129,3 +129,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Space 7.0.0 - B.Assets] Kết quả scan code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2957641967/AI+Space+7.0.0+-+B.Assets+K+t+qu+scan+code
 - **[AI Space 7.0.0 - B.Assets] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2959020657/AI+Space+7.0.0+-+B.Assets+Ph+n+t+ch+thi+t+k+chi+ti+t
 - **[AI Space 7.0.0 - B.Assets] Source code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2959868879/AI+Space+7.0.0+-+B.Assets+Source+code
+- **[AI Meeting 5.0.0] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2963636839/AI+Meeting+5.0.0+T+tr+nh+tri+n+khai
