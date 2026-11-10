@@ -134,3 +134,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Dashboard 6.0.0] Phân tích thiết kế chi tiết** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2980840839/AI+Dashboard+6.0.0+Ph+n+t+ch+thi+t+k+chi+ti+t
 - **[AI Dashboard 6.0.0] RSD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2981134834/AI+Dashboard+6.0.0+RSD
 - **[AI Dashboard 6.0.0] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2981200170/AI+Dashboard+6.0.0+URD
+- **[AI Dashboard 6.0.0] Kết quả Scancode** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2984872955/AI+Dashboard+6.0.0+K+t+qu+Scancode
