@@ -138,3 +138,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Dashboard 6.0.0] Hướng dẫn sử dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2988804422/AI+Dashboard+6.0.0+H+ng+d+n+s+d+ng
 - **[AI Dashboard 6.0.0] Source code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2989361045/AI+Dashboard+6.0.0+Source+code
 - **[AI Dashboard 6.0.0] Account Test** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2990212343/AI+Dashboard+6.0.0+Account+Test
+- **[AI Dashboard 6.0.0] Hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2993456444/AI+Dashboard+6.0.0+H+ng+d+n+c+i+t
