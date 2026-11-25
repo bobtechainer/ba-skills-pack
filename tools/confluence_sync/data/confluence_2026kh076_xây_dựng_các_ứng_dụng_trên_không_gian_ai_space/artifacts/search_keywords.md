@@ -138,6 +138,8 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Dashboard 6.0.0] Hướng dẫn sử dụng** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2988804422/AI+Dashboard+6.0.0+H+ng+d+n+s+d+ng
 - **[AI Dashboard 6.0.0] Source code** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2989361045/AI+Dashboard+6.0.0+Source+code
 - **[AI Dashboard 6.0.0] Account Test** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2990212343/AI+Dashboard+6.0.0+Account+Test
-- **[AI Dashboard 6.0.0] Hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/2993456444/AI+Dashboard+6.0.0+H+ng+d+n+c+i+t
 - **[AI Dashboard 6.0.0] Testcase SIT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3012067579/AI+Dashboard+6.0.0+Testcase+SIT
 - **[AI Dashboard 6.0.0] BBNT ANBM** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3027962318/AI+Dashboard+6.0.0+BBNT+ANBM
+- **[AI Dashboard 6.0.0] LogTT** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3033335302/AI+Dashboard+6.0.0+LogTT
+- **[AI Dashboard 6.0.0] Hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3033661640/AI+Dashboard+6.0.0+H+ng+d+n+c+i+t
+- **[AI Space 7.0.0 - B.Assets] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3034421717/AI+Space+7.0.0+-+B.Assets+T+tr+nh+tri+n+khai
