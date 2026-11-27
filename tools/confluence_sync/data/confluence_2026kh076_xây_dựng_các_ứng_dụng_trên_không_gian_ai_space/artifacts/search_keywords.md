@@ -144,3 +144,4 @@ Danh sách phẳng để AI tìm nhanh khi gặp CROSS-REF:
 - **[AI Space 8.0.0] URD** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3033436359/AI+Space+8.0.0+URD
 - **[AI Dashboard 6.0.0] Hướng dẫn cài đặt** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3033661640/AI+Dashboard+6.0.0+H+ng+d+n+c+i+t
 - **[AI Space 7.0.0 - B.Assets] Tờ trình triển khai** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3034421717/AI+Space+7.0.0+-+B.Assets+T+tr+nh+tri+n+khai
+- **[AI Dashboard 6.0.0] Biên bản nghiệm thu nghiệp vụ** → https://bidv-vn.atlassian.net/wiki/spaces/KH0762026/pages/3040248195/AI+Dashboard+6.0.0+Bi+n+b+n+nghi+m+thu+nghi+p+v
